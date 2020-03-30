@@ -43,5 +43,5 @@ input: {-1,-9,0,5,-7} #Dish -9 and -7 must be removed
 Output: 14
 
 ## Push your changes to your own branch
-git checkout -b firstchallenge\<ID Wipro\>
+git checkout -b firstchallenge/\<ID Wipro\>
 
