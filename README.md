@@ -4,15 +4,15 @@
 
 ### Create a new Jbehave project with maven
 
-**Use the archetype to create the project:** 
-*mvn archetype:generate* 
+**Use the archetype to create the project:**  
+*mvn archetype:generate*  
 Use the ID **2074** for org.jbehave:jbehave-spring-archetype
 
->jbehaveCoreVersion: 4.6.2
->groupId: com.wipro.ta
->artifactId: first-challenge
->version: 0.0.1-SNAPSHOT
->package: com.wipro.ta
+>jbehaveCoreVersion: 4.6.2  
+groupId: com.wipro.ta  
+artifactId: first-challenge  
+version: 0.0.1-SNAPSHOT  
+package: com.wipro.ta
 
 Use log4j with this log pattern: *[%d{yyyy-MM-dd HH:mm:ss}] [%-5p] [%c{1}:%L] - %m%n*
 
@@ -43,5 +43,5 @@ input: {-1,-9,0,5,-7} #Dish -9 and -7 must be removed
 Output: 14
 
 ## Push your changes to your own branch
-git checkout -b firstchallenge/<ID Wipro>
+git checkout -b firstchallenge\<ID Wipro\>
 
