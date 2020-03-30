@@ -42,6 +42,27 @@ Removed:
 input: {-1,-9,0,5,-7} #Dish -9 and -7 must be removed
 Output: 14
 
+## System Under Test
+Use the class first-challenge/LikeToTimeDishes.java as your system under test.
+
+Example of usage:
+```java
+int input = {1, 2, 3};
+LikeToTimeDishes likeToTimeDishes = new LikeToTimeDishes();
+
+likeToTimeDishes.calculateSolution(input);
+Solution solution = input.getSolution();
+System.out.println(solution);
+
+/**
+/* Shows:
+ * Solution{
+ * preparedDishes={1, 2, 3}
+ * preparedDishesSize=3
+ * coefficient=14
+ */
+```
+
 ## Push your changes to your own branch
 git checkout -b firstchallenge/\<ID Wipro\>
 
