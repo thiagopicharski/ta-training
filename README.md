@@ -9,10 +9,10 @@
 Use the ID **2074** for org.jbehave:jbehave-spring-archetype
 
 >jbehaveCoreVersion: 4.6.2
-groupId: com.wipro.ta
-artifactId: first-challenge
-version: 0.0.1-SNAPSHOT
-package: com.wipro.ta
+>groupId: com.wipro.ta
+>artifactId: first-challenge
+>version: 0.0.1-SNAPSHOT
+>package: com.wipro.ta
 
 Use log4j with this log pattern: *[%d{yyyy-MM-dd HH:mm:ss}] [%-5p] [%c{1}:%L] - %m%n*
 
