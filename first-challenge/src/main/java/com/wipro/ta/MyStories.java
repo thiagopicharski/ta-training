@@ -47,7 +47,7 @@ import static org.jbehave.core.reporters.Format.XML;
 public class MyStories extends JUnitStories {
     
     public MyStories() {
-        configuredEmbedder().embedderControls().doGenerateViewAfterStories(true).doIgnoreFailureInStories(true)
+        configuredEmbedder().embedderControls().doGenerateViewAfterStories(true).doIgnoreFailureInStories(false)
                 .doIgnoreFailureInView(true).useThreads(2).useStoryTimeoutInSecs(60);
     }
 
