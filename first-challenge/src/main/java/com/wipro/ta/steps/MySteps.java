@@ -2,6 +2,7 @@ package com.wipro.ta.steps;
 
 import com.google.gson.Gson;
 import com.wipro.ta.LikeToTimeDishes;
+import org.apache.log4j.Logger;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
@@ -15,6 +16,9 @@ import java.util.stream.Collectors;
 import static org.junit.Assert.assertEquals;
 
 public class MySteps {
+
+    private final Logger logger = Logger.getLogger(MySteps.class);
+
 
     private final Gson gson = new Gson();
     private LikeToTimeDishes.Solution solution;
@@ -38,14 +42,14 @@ public class MySteps {
 
     @Given("some $dishes")
     public void parseDishes(@Named("dishes") String dishes){
-        System.out.println(String.format("Given dishes: %s", dishes));
+        logger.info(String.format("Given dishes: %s", dishes));
         this.dishes = parseList(dishes);
     }
 
     @When("I calculate coefficient")
     public void getSolution(){
         this.solution = likeToTimeDishes.calculateSolution(this.dishes);
-        System.out.println(String.format("Calculated solution: %s", this.solution));
+        logger.info(String.format("Calculated solution: %s", this.solution));
     }
 
     @Then("coefficient is $coefficient")
@@ -57,7 +61,7 @@ public class MySteps {
     @Given("a solution")
     public void solutionForDish(){
         this.solution = this.likeToTimeDishes.calculateSolution(this.dishes);
-        System.out.println(String.format("Solution = %s", solution));
+        logger.info(String.format("Solution = %s", solution));
     }
 
     @Given("calculate their coefficient")
