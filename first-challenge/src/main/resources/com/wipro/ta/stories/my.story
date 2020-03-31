@@ -10,7 +10,7 @@ Then coefficient is <coefficient>
 
 Examples:
 |dishes|coefficient|
-|[-1,3,4]| 14 |
+|[-1,3,4]| 17 |
 
 Scenario: I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.
 
