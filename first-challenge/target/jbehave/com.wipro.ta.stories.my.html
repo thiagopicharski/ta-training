@@ -1,0 +1,58 @@
+<div class="story">
+<h1></h1>
+<div class="path">com/wipro/ta/stories/my.story</div>
+<div class="beforeStorySteps">
+</div>
+<div class="scenario">
+<h2>Scenario: Check that solution returns the correct coefficient for a valid input of dishes.</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a collection of dishes '&lt;list&gt;'</div>
+<div class="step">When evaluate coefficient of the dishes</div>
+<div class="step">Then the coefficient of the list should be equals '&lt;coefficient&gt;'</div>
+<table>
+<thead>
+<tr>
+<th>list</th><th>coefficient</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[-1,3,4]</td><td>17</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {list=[-1,3,4], coefficient=17}</h3>
+<div class="step successful">Given a collection of dishes '<span class="step parameter">[-1,3,4]</span>'</div>
+<div class="step successful">When evaluate coefficient of the dishes</div>
+<div class="step successful">Then the coefficient of the list should be equals '<span class="step parameter">17</span>'</div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Check the solution when a dish must be removed and when anyone is removed</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a collection of dishes '&lt;list&gt;'</div>
+<div class="step">When i remove '&lt;removeDishes&gt;'</div>
+<div class="step">When evaluate coefficient of the dishes</div>
+<div class="step">Then the coefficient of the list should be equals '&lt;coefficient&gt;'</div>
+<table>
+<thead>
+<tr>
+<th>list</th><th>removeDishes</th><th>coefficient</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[-1,-9,0,5,-7]</td><td>[-9, -7]</td><td>14</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {list=[-1,-9,0,5,-7], removeDishes=[-9, -7], coefficient=14}</h3>
+<div class="step successful">Given a collection of dishes '<span class="step parameter">[-1,-9,0,5,-7]</span>'</div>
+<div class="step successful">When i remove '<span class="step parameter">[-9, -7]</span>'</div>
+<div class="step successful">When evaluate coefficient of the dishes</div>
+<div class="step successful">Then the coefficient of the list should be equals '<span class="step parameter">14</span>'</div>
+</div>
+</div>
+<div class="afterStorySteps">
+</div>
+</div>

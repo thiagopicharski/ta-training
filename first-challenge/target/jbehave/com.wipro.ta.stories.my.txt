@@ -1,0 +1,39 @@
+
+(com/wipro/ta/stories/my.story)
+
+
+Scenario: Check that solution returns the correct coefficient for a valid input of dishes.
+Examples:
+Given a collection of dishes '<list>'
+When evaluate coefficient of the dishes
+Then the coefficient of the list should be equals '<coefficient>'
+
+|list|coefficient|
+|[-1,3,4]|17|
+
+Example: {list=[-1,3,4], coefficient=17}
+Given a collection of dishes '[-1,3,4]'
+When evaluate coefficient of the dishes
+Then the coefficient of the list should be equals '17'
+
+
+Scenario: Check the solution when a dish must be removed and when anyone is removed
+Examples:
+Given a collection of dishes '<list>'
+When i remove '<removeDishes>'
+When evaluate coefficient of the dishes
+Then the coefficient of the list should be equals '<coefficient>'
+
+|list|removeDishes|coefficient|
+|[-1,-9,0,5,-7]|[-9, -7]|14|
+
+Example: {list=[-1,-9,0,5,-7], removeDishes=[-9, -7], coefficient=14}
+Given a collection of dishes '[-1,-9,0,5,-7]'
+When i remove '[-9, -7]'
+When evaluate coefficient of the dishes
+Then the coefficient of the list should be equals '14'
+
+
+
+
+

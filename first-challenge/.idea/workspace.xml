@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2fb8ae22-9458-4bc1-b46b-da8df2002077" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/ta-training-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_valfirst_jbehave_junit_runner_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jbehave_jbehave_core_4_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jbehave_jbehave_spring_4_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-challenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wipro/ta/MyStories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wipro/ta/steps/MySteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wipro/ta/my_steps.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wipro/ta/stories/my.story" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/LikeToTimeDishes$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/LikeToTimeDishes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/MyStories.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/my_steps.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/steps/MySteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/stories/my.story" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.stats" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/storyDurations.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.txt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.txt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.stats.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.txt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jbehave/view/reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LikeToTimeDishes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wipro/ta/LikeToTimeDishes.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZuFeC1pCkPgBVvGquduOoJQaqN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="JUnit.MyStories">
+    <configuration name="MyStories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="first-challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wipro.ta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wipro.ta" />
+      <option name="MAIN_CLASS_NAME" value="com.wipro.ta.MyStories" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStories.stepsFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="first-challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wipro.ta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wipro.ta" />
+      <option name="MAIN_CLASS_NAME" value="com.wipro.ta.MyStories" />
+      <option name="METHOD_NAME" value="stepsFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyStories" />
+        <item itemvalue="JUnit.MyStories.stepsFactory" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fb8ae22-9458-4bc1-b46b-da8df2002077" name="Default Changelist" comment="" />
+      <created>1585681164517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585681164517</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1585683714108">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585683714108" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1585683714107">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585683714107" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1585683714107">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585683714107" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1585683714108">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585683714108" />
+    <state width="1323" height="2" key="GridCell.Tab.1.bottom" timestamp="1585683714108">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585683714108" />
+    <state width="1323" height="2" key="GridCell.Tab.1.center" timestamp="1585683714108">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585683714108" />
+    <state width="1323" height="2" key="GridCell.Tab.1.left" timestamp="1585683714108">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585683714108" />
+    <state width="1323" height="2" key="GridCell.Tab.1.right" timestamp="1585683714108">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585683714108" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1585681193046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585681193046" />
+  </component>
+</project>
