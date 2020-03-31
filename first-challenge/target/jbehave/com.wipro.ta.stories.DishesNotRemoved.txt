@@ -1,0 +1,22 @@
+
+(com/wipro/ta/stories/DishesNotRemoved.story)
+
+
+Scenario: Check that solution returns the correct coeffient for a valid input of dishes when anyone is removed
+Examples:
+Given a collection representing the linking value of each dish '<list>'
+When evaluate the coeffient  of this collection
+Then the  coeffient  should be equals to '<coeffient>'
+
+|list|coeffient|
+|[-1,3,4]|17|
+
+Example: {list=[-1,3,4], coeffient=17}
+Given a collection representing the linking value of each dish '[-1,3,4]'
+When evaluate the coeffient  of this collection
+Then the  coeffient  should be equals to '17'
+
+
+
+
+

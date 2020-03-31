@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>com.wipro.ta.stories.my</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="com/wipro/ta/stories/my.story" title="">
+<beforeStorySteps>
+</beforeStorySteps>
+<scenario keyword="Scenario:" title="1 A scenario with some pending steps">
+<examples keyword="Examples:">
+<step>Given I am a pending step &apos;&lt;field&gt;&apos;</step>
+<step>And I am still pending step</step>
+<step>When a good soul &apos;&lt;field1&gt;&apos; will implement me</step>
+<step>Then I shall be happy</step>
+<parameters>
+<names><name>field</name><name>field1</name></names>
+<values><value>lalala</value><value>da</value></values>
+<values><value>blabla</value><value>db</value></values>
+</parameters>
+
+<example keyword="Example:">{field=lalala, field1=da}</example>
+<step outcome="successful">Given I am a pending step &apos;<parameter>lalala</parameter>&apos;</step>
+<step outcome="successful">And I am still pending step</step>
+<step outcome="successful">When a good soul &apos;<parameter>da</parameter>&apos; will implement me</step>
+<step outcome="successful">Then I shall be happy</step>
+
+<example keyword="Example:">{field=blabla, field1=db}</example>
+<step outcome="successful">Given I am a pending step &apos;<parameter>blabla</parameter>&apos;</step>
+<step outcome="successful">And I am still pending step</step>
+<step outcome="failed" keyword="FAILED">When a good soul &apos;<parameter>db</parameter>&apos; will implement me<failure>org.junit.ComparisonFailure: Field is invalid expected:&lt;d[a]&gt; but was:&lt;d[b]&gt;</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then I shall be happy</step>
+</examples>
+</scenario>
+<afterStorySteps>
+</afterStorySteps>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

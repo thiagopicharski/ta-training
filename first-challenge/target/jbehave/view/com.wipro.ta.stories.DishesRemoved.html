@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>com.wipro.ta.stories.DishesRemoved</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">com/wipro/ta/stories/DishesRemoved.story</div>
+<div class="beforeStorySteps">
+</div>
+<div class="scenario">
+<h2>Scenario: Check that solution returns the correct coeffient for a valid input of dishes when dishes are removed</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a collection representing the value of each dish '&lt;list1&gt;'</div>
+<div class="step">When i remove dishes from the collection '&lt;removedDishes&gt;' to evaluate the coeffient</div>
+<div class="step">Then the  coeffient of the list with removed values  should be equals to '&lt;coeffient1&gt;'</div>
+<table>
+<thead>
+<tr>
+<th>list1</th><th>removedDishes</th><th>coeffient1</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[-1,-9,0,5,-7]</td><td>[-9,-7]</td><td>14</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {list1=[-1,-9,0,5,-7], removedDishes=[-9,-7], coeffient1=14}</h3>
+<div class="step successful">Given a collection representing the value of each dish '<span class="step parameter">[-1,-9,0,5,-7]</span>'</div>
+<div class="step successful">When i remove dishes from the collection '<span class="step parameter">[-9,-7]</span>' to evaluate the coeffient</div>
+<div class="step successful">Then the  coeffient of the list with removed values  should be equals to '<span class="step parameter">14</span>'</div>
+</div>
+</div>
+<div class="afterStorySteps">
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
