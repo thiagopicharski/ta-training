@@ -30,7 +30,7 @@ Return maximum like-to-time coefficient possible
 
 **Acceptance Criteria:**
 1. Check that solution returns the correct coeffient for a valid input of dishes
-2. Check the solution when a dish must be removed and when anyone is removed
+2. Check the solution when a dish must be removed and when no dishes is removed
 
 Examples:
 
