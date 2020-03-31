@@ -1,4 +1,4 @@
-package org.example.sut;
+package com.wipro.ta.steps;
 
 import org.springframework.stereotype.Component;
 
