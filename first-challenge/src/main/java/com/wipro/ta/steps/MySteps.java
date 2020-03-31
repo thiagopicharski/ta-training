@@ -27,7 +27,6 @@ public class MySteps {
 
     private int[] parseList(String listJson){
         ArrayList<Double> list = gson.fromJson(listJson, ArrayList.class);
-        ArrayList<Integer> intlist = (ArrayList<Integer>) gson.fromJson(listJson, ArrayList.class);
         return list.stream().mapToInt(Double::intValue).toArray();
     }
 
