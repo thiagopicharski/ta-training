@@ -1,4 +1,4 @@
-package org.example.sut;
+package org.example.firstChallenge;
 
 import org.springframework.stereotype.Component;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 @Component
 public class LikeToTimeDishes {
-    public class Solution {
+    public static class Solution {
         private int[] preparedDishes;
         private int preparedDishesSize = 0;
         private int coefficient = 0;
@@ -36,10 +36,6 @@ public class LikeToTimeDishes {
         solution.preparedDishes = new int[dishes.length];
         solution.coefficient = iterate(0, 0, dishes, 0);
 
-        return solution;
-    }
-
-    public Solution getSolution() {
         return solution;
     }
 
