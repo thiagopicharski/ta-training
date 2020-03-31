@@ -2,13 +2,12 @@ Narrative:
 As an user
 I want the total Like-to-time coefficient to be maximum for the dishes
 
-Scenario: A scenario with some pending steps
+Scenario: The solution must calculate the maximum sum of all possible Like-to-time coefficients.
 
 Given some <dishes>
-And a solution
-When I remove a <dish>
-Then I get a new coefficient
+When I calculate coefficient
+Then coefficient is <maximum>
 
 Examples:
-|dishes|dish|
-|[1,2,3]| 2 |
+|dishes|maximum|
+|[-1,3,4]| 17 |
