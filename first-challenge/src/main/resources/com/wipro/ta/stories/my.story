@@ -1,10 +1,11 @@
+Narrative:
+As an user
+I want the total Like-to-time coefficient to be maximum for the dishes
 
 Scenario: A scenario with some pending steps
 
-Given I am a pending step
-And I am still pending step
-When a good soul will implement me
-Then I shall be happy
-
-
+Given some 'dishes'
+And a solution
+When I remove a 'dish'
+Then I get a new coefficient
 
