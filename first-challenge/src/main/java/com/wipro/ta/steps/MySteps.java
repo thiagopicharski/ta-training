@@ -1,6 +1,5 @@
 package com.wipro.ta.steps;
 
-import com.github.valfirst.jbehave.junit.monitoring.JUnitReportingRunner;
 import com.google.gson.Gson;
 import com.wipro.ta.LikeToTimeDishes;
 import org.apache.log4j.Logger;
@@ -8,7 +7,6 @@ import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
-import org.junit.runner.RunWith;
 
 import java.util.ArrayList;
 import java.util.Arrays;
