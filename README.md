@@ -18,9 +18,12 @@ Use log4j with this log pattern: *[%d{yyyy-MM-dd HH:mm:ss}] [%-5p] [%c{1}:%L] - 
 
 ### Create automated tests based on the story below:
 
-As a user, I want to the total Like-to-time coefficient to be maximum for the dishes.
+As an user, I want to the total Like-to-time coefficient to be maximum for the dishes.
 1. I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.
 2. The solution must calculate the maximum sum of all possible Like-to-time coefficients.
+3. Like-to-time coefficient is calculated with the algoritm below:  
+*V[] = {X1, X2 ... XN}  
+coefficient = X1\*1 + X2\*2 + XN\*N*  
 
 **Input Specification:**
 input: Array representing the linking value of each dish
