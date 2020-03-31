@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
 
 public class MySteps {
 
@@ -32,7 +31,6 @@ public class MySteps {
     private List<Integer> arrayToList(int[] array) {
         return Arrays.stream(array).boxed().collect(Collectors.toList());
     }
-
 
     private final LikeToTimeDishes likeToTimeDishes = new LikeToTimeDishes();
 
@@ -61,13 +59,6 @@ public class MySteps {
         this.solution = this.likeToTimeDishes.calculateSolution(this.dishes);
         System.out.println(String.format("Solution = %s", solution));
     }
-
-    @When("I remove a $dish")
-    public void removeDish(){
-        System.out.println("uwu");
-
-    }
-
 
     @Given("calculate their coefficient")
     public void calculateCoeff(){
