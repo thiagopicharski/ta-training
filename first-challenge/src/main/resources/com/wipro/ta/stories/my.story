@@ -21,6 +21,6 @@ And I calculate coefficient
 Then coefficient is <coefficient>
 Examples:
 |dishes        | removeNums |coefficient|
-|[-1,-9,0,5,-7]| [-9, -7]  |    14     |
+|[-1,-9,0,5,-7]| [-9, -7]   |    14     |
 
 
