@@ -23,7 +23,7 @@ As an user, I want to the total Like-to-time coefficient to be maximum for the d
 2. The solution must calculate the maximum sum of all possible Like-to-time coefficients.
 3. Like-to-time coefficient is calculated with the algoritm below:  
 *V[] = {X1, X2 ... XN}  
-coefficient = X1\*1 + X2\*2 + XN\*N*  
+coefficient = X1\*1 + X2\*2 + ... + XN\*N*  
 
 **Input Specification:**
 input: Array representing the linking value of each dish
