@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>com.wipro.ta.stories.my</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="com/wipro/ta/stories/my.story" title="">
+<beforeStorySteps>
+</beforeStorySteps>
+<scenario keyword="Scenario:" title="">
+<examples keyword="Examples:">
+<step>Given a set of dishes &apos;&lt;list&gt;&apos;</step>
+<step>When I calculate its coefficient</step>
+<step>Then the coefficient is &apos;&lt;coefficient&gt;&apos;</step>
+<parameters>
+<names><name>list</name><name>coefficient</name></names>
+<values><value>[-1, 3, 4]</value><value>17</value></values>
+<values><value>I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.</value><value></value></values>
+</parameters>
+
+<example keyword="Example:">{list=[-1, 3, 4], coefficient=17}</example>
+<step outcome="successful">Given a set of dishes &apos;<parameter>[-1, 3, 4]</parameter>&apos;</step>
+<step outcome="successful">When I calculate its coefficient</step>
+<step outcome="failed" keyword="FAILED">Then the coefficient is &apos;<parameter>17</parameter>&apos;<failure>java.lang.AssertionError: Values should be different. Actual: 17</failure></step>
+
+<example keyword="Example:">{list=I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes., coefficient=}</example>
+<step outcome="failed" keyword="FAILED">Given a set of dishes &apos;<parameter>I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.</parameter>&apos;<failure>com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was STRING at line 1 column 1 path $</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When I calculate its coefficient</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then the coefficient is &apos;&lt;coefficient&gt;&apos;</step>
+</examples>
+</scenario>
+<scenario keyword="Scenario:" title="">
+<examples keyword="Examples:">
+<step>Given a set of dishes &apos;&lt;list&gt;&apos;</step>
+<step>When I remove some dishes &apos;&lt;removeDish&gt;&apos;</step>
+<step>Then the coefficient is &apos;&lt;coefficient&gt;&apos;</step>
+<parameters>
+<names><name>list</name><name>removeDish</name><name>coefficient</name></names>
+<values><value>[-1, -9, 0, 5, -7]</value><value>[-9, -7]</value><value>14</value></values>
+</parameters>
+
+<example keyword="Example:">{list=[-1, -9, 0, 5, -7], removeDish=[-9, -7], coefficient=14}</example>
+<step outcome="successful">Given a set of dishes &apos;<parameter>[-1, -9, 0, 5, -7]</parameter>&apos;</step>
+<step outcome="successful">When I remove some dishes &apos;<parameter>[-9, -7]</parameter>&apos;</step>
+<step outcome="successful">Then the coefficient is &apos;<parameter>14</parameter>&apos;</step>
+</examples>
+</scenario>
+<afterStorySteps>
+</afterStorySteps>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
