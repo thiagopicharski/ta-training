@@ -8,6 +8,7 @@ import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -24,6 +25,15 @@ public class MySteps {
         return list.stream().mapToInt(Double::intValue).toArray();
     }
 
+    private int[] listToArray(List<Integer> list) {
+        return list.stream().mapToInt(i->i).toArray();
+    }
+
+    private List<Integer> arrayToList(int[] array) {
+        return Arrays.stream(array).boxed().collect(Collectors.toList());
+    }
+
+
     private final LikeToTimeDishes likeToTimeDishes = new LikeToTimeDishes();
 
     private int[] dishes;
@@ -39,9 +49,10 @@ public class MySteps {
         this.solution = likeToTimeDishes.calculateSolution(this.dishes);
         System.out.println(String.format("Calculated solution: %s", this.solution));
     }
-    @Then("coefficient is $maximum")
-    public void coefficientIsMax(@Named("maximum") int max){
-        assertEquals(max, solution.getCoefficient());
+
+    @Then("coefficient is $coefficient")
+    public void coefficientIsMax(@Named("coefficient") int coefficient){
+        assertEquals(coefficient, solution.getCoefficient());
     }
 
 
@@ -57,10 +68,18 @@ public class MySteps {
 
     }
 
-    @Then("I get a new coefficient")
-    public void thenNewCoefficient(){
-        System.out.println("uwu");
 
+    @Given("calculate their coefficient")
+    public void calculateCoeff(){
+        this.getSolution();
+    }
+
+    @When("I remove dishes $removeNums")
+    public void removeDishes(@Named("removedNums") String dishesToRemoveJson){
+        int[] dishesToRemove = this.parseList(dishesToRemoveJson);
+        List<Integer> dishes = arrayToList(this.dishes);
+        dishes.removeAll(arrayToList(dishesToRemove));
+        this.dishes = listToArray(dishes);
     }
 
 
