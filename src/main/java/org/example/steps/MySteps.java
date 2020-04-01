@@ -26,31 +26,23 @@ public class MySteps {
 
 
     @When("I calculate the solution")
-    public void pendingStep2(){
+    public void calculateAndRemoveSolutions(){
         solution = likeToTimeDishes.calculateSolution(input);
+
         int[] preparedDishes = solution.getPreparedDishes();
-        List<Integer> preparedDishes1 = new ArrayList<>();
         List<Integer> removed = new ArrayList<>();
-        for(int i=0;i<input.length;i++){
-            if(preparedDishes[i]!=input[i]){
+
+        for(int i=0;i<input.length;i++)
+            if(preparedDishes[i]!=input[i])
                 removed.add(input[i]);
-                preparedDishes[i]=0;
-            }
-            else
-                preparedDishes1.add(input[i]);
-        }
-        int[] array = preparedDishes1.stream().mapToInt(i->i).toArray();
-        if(!removed.isEmpty()){
-            solution = likeToTimeDishes.calculateSolution(array);
+        if(!removed.isEmpty())
             logger.info("Removed: input:"+Arrays.toString(input)+" #Dish "+Arrays.toString(removed.toArray())+" must be removed");
-        }
-        else{
+        else
             logger.info("Not Removed: input: "+Arrays.toString(input));
-        }
     }
 
     @Then("I shall see the coeffient: '$coeffient'")
-    public void pendingStep3(@Value("field") int a){
+    public void seeTheCoeff(@Value("field") int a){
         int coef = solution.getCoefficient();
         logger.info("Output: " + coef);
         Assert.assertEquals(a,coef);
