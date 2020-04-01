@@ -1,0 +1,39 @@
+
+(com/wipro/ta/stories/my.story)
+
+
+Scenario: Solution must return the correct coeffient for a valid input of dishes, when a dish is removed and when anyone is removed
+Examples:
+Given An input '<input>' of dishes
+When I calculate the coefficient
+Then the solution should return '<coefficient>'
+And the array must be equals '<dishesPrepared>'
+
+|input|coefficient|dishesPrepared|
+|1,3,2|13|1,3,2|
+|-1,3,4|17|-1,3,4|
+|-1,-9,0,5,-7|14|-1,0,5|
+
+Example: {input=1,3,2, coefficient=13, dishesPrepared=1,3,2}
+Given An input '1,3,2' of dishes
+When I calculate the coefficient
+Then the solution should return '13'
+And the array must be equals '1,3,2'
+
+Example: {input=-1,3,4, coefficient=17, dishesPrepared=-1,3,4}
+Given An input '-1,3,4' of dishes
+When I calculate the coefficient
+Then the solution should return '17'
+And the array must be equals '-1,3,4'
+
+Example: {input=-1,-9,0,5,-7, coefficient=14, dishesPrepared=-1,0,5}
+Given An input '-1,-9,0,5,-7' of dishes
+When I calculate the coefficient
+Then the solution should return '14'
+And the array must be equals '-1,0,5' (FAILED)
+(org.junit.ComparisonFailure: The array of dishes is incorrect expected:<[-1, [0, 5]]> but was:<[-1, [-2147483648, 0, 5, -2147483648]]>)
+
+
+
+
+

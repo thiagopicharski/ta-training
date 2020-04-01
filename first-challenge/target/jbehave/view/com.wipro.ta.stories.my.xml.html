@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>com.wipro.ta.stories.my</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="com/wipro/ta/stories/my.story" title="">
+<beforeStorySteps>
+</beforeStorySteps>
+<scenario keyword="Scenario:" title="Solution must return the correct coeffient for a valid input of dishes, when a dish is removed and when anyone is removed">
+<examples keyword="Examples:">
+<step>Given An input &apos;&lt;input&gt;&apos; of dishes</step>
+<step>When I calculate the coefficient</step>
+<step>Then the solution should return &apos;&lt;coefficient&gt;&apos;</step>
+<step>And the array must be equals &apos;&lt;dishesPrepared&gt;&apos;</step>
+<parameters>
+<names><name>input</name><name>coefficient</name><name>dishesPrepared</name></names>
+<values><value>1,3,2</value><value>13</value><value>1,3,2</value></values>
+<values><value>-1,3,4</value><value>17</value><value>-1,3,4</value></values>
+<values><value>-1,-9,0,5,-7</value><value>14</value><value>-1,0,5</value></values>
+</parameters>
+
+<example keyword="Example:">{input=1,3,2, coefficient=13, dishesPrepared=1,3,2}</example>
+<step outcome="successful">Given An input &apos;<parameter>1,3,2</parameter>&apos; of dishes</step>
+<step outcome="successful">When I calculate the coefficient</step>
+<step outcome="successful">Then the solution should return &apos;<parameter>13</parameter>&apos;</step>
+<step outcome="successful">And the array must be equals &apos;<parameter>1,3,2</parameter>&apos;</step>
+
+<example keyword="Example:">{input=-1,3,4, coefficient=17, dishesPrepared=-1,3,4}</example>
+<step outcome="successful">Given An input &apos;<parameter>-1,3,4</parameter>&apos; of dishes</step>
+<step outcome="successful">When I calculate the coefficient</step>
+<step outcome="successful">Then the solution should return &apos;<parameter>17</parameter>&apos;</step>
+<step outcome="successful">And the array must be equals &apos;<parameter>-1,3,4</parameter>&apos;</step>
+
+<example keyword="Example:">{input=-1,-9,0,5,-7, coefficient=14, dishesPrepared=-1,0,5}</example>
+<step outcome="successful">Given An input &apos;<parameter>-1,-9,0,5,-7</parameter>&apos; of dishes</step>
+<step outcome="successful">When I calculate the coefficient</step>
+<step outcome="successful">Then the solution should return &apos;<parameter>14</parameter>&apos;</step>
+<step outcome="failed" keyword="FAILED">And the array must be equals &apos;<parameter>-1,0,5</parameter>&apos;<failure>org.junit.ComparisonFailure: The array of dishes is incorrect expected:&lt;[-1, [0, 5]]&gt; but was:&lt;[-1, [-2147483648, 0, 5, -2147483648]]&gt;</failure></step>
+</examples>
+</scenario>
+<afterStorySteps>
+</afterStorySteps>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

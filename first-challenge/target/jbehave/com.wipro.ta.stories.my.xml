@@ -1,0 +1,38 @@
+<story path="com/wipro/ta/stories/my.story" title="">
+<beforeStorySteps>
+</beforeStorySteps>
+<scenario keyword="Scenario:" title="Solution must return the correct coeffient for a valid input of dishes, when a dish is removed and when anyone is removed">
+<examples keyword="Examples:">
+<step>Given An input &apos;&lt;input&gt;&apos; of dishes</step>
+<step>When I calculate the coefficient</step>
+<step>Then the solution should return &apos;&lt;coefficient&gt;&apos;</step>
+<step>And the array must be equals &apos;&lt;dishesPrepared&gt;&apos;</step>
+<parameters>
+<names><name>input</name><name>coefficient</name><name>dishesPrepared</name></names>
+<values><value>1,3,2</value><value>13</value><value>1,3,2</value></values>
+<values><value>-1,3,4</value><value>17</value><value>-1,3,4</value></values>
+<values><value>-1,-9,0,5,-7</value><value>14</value><value>-1,0,5</value></values>
+</parameters>
+
+<example keyword="Example:">{input=1,3,2, coefficient=13, dishesPrepared=1,3,2}</example>
+<step outcome="successful">Given An input &apos;<parameter>1,3,2</parameter>&apos; of dishes</step>
+<step outcome="successful">When I calculate the coefficient</step>
+<step outcome="successful">Then the solution should return &apos;<parameter>13</parameter>&apos;</step>
+<step outcome="successful">And the array must be equals &apos;<parameter>1,3,2</parameter>&apos;</step>
+
+<example keyword="Example:">{input=-1,3,4, coefficient=17, dishesPrepared=-1,3,4}</example>
+<step outcome="successful">Given An input &apos;<parameter>-1,3,4</parameter>&apos; of dishes</step>
+<step outcome="successful">When I calculate the coefficient</step>
+<step outcome="successful">Then the solution should return &apos;<parameter>17</parameter>&apos;</step>
+<step outcome="successful">And the array must be equals &apos;<parameter>-1,3,4</parameter>&apos;</step>
+
+<example keyword="Example:">{input=-1,-9,0,5,-7, coefficient=14, dishesPrepared=-1,0,5}</example>
+<step outcome="successful">Given An input &apos;<parameter>-1,-9,0,5,-7</parameter>&apos; of dishes</step>
+<step outcome="successful">When I calculate the coefficient</step>
+<step outcome="successful">Then the solution should return &apos;<parameter>14</parameter>&apos;</step>
+<step outcome="failed" keyword="FAILED">And the array must be equals &apos;<parameter>-1,0,5</parameter>&apos;<failure>org.junit.ComparisonFailure: The array of dishes is incorrect expected:&lt;[-1, [0, 5]]&gt; but was:&lt;[-1, [-2147483648, 0, 5, -2147483648]]&gt;</failure></step>
+</examples>
+</scenario>
+<afterStorySteps>
+</afterStorySteps>
+</story>

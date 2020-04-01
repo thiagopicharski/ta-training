@@ -1,0 +1,50 @@
+<div class="story">
+<h1></h1>
+<div class="path">com/wipro/ta/stories/my.story</div>
+<div class="beforeStorySteps">
+</div>
+<div class="scenario">
+<h2>Scenario: Solution must return the correct coeffient for a valid input of dishes, when a dish is removed and when anyone is removed</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given An input '&lt;input&gt;' of dishes</div>
+<div class="step">When I calculate the coefficient</div>
+<div class="step">Then the solution should return '&lt;coefficient&gt;'</div>
+<div class="step">And the array must be equals '&lt;dishesPrepared&gt;'</div>
+<table>
+<thead>
+<tr>
+<th>input</th><th>coefficient</th><th>dishesPrepared</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>1,3,2</td><td>13</td><td>1,3,2</td></tr>
+<tr>
+<td>-1,3,4</td><td>17</td><td>-1,3,4</td></tr>
+<tr>
+<td>-1,-9,0,5,-7</td><td>14</td><td>-1,0,5</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {input=1,3,2, coefficient=13, dishesPrepared=1,3,2}</h3>
+<div class="step successful">Given An input '<span class="step parameter">1,3,2</span>' of dishes</div>
+<div class="step successful">When I calculate the coefficient</div>
+<div class="step successful">Then the solution should return '<span class="step parameter">13</span>'</div>
+<div class="step successful">And the array must be equals '<span class="step parameter">1,3,2</span>'</div>
+
+<h3 class="example">Example: {input=-1,3,4, coefficient=17, dishesPrepared=-1,3,4}</h3>
+<div class="step successful">Given An input '<span class="step parameter">-1,3,4</span>' of dishes</div>
+<div class="step successful">When I calculate the coefficient</div>
+<div class="step successful">Then the solution should return '<span class="step parameter">17</span>'</div>
+<div class="step successful">And the array must be equals '<span class="step parameter">-1,3,4</span>'</div>
+
+<h3 class="example">Example: {input=-1,-9,0,5,-7, coefficient=14, dishesPrepared=-1,0,5}</h3>
+<div class="step successful">Given An input '<span class="step parameter">-1,-9,0,5,-7</span>' of dishes</div>
+<div class="step successful">When I calculate the coefficient</div>
+<div class="step successful">Then the solution should return '<span class="step parameter">14</span>'</div>
+<div class="step failed">And the array must be equals '<span class="step parameter">-1,0,5</span>' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.junit.ComparisonFailure: The array of dishes is incorrect expected:&lt;[-1, [0, 5]]&gt; but was:&lt;[-1, [-2147483648, 0, 5, -2147483648]]&gt;</span></div>
+</div>
+</div>
+<div class="afterStorySteps">
+</div>
+</div>
