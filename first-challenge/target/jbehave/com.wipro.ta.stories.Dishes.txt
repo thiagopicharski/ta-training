@@ -1,0 +1,38 @@
+
+(com/wipro/ta/stories/Dishes.story)
+
+
+Scenario: Check that solution returns the correct coeffient for a valid input of dishes and when it removes some dishes from the list
+Examples:
+Given a list of '<dishesList>'
+When it removes '<removeDishes>' from the list
+And calculates the sum of like-to-time coefficient of dishes
+Then it should return '<coefficient>'
+
+|dishesList|removeDishes|coefficient|
+|[1,3,5,2]|[2,5]|7|
+|[4,-1,3,2]|[2]|11|
+|[1,2,3,4]|[]|30|
+
+Example: {dishesList=[1,3,5,2], removeDishes=[2,5], coefficient=7}
+Given a list of '[1,3,5,2]'
+When it removes '[2,5]' from the list
+And calculates the sum of like-to-time coefficient of dishes
+Then it should return '7'
+
+Example: {dishesList=[4,-1,3,2], removeDishes=[2], coefficient=11}
+Given a list of '[4,-1,3,2]'
+When it removes '[2]' from the list
+And calculates the sum of like-to-time coefficient of dishes
+Then it should return '11'
+
+Example: {dishesList=[1,2,3,4], removeDishes=[], coefficient=30}
+Given a list of '[1,2,3,4]'
+When it removes '[]' from the list
+And calculates the sum of like-to-time coefficient of dishes
+Then it should return '30'
+
+
+
+
+
