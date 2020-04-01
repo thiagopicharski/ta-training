@@ -1,0 +1,32 @@
+
+(com/wipro/ta/stories/my.story)
+
+
+Scenario: A scenario with some pending steps
+Examples:
+Given I am a pending step '<field>'
+And I am still pending step
+When a good soul '<field1>' will implement me
+Then I shall be happy
+
+|field|field1|
+|lala|da|
+|blabla|db|
+
+Example: {field=lala, field1=da}
+Given I am a pending step 'lala'
+And I am still pending step
+When a good soul 'da' will implement me
+Then I shall be happy
+
+Example: {field=blabla, field1=db}
+Given I am a pending step 'blabla'
+And I am still pending step
+When a good soul 'db' will implement me (FAILED)
+(org.junit.ComparisonFailure: Field is invalid expected:<d[a]> but was:<d[b]>)
+Then I shall be happy (NOT PERFORMED)
+
+
+
+
+

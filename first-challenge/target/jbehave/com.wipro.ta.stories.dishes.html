@@ -1,0 +1,58 @@
+<div class="story">
+<h1></h1>
+<div class="path">com/wipro/ta/stories/dishes.story</div>
+<div class="beforeStorySteps">
+</div>
+<div class="scenario">
+<h2>Scenario: Solution must be returns Like-to-time coefficient to be maximum</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a collection '&lt;list&gt;'</div>
+<div class="step">When calculate coefficient of the dishes</div>
+<div class="step">Then the coefficient should be equals to '&lt;coefficient&gt;'</div>
+<table>
+<thead>
+<tr>
+<th>list</th><th>coefficient</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[-1,3,4]</td><td>17</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {list=[-1,3,4], coefficient=17}</h3>
+<div class="step successful">Given a collection '<span class="step parameter">[-1,3,4]</span>'</div>
+<div class="step successful">When calculate coefficient of the dishes</div>
+<div class="step successful">Then the coefficient should be equals to '<span class="step parameter">17</span>'</div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a collection '&lt;list&gt;'</div>
+<div class="step">When remove some dishes '&lt;listRemove&gt;'</div>
+<div class="step">When calculate coefficient of the dishes</div>
+<div class="step">Then the coefficient should be equals to '&lt;coefficient&gt;'</div>
+<table>
+<thead>
+<tr>
+<th>list</th><th>listRemove</th><th>coefficient</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[-1,-9,0,5,-7]</td><td>[-9,-7]</td><td>14</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {list=[-1,-9,0,5,-7], listRemove=[-9,-7], coefficient=14}</h3>
+<div class="step successful">Given a collection '<span class="step parameter">[-1,-9,0,5,-7]</span>'</div>
+<div class="step successful">When remove some dishes '<span class="step parameter">[-9,-7]</span>'</div>
+<div class="step successful">When calculate coefficient of the dishes</div>
+<div class="step successful">Then the coefficient should be equals to '<span class="step parameter">14</span>'</div>
+</div>
+</div>
+<div class="afterStorySteps">
+</div>
+</div>

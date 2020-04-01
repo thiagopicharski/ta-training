@@ -1,0 +1,42 @@
+<div class="story">
+<h1></h1>
+<div class="path">com/wipro/ta/stories/my.story</div>
+<div class="beforeStorySteps">
+</div>
+<div class="scenario">
+<h2>Scenario: A scenario with some pending steps</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given I am a pending step '&lt;field&gt;'</div>
+<div class="step">And I am still pending step</div>
+<div class="step">When a good soul '&lt;field1&gt;' will implement me</div>
+<div class="step">Then I shall be happy</div>
+<table>
+<thead>
+<tr>
+<th>field</th><th>field1</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>lala</td><td>da</td></tr>
+<tr>
+<td>blabla</td><td>db</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {field=lala, field1=da}</h3>
+<div class="step successful">Given I am a pending step '<span class="step parameter">lala</span>'</div>
+<div class="step successful">And I am still pending step</div>
+<div class="step successful">When a good soul '<span class="step parameter">da</span>' will implement me</div>
+<div class="step successful">Then I shall be happy</div>
+
+<h3 class="example">Example: {field=blabla, field1=db}</h3>
+<div class="step successful">Given I am a pending step '<span class="step parameter">blabla</span>'</div>
+<div class="step successful">And I am still pending step</div>
+<div class="step failed">When a good soul '<span class="step parameter">db</span>' will implement me <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.junit.ComparisonFailure: Field is invalid expected:&lt;d[a]&gt; but was:&lt;d[b]&gt;</span></div>
+<div class="step notPerformed">Then I shall be happy <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+</div>
+<div class="afterStorySteps">
+</div>
+</div>

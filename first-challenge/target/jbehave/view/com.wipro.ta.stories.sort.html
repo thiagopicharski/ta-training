@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>com.wipro.ta.stories.sort</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">com/wipro/ta/stories/sort.story</div>
+<div class="beforeStorySteps">
+</div>
+<div class="scenario">
+<h2>Scenario: Solution must be returns a property sorted collection</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a collection '&lt;list&gt;'</div>
+<div class="step">When sort this collection order by '&lt;orderBy&gt;'</div>
+<div class="step">Then the sorted collection should be equals to '&lt;sortedList&gt;'</div>
+<table>
+<thead>
+<tr>
+<th>list</th><th>orderBy</th><th>sortedList</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[9,3,1,65]</td><td>ASC</td><td>[1,3,9,65]</td></tr>
+<tr>
+<td>[9,3,1,65]</td><td>DESC</td><td>[65,9,3,1]</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {list=[9,3,1,65], orderBy=ASC, sortedList=[1,3,9,65]}</h3>
+<div class="step successful">Given a collection '<span class="step parameter">[9,3,1,65]</span>'</div>
+<div class="step successful">When sort this collection order by '<span class="step parameter">ASC</span>'</div>
+<div class="step successful">Then the sorted collection should be equals to '<span class="step parameter">[1,3,9,65]</span>'</div>
+
+<h3 class="example">Example: {list=[9,3,1,65], orderBy=DESC, sortedList=[65,9,3,1]}</h3>
+<div class="step successful">Given a collection '<span class="step parameter">[9,3,1,65]</span>'</div>
+<div class="step successful">When sort this collection order by '<span class="step parameter">DESC</span>'</div>
+<div class="step successful">Then the sorted collection should be equals to '<span class="step parameter">[65,9,3,1]</span>'</div>
+</div>
+</div>
+<div class="afterStorySteps">
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

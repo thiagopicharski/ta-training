@@ -1,0 +1,28 @@
+<story path="com/wipro/ta/stories/sort.story" title="">
+<beforeStorySteps>
+</beforeStorySteps>
+<scenario keyword="Scenario:" title="Solution must be returns a property sorted collection">
+<examples keyword="Examples:">
+<step>Given a collection &apos;&lt;list&gt;&apos;</step>
+<step>When sort this collection order by &apos;&lt;orderBy&gt;&apos;</step>
+<step>Then the sorted collection should be equals to &apos;&lt;sortedList&gt;&apos;</step>
+<parameters>
+<names><name>list</name><name>orderBy</name><name>sortedList</name></names>
+<values><value>[9,3,1,65]</value><value>ASC</value><value>[1,3,9,65]</value></values>
+<values><value>[9,3,1,65]</value><value>DESC</value><value>[65,9,3,1]</value></values>
+</parameters>
+
+<example keyword="Example:">{list=[9,3,1,65], orderBy=ASC, sortedList=[1,3,9,65]}</example>
+<step outcome="successful">Given a collection &apos;<parameter>[9,3,1,65]</parameter>&apos;</step>
+<step outcome="successful">When sort this collection order by &apos;<parameter>ASC</parameter>&apos;</step>
+<step outcome="successful">Then the sorted collection should be equals to &apos;<parameter>[1,3,9,65]</parameter>&apos;</step>
+
+<example keyword="Example:">{list=[9,3,1,65], orderBy=DESC, sortedList=[65,9,3,1]}</example>
+<step outcome="successful">Given a collection &apos;<parameter>[9,3,1,65]</parameter>&apos;</step>
+<step outcome="successful">When sort this collection order by &apos;<parameter>DESC</parameter>&apos;</step>
+<step outcome="successful">Then the sorted collection should be equals to &apos;<parameter>[65,9,3,1]</parameter>&apos;</step>
+</examples>
+</scenario>
+<afterStorySteps>
+</afterStorySteps>
+</story>
