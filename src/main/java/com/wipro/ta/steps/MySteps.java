@@ -8,6 +8,7 @@ import java.util.Map;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
+import org.junit.Assert;
 import org.springframework.beans.factory.annotation.Value;
 
 import com.google.gson.Gson;
@@ -17,7 +18,6 @@ public class MySteps {
 	
 	public static Gson GSON = new Gson();
 	public Map<String, Object> context = new HashMap<String, Object>();
-	//private static com.wipro.ta.LikeToTimeDishes LikeToTimeDishes = new com.wipro.ta.LikeToTimeDishes();
 	
 	
 	@Given ("a collection '<notRemoved>'")
@@ -46,7 +46,9 @@ public class MySteps {
 	@Then ("the result should be '<coefficient>'")
 	public void thenResult(@Value("coefficient") String coefficient) {
 		
-	}
+		Assert.assertEquals("the result", coefficient);
+		
+ 	}
 	
     
 }
