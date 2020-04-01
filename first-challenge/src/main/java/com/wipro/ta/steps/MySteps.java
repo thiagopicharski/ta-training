@@ -30,26 +30,40 @@ public class MySteps {
 
     private LikeToTimeDishes.Solution solution;
 
-    private int[] dishes;
-
-    @Given("some '$dishesList'")
-    public void givenSomeDishes(@Value("dishesList") String list) {
-        String json = "{list:\"" + list +"\"}";
+    @Given("some dishes '$list'")
+    public void givenSomeDishes(@Value("list") String list) {
+        String json = "{\"list\":" + list +"}";
         ListField listField = gson.fromJson(json, ListField.class);
 
         context.put("listField", listField);
     }
 
+    @When("I calculate coefficient")
+    public void whenCalculateCoefficient() {
+        ListField listField = (ListField) context.get("listField");
+
+        this.solution = likeToTimeDishes.calculateSolution(listField.getList().stream().mapToInt(i->i).toArray());
+        logger.info(String.format("Solution: %s", solution));
+    }
+
+
+    @Then("coefficient is $coefficient")
+    public void thenCoefficientIs(@Value("coefficient") int coefficient) {
+        assertEquals(coefficient, solution.getCoefficient());
+    }
+
     @Given("calculate their coefficient")
     public void givenCalculateTheirCoefficient() {
-        this.solution = likeToTimeDishes.calculateSolution(this.dishes);
+        ListField listField = (ListField) context.get("listField");
+
+        this.solution = likeToTimeDishes.calculateSolution(listField.getList().stream().mapToInt(i->i).toArray());
         logger.info(String.format("Calculated solution: %s", this.solution));
     }
 
     @When("I remove dishes $removeNums")
     public void whenRemoveDishes(@Value("removeEnums") String removeDishesJson) {
         ListField originalListField = (ListField) context.get("listField");
-        String json = "{list:\"" + removeDishesJson +"\"}";
+        String json = "{\"list\":" + removeDishesJson +"}";
         ListField removeList = gson.fromJson(json, ListField.class);
         List<Integer> list = new ArrayList<>();
         for (Integer i: originalListField.getList()) {
@@ -58,16 +72,5 @@ public class MySteps {
             }
         }
         originalListField.setList(list);
-    }
-
-    @When("I calculate coefficient")
-    public void whenCalculateCoefficient() {
-        this.solution = likeToTimeDishes.calculateSolution(this.dishes);
-        logger.info(String.format("Solution: %s", solution));
-    }
-
-    @Then("coefficient is $coefficient")
-    public void thenCoefficientIs(@Value("coefficient") int coefficient) {
-        assertEquals(coefficient, solution.getCoefficient());
     }
 }
