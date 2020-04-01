@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>com.wipro.ta.stories.dishesWithRemoval</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">com/wipro/ta/stories/dishesWithRemoval.story</div>
+<div class="beforeStorySteps">
+</div>
+<div class="scenario">
+<h2>Scenario: With two collections, one representing all dishes, and other with dishes to be removed, the coefficient
+must be calculated without considering the removed ones</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given the collection '&lt;dishes&gt;' with each  value representing a dish</div>
+<div class="step">And having the '&lt;removedDishes&gt;' removed</div>
+<div class="step">When I calculate the solution</div>
+<div class="step">Then the coefficient should be '&lt;coefficient&gt;'</div>
+<table>
+<thead>
+<tr>
+<th>dishes</th><th>removedDishes</th><th>coefficient</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>1,2,4,6</td><td>4</td><td>23</td></tr>
+<tr>
+<td>-1,-9,0,5,-7</td><td>-9,-7</td><td>14</td></tr>
+<tr>
+<td>2,4,1,0,8,9</td><td>1,0,8</td><td>37</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {dishes=1,2,4,6, removedDishes=4, coefficient=23}</h3>
+<div class="step successful">Given the collection '<span class="step parameter">1,2,4,6</span>' with each  value representing a dish</div>
+<div class="step successful">And having the '<span class="step parameter">4</span>' removed</div>
+<div class="step successful">When I calculate the solution</div>
+<div class="step successful">Then the coefficient should be '<span class="step parameter">23</span>'</div>
+
+<h3 class="example">Example: {dishes=-1,-9,0,5,-7, removedDishes=-9,-7, coefficient=14}</h3>
+<div class="step successful">Given the collection '<span class="step parameter">-1,-9,0,5,-7</span>' with each  value representing a dish</div>
+<div class="step successful">And having the '<span class="step parameter">-9,-7</span>' removed</div>
+<div class="step successful">When I calculate the solution</div>
+<div class="step successful">Then the coefficient should be '<span class="step parameter">14</span>'</div>
+
+<h3 class="example">Example: {dishes=2,4,1,0,8,9, removedDishes=1,0,8, coefficient=37}</h3>
+<div class="step successful">Given the collection '<span class="step parameter">2,4,1,0,8,9</span>' with each  value representing a dish</div>
+<div class="step successful">And having the '<span class="step parameter">1,0,8</span>' removed</div>
+<div class="step successful">When I calculate the solution</div>
+<div class="step successful">Then the coefficient should be '<span class="step parameter">37</span>'</div>
+</div>
+</div>
+<div class="afterStorySteps">
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

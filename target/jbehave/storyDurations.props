@@ -1,0 +1,7 @@
+#org.jbehave.core.embedder.StoryManager
+#Wed Apr 01 01:12:55 BRT 2020
+total=0
+com/wipro/ta/stories/dishes.story=0
+threadAverage=0
+threads=1
+com/wipro/ta/stories/dishesWithRemoval.story=0

@@ -1,0 +1,39 @@
+<story path="com/wipro/ta/stories/dishesWithRemoval.story" title="">
+<beforeStorySteps>
+</beforeStorySteps>
+<scenario keyword="Scenario:" title="With two collections, one representing all dishes, and other with dishes to be removed, the coefficient
+must be calculated without considering the removed ones">
+<examples keyword="Examples:">
+<step>Given the collection &apos;&lt;dishes&gt;&apos; with each  value representing a dish</step>
+<step>And having the &apos;&lt;removedDishes&gt;&apos; removed</step>
+<step>When I calculate the solution</step>
+<step>Then the coefficient should be &apos;&lt;coefficient&gt;&apos;</step>
+<parameters>
+<names><name>dishes</name><name>removedDishes</name><name>coefficient</name></names>
+<values><value>1,2,4,6</value><value>4</value><value>23</value></values>
+<values><value>-1,-9,0,5,-7</value><value>-9,-7</value><value>14</value></values>
+<values><value>2,4,1,0,8,9</value><value>1,0,8</value><value>37</value></values>
+</parameters>
+
+<example keyword="Example:">{dishes=1,2,4,6, removedDishes=4, coefficient=23}</example>
+<step outcome="successful">Given the collection &apos;<parameter>1,2,4,6</parameter>&apos; with each  value representing a dish</step>
+<step outcome="successful">And having the &apos;<parameter>4</parameter>&apos; removed</step>
+<step outcome="successful">When I calculate the solution</step>
+<step outcome="successful">Then the coefficient should be &apos;<parameter>23</parameter>&apos;</step>
+
+<example keyword="Example:">{dishes=-1,-9,0,5,-7, removedDishes=-9,-7, coefficient=14}</example>
+<step outcome="successful">Given the collection &apos;<parameter>-1,-9,0,5,-7</parameter>&apos; with each  value representing a dish</step>
+<step outcome="successful">And having the &apos;<parameter>-9,-7</parameter>&apos; removed</step>
+<step outcome="successful">When I calculate the solution</step>
+<step outcome="successful">Then the coefficient should be &apos;<parameter>14</parameter>&apos;</step>
+
+<example keyword="Example:">{dishes=2,4,1,0,8,9, removedDishes=1,0,8, coefficient=37}</example>
+<step outcome="successful">Given the collection &apos;<parameter>2,4,1,0,8,9</parameter>&apos; with each  value representing a dish</step>
+<step outcome="successful">And having the &apos;<parameter>1,0,8</parameter>&apos; removed</step>
+<step outcome="successful">When I calculate the solution</step>
+<step outcome="successful">Then the coefficient should be &apos;<parameter>37</parameter>&apos;</step>
+</examples>
+</scenario>
+<afterStorySteps>
+</afterStorySteps>
+</story>

@@ -1,0 +1,34 @@
+
+(com/wipro/ta/stories/dishes.story)
+
+
+Scenario: With a collection without any removals the application should calculate the coefficient using all dishes
+Examples:
+Given the collection '<dishes>' with each value representing a dish
+When I calculate the solution
+Then the coefficient should be '<coefficient>'
+
+|dishes|coefficient|
+|1,2,3|14|
+|-1,3,4|17|
+|2,7,1|19|
+
+Example: {dishes=1,2,3, coefficient=14}
+Given the collection '1,2,3' with each value representing a dish
+When I calculate the solution
+Then the coefficient should be '14'
+
+Example: {dishes=-1,3,4, coefficient=17}
+Given the collection '-1,3,4' with each value representing a dish
+When I calculate the solution
+Then the coefficient should be '17'
+
+Example: {dishes=2,7,1, coefficient=19}
+Given the collection '2,7,1' with each value representing a dish
+When I calculate the solution
+Then the coefficient should be '19'
+
+
+
+
+

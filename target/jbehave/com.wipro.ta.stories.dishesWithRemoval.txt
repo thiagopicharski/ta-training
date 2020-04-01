@@ -1,0 +1,39 @@
+
+(com/wipro/ta/stories/dishesWithRemoval.story)
+
+
+Scenario: With two collections, one representing all dishes, and other with dishes to be removed, the coefficient
+must be calculated without considering the removed ones
+Examples:
+Given the collection '<dishes>' with each  value representing a dish
+And having the '<removedDishes>' removed
+When I calculate the solution
+Then the coefficient should be '<coefficient>'
+
+|dishes|removedDishes|coefficient|
+|1,2,4,6|4|23|
+|-1,-9,0,5,-7|-9,-7|14|
+|2,4,1,0,8,9|1,0,8|37|
+
+Example: {dishes=1,2,4,6, removedDishes=4, coefficient=23}
+Given the collection '1,2,4,6' with each  value representing a dish
+And having the '4' removed
+When I calculate the solution
+Then the coefficient should be '23'
+
+Example: {dishes=-1,-9,0,5,-7, removedDishes=-9,-7, coefficient=14}
+Given the collection '-1,-9,0,5,-7' with each  value representing a dish
+And having the '-9,-7' removed
+When I calculate the solution
+Then the coefficient should be '14'
+
+Example: {dishes=2,4,1,0,8,9, removedDishes=1,0,8, coefficient=37}
+Given the collection '2,4,1,0,8,9' with each  value representing a dish
+And having the '1,0,8' removed
+When I calculate the solution
+Then the coefficient should be '37'
+
+
+
+
+
