@@ -1,0 +1,41 @@
+
+(com/wipro/ta/stories/my.story)
+
+
+Scenario: The solution must calculate the maximum sum of all possible Like-to-time coefficients.
+Examples:
+Given a collection of <dishes>
+When I calculate the coefficient of the given dishes
+Then the coefficient should be <coefficient>
+
+|dishes|coefficient|
+|[-1,3,4]|17|
+
+Example: {dishes=[-1,3,4], coefficient=17}
+Given a collection of [-1,3,4]
+When I calculate the coefficient of the given dishes
+Then the coefficient should be 17
+
+
+Scenario: I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.
+Examples:
+Given a collection of <dishes>
+And calculate their coefficient
+When I remove a number of dishes <numdishes>
+And I calculate the coefficient of the given dishes
+Then the coefficient should be <coefficient>
+
+|dishes|numdishes|coefficient|
+|[-1,-9,0,5,-7]|[-9, -7]|14|
+
+Example: {dishes=[-1,-9,0,5,-7], numdishes=[-9, -7], coefficient=14}
+Given a collection of [-1,-9,0,5,-7]
+And calculate their coefficient
+When I remove a number of dishes [-9, -7]
+And I calculate the coefficient of the given dishes
+Then the coefficient should be 14
+
+
+
+
+

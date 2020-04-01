@@ -1,0 +1,1093 @@
+[2020-04-01 11:09:57] [INFO ] [MySteps:45] - Given dishes: [-1,3,4]
+[2020-04-01 11:09:57] [INFO ] [MySteps:52] - Calculated solution: Solution{preparedDishes=[-1, 3, 4], preparedDishesSize=5, coefficient=17}
+[2020-04-01 11:09:57] [INFO ] [MySteps:45] - Given dishes: [-1,-9,0,5,-7]
+[2020-04-01 11:09:57] [INFO ] [MySteps:52] - Calculated solution: Solution{preparedDishes=[-1, -2147483648, 0, 5, -2147483648], preparedDishesSize=3, coefficient=14}
+[2020-04-01 11:09:57] [INFO ] [MySteps:52] - Calculated solution: Solution{preparedDishes=[-1, 0, 5], preparedDishesSize=5, coefficient=14}
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:09:57] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en_US.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports.ftl"): Found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-reports.ftl"
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en_US.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en.ftl"): Not found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views.ftl"): Found
+[2020-04-01 11:09:58] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-views.ftl"
+[2020-04-01 11:19:11] [INFO ] [MySteps:45] - Given dishes: [-1,3,4]
+[2020-04-01 11:19:11] [INFO ] [MySteps:52] - Calculated solution: Solution{preparedDishes=[-1, 3, 4], preparedDishesSize=5, coefficient=17}
+[2020-04-01 11:19:11] [INFO ] [MySteps:45] - Given dishes: [-1,-9,0,5,-7]
+[2020-04-01 11:19:11] [INFO ] [MySteps:52] - Calculated solution: Solution{preparedDishes=[-1, -2147483648, 0, 5, -2147483648], preparedDishesSize=3, coefficient=14}
+[2020-04-01 11:19:11] [INFO ] [MySteps:52] - Calculated solution: Solution{preparedDishes=[-1, 0, 5], preparedDishesSize=5, coefficient=14}
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:19:11] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en_US.ftl"): Not found
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en.ftl"): Not found
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports.ftl"): Found
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-reports.ftl"
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en_US.ftl"): Not found
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en.ftl"): Not found
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views.ftl"): Found
+[2020-04-01 11:19:12] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-views.ftl"
+[2020-04-01 11:32:49] [INFO ] [MySteps:43] - 1. Given the dishes: [-1,3,4]
+[2020-04-01 11:32:49] [INFO ] [MySteps:50] - I run the solution: Solution{preparedDishes=[-1, 3, 4], preparedDishesSize=5, coefficient=17}
+[2020-04-01 11:32:49] [INFO ] [MySteps:55] - The coefficient should be: 17
+[2020-04-01 11:32:49] [INFO ] [MySteps:43] - 1. Given the dishes: [-1,-9,0,5,-7]
+[2020-04-01 11:32:49] [INFO ] [MySteps:50] - I run the solution: Solution{preparedDishes=[-1, -2147483648, 0, 5, -2147483648], preparedDishesSize=3, coefficient=14}
+[2020-04-01 11:32:49] [INFO ] [MySteps:50] - I run the solution: Solution{preparedDishes=[-1, 0, 5], preparedDishesSize=5, coefficient=14}
+[2020-04-01 11:32:49] [INFO ] [MySteps:55] - The coefficient should be: 14
+[2020-04-01 11:32:49] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:49] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:32:49] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:32:49] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:32:49] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-reports.ftl"
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en_US.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en.ftl"): Not found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views.ftl"): Found
+[2020-04-01 11:32:50] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-views.ftl"
+[2020-04-01 11:43:43] [INFO ] [MySteps:43] - 1 - Given the dishes: [-1,3,4]
+[2020-04-01 11:43:43] [INFO ] [MySteps:50] - 2 - I run the solution: Solution{preparedDishes=[-1, 3, 4], preparedDishesSize=5, coefficient=17}
+[2020-04-01 11:43:43] [INFO ] [MySteps:55] - 3 - The coefficient should be: 17
+[2020-04-01 11:43:43] [INFO ] [MySteps:43] - 1 - Given the dishes: [-1,-9,0,5,-7]
+[2020-04-01 11:43:43] [INFO ] [MySteps:50] - 2 - I run the solution: Solution{preparedDishes=[-1, -2147483648, 0, 5, -2147483648], preparedDishesSize=3, coefficient=14}
+[2020-04-01 11:43:43] [INFO ] [MySteps:69] - 2 - I removed [-9, -7] from it
+[2020-04-01 11:43:43] [INFO ] [MySteps:50] - 2 - I run the solution: Solution{preparedDishes=[-1, 0, 5], preparedDishesSize=5, coefficient=14}
+[2020-04-01 11:43:43] [INFO ] [MySteps:55] - 3 - The coefficient should be: 14
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-reports.ftl"
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en_US.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en.ftl"): Not found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views.ftl"): Found
+[2020-04-01 11:43:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-views.ftl"
+[2020-04-01 11:56:09] [INFO ] [MySteps:44] - 1 - Given the dishes: [-1,3,4]
+[2020-04-01 11:56:09] [INFO ] [MySteps:56] - 2 - I run the solution: Solution{preparedDishes=[-1, 3, 4], preparedDishesSize=5, coefficient=17}
+[2020-04-01 11:56:09] [INFO ] [MySteps:70] - 3 - Then the coefficient should be: 17 and I get: 0
+[2020-04-01 11:56:09] [INFO ] [MySteps:44] - 1 - Given the dishes: [-1,-9,0,5,-7]
+[2020-04-01 11:56:09] [INFO ] [MySteps:64] - 2 - I removed [-9, -7] from it
+[2020-04-01 11:56:09] [INFO ] [MySteps:56] - 2 - I run the solution: Solution{preparedDishes=[-1, 0, 5], preparedDishesSize=5, coefficient=14}
+[2020-04-01 11:56:09] [INFO ] [MySteps:70] - 3 - Then the coefficient should be: 14 and I get: 14
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-reports.ftl"
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en_US.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en.ftl"): Not found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views.ftl"): Found
+[2020-04-01 11:56:10] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-views.ftl"
+[2020-04-01 11:57:44] [INFO ] [MySteps:44] - 1 - Given the dishes: [-1,3,4]
+[2020-04-01 11:57:44] [INFO ] [MySteps:53] - 2 - I run the solution: Solution{preparedDishes=[-1, 3, 4], preparedDishesSize=5, coefficient=17}
+[2020-04-01 11:57:44] [INFO ] [MySteps:72] - 3 - Then the coefficient should be: 17 and I get: 0
+[2020-04-01 11:57:44] [INFO ] [MySteps:44] - 1 - Given the dishes: [-1,-9,0,5,-7]
+[2020-04-01 11:57:44] [INFO ] [MySteps:66] - 2 - I removed [-9, -7] from it
+[2020-04-01 11:57:44] [INFO ] [MySteps:53] - 2 - I run the solution: Solution{preparedDishes=[-1, 0, 5], preparedDishesSize=5, coefficient=14}
+[2020-04-01 11:57:44] [INFO ] [MySteps:72] - 3 - Then the coefficient should be: 14 and I get: 14
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-reports.ftl"
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en_US.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en.ftl"): Not found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views.ftl"): Found
+[2020-04-01 11:57:44] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-views.ftl"
+[2020-04-01 12:02:40] [INFO ] [MySteps:44] - 1 - Given the dishes: [-1,3,4]
+[2020-04-01 12:02:40] [INFO ] [MySteps:51] - 2 - I run the solution: Solution{preparedDishes=[-1, 3, 4], preparedDishesSize=5, coefficient=17}
+[2020-04-01 12:02:40] [INFO ] [MySteps:70] - 3 - Then the coefficient should be: 17 and I get: 0
+[2020-04-01 12:02:40] [INFO ] [MySteps:44] - 1 - Given the dishes: [-1,-9,0,5,-7]
+[2020-04-01 12:02:40] [INFO ] [MySteps:64] - 2 - I removed [-9, -7] from it
+[2020-04-01 12:02:40] [INFO ] [MySteps:51] - 2 - I run the solution: Solution{preparedDishes=[-1, 0, 5], preparedDishesSize=5, coefficient=14}
+[2020-04-01 12:02:40] [INFO ] [MySteps:70] - 3 - Then the coefficient should be: 14 and I get: 14
+[2020-04-01 12:02:40] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:40] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:02:40] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:02:40] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:02:40] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-reports.ftl"
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en_US.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en.ftl"): Not found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views.ftl"): Found
+[2020-04-01 12:02:41] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-views.ftl"
+[2020-04-01 12:08:33] [INFO ] [MySteps:44] - 1 - Given the dishes: [-1,3,4]
+[2020-04-01 12:08:33] [INFO ] [MySteps:51] - 2 - I run the solution: Solution{preparedDishes=[-1, 3, 4], preparedDishesSize=5, coefficient=17}
+[2020-04-01 12:08:33] [INFO ] [MySteps:70] - 3 - Then the coefficient should be: 17 and I get: 0
+[2020-04-01 12:08:33] [INFO ] [MySteps:44] - 1 - Given the dishes: [-1,-9,0,5,-7]
+[2020-04-01 12:08:33] [INFO ] [MySteps:64] - 2 - I removed [-9, -7] from it
+[2020-04-01 12:08:33] [INFO ] [MySteps:51] - 2 - I run the solution: Solution{preparedDishes=[-1, 0, 5], preparedDishesSize=5, coefficient=14}
+[2020-04-01 12:08:33] [INFO ] [MySteps:70] - 3 - Then the coefficient should be: 14 and I get: 14
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:33] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-report-decorated.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-report-decorated.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-report-decorated.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/sh.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/sh.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/sh.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/sh.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-reports.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-reports.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-reports.ftl"
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Couldn't find template in cache for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed); will try to load it.
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en_US.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views_en.ftl"): Not found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - TemplateLoader.findTemplateSource("ftl/jbehave-views.ftl"): Found
+[2020-04-01 12:08:34] [DEBUG] [cache:44] - Loading template for "ftl/jbehave-views.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AU40044421/.m2/repository/org/jbehave/jbehave-core/4.6.2/jbehave-core-4.6.2.jar!/ftl/jbehave-views.ftl"
