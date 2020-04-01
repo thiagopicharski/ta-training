@@ -21,6 +21,7 @@ public class MySteps {
     @Given("An input '$input' of dishes")
     public void dishesInput(@Value("input") List<Integer> dishesInput){
         dishes = dishesInput.stream().mapToInt(i->i).toArray();
+        Assert.assertNotNull("Array is null", dishes);
         logger.info("Dishes = " + Arrays.toString(dishes));
     }
 
