@@ -1,0 +1,35 @@
+<story path="com/wipro/ta/stories/my.story" title="As a User
+I want the total Like-to-time coefficient to be maximum for the dishes.">
+<beforeStorySteps>
+</beforeStorySteps>
+<scenario keyword="Scenario:" title="1 - I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.">
+<step outcome="successful">Given a collection of dishes with the following values <parameter>1, 3, 5, 6, 8</parameter></step>
+<step outcome="successful">When I calculate coefficient</step>
+<step outcome="pending" keyword="PENDING">Then i expect the result 86</step>
+<pendingMethod>@Then(&quot;i expect the result 86&quot;)
+@Pending
+public void thenIExpectTheResult86() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<scenario keyword="Scenario:" title="2 - The solution must calculate the maximum sum of all possible Like-to-time coefficients.">
+<step outcome="successful">Given a collection of dishes with the following values <parameter>2, 3, 4</parameter></step>
+<step outcome="pending" keyword="PENDING">When i calculate the maximum sum of coefficients</step>
+<step outcome="pending" keyword="PENDING">Then i expect the result</step>
+<pendingMethod>@When(&quot;i calculate the maximum sum of coefficients&quot;)
+@Pending
+public void whenICalculateTheMaximumSumOfCoefficients() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;i expect the result&quot;)
+@Pending
+public void thenIExpectTheResult() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<afterStorySteps>
+</afterStorySteps>
+</story>
