@@ -3,7 +3,7 @@ As a user
 I want to calculate the total Like-to-time coefficient to be maximum for the dishes.
 
 Given a collection <notRemoved>
-When calculate this collection by maximum sum of all possible <>
+When calculate this collection by maximum sum of all possible 
 Then the result should be <coefficient>
 
 Acceptance Criteria 1:
@@ -21,7 +21,7 @@ I want to be able remove some dishes, in which case, a new coefficient is calcul
 
 Given a collection <dishesNumber>
 When remove dishes <removed>
-And calculate this collection by maximum sum of all possible left dishes <>
+And calculate this collection by maximum sum of all possible left dishes 
 Then the result should be <coefficient>
 
 Acceptance Criteria 2:

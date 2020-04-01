@@ -12,13 +12,14 @@ import org.junit.Assert;
 import org.springframework.beans.factory.annotation.Value;
 
 import com.google.gson.Gson;
+import com.wipro.ta.LikeToTimeDishes;
 import com.wipro.ta.Lista;
 
 public class MySteps {
 	
 	public static Gson GSON = new Gson();
 	public Map<String, Object> context = new HashMap<String, Object>();
-	
+	LikeToTimeDishes likeToTimeDishes = new LikeToTimeDishes();
 	
 	@Given ("a collection '<notRemoved>'")
 	public void givenCollection (@Value("notRemoved") String notRemoved) {
