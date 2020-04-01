@@ -1,24 +1,21 @@
 Narrative:
-As an user
-I want the total Like-to-time coefficient to be maximum for the dishes
+As User,
+I want to the total Like-to-time coefficient to be maximum for the dishes.
 
-Scenario: The solution must calculate the maximum sum of all possible Like-to-time coefficients.
-
-Given some <dishes>
-When I calculate coefficient
-Then coefficient is <coefficient>
-
+Scenario: Check that solution returns the correct coeffient for a valid input of dishes when dishes are not removed
+Given a collection of dishes '<list>'
+When evaluate coefficient of the dishes
+Then the coefficient of the list should be equals '<coefficient>'
 Examples:
-|dishes     |coefficient|
-|[-1,3,4]   | 17        |
+|list	    |coefficient	|
+|[-1,3,4]   |17		    	|
 
-Scenario: I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.
+Scenario: I want to be able to remove some dishes, in wich case, a new coefficient is calculated
 
-Given some <dishes>
-And calculate their coefficient
-When I remove dishes <removedDishes>
-And I calculate coefficient
-Then coefficient is <coefficient>
+Given a collection of dishes '<list>'
+And I remove dishes '<removedDishes>'
+When evaluate coefficient of the dishes
+Then the coefficient of the list should be equals '<coefficient>'
 Examples:
-|dishes        | removeNums |coefficient|
-|[-1,-9,0,5,-7]| [-9, -7]   |    14     |
+|list		|removedDishes	|coefficient|
+|[-1,-9,0,5,-7]	|[-9,-7]		|	14		|

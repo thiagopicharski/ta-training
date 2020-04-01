@@ -1,5 +1,6 @@
 package com.wipro.ta.steps;
 
+import com.github.valfirst.jbehave.junit.monitoring.JUnitReportingRunner;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Pending;
 import org.jbehave.core.annotations.Then;
@@ -31,10 +32,12 @@ import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Value;
 
 import com.google.gson.Gson;
 
+@RunWith(JUnitReportingRunner.class)
 public class MySteps {
 
     private static final Gson GSON = new Gson();

@@ -17,5 +17,5 @@ And I remove dishes '<removedDishes>'
 When evaluate coefficient of the dishes
 Then the coefficient of the list should be equals '<coefficient>'
 Examples:
-|dishes			|removedDishes	|coefficient|
+|list		|removedDishes	|coefficient|
 |[-1,-9,0,5,-7]	|[-9,-7]		|	14		|
