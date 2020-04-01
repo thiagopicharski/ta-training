@@ -1,0 +1,16 @@
+<story path="stories/my.story" title="">
+<beforeStorySteps>
+</beforeStorySteps>
+<scenario keyword="Scenario:" title="As a user, I want to the total Like-to-time coefficient to be maximum for the dishes.">
+<step outcome="successful">Given I have an array <parameter>1,2,3</parameter> of dishes</step>
+<step outcome="successful">And I want to be able to remove <parameter>1</parameter> in the <parameter>1,2,3</parameter> array</step>
+<step outcome="successful">Then a new coefficient is calculated usign the left dishes</step>
+</scenario>
+<scenario keyword="Scenario:" title="As a user, I want to be calculate the maximum sum of all possible coefficients.">
+<step outcome="successful">Given I have an array <parameter>1,2,3</parameter> of dishes</step>
+<step outcome="successful">And I want to be calculate the maximum sum of all possible coefficients</step>
+<step outcome="successful">Then a maximum sum is calculated</step>
+</scenario>
+<afterStorySteps>
+</afterStorySteps>
+</story>
