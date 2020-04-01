@@ -1,0 +1,43 @@
+
+(com/wipro/ta/stories/my.story)
+
+
+Scenario: The solution must calculate the maximum sum of all possible Like-to-time coefficients.
+Examples:
+Given the amount of <dishes>
+When the coefficient are calculated
+Then the coefficient is equal to <coefficientResult>
+
+|dishes|coefficientResult|
+|[-1,7,4]|17|
+
+Example: {dishes=[-1,7,4], coefficientResult=17}
+Given the amount of [-1,7,4]
+When the coefficient are calculated
+Then the coefficient is equal to 17 (FAILED)
+(java.lang.AssertionError: expected:<17> but was:<25>)
+
+
+Scenario: I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.
+Examples:
+Given the amount of <dishes>
+And the coefficient calculated
+When some dishes are <removed>
+And the coefficient are calculated
+Then the coefficient is equal to <coefficientResult>
+
+|dishes|removed|coefficientResult|
+|[-1,-9,0,5,-7]|[5, -7]|14|
+
+Example: {dishes=[-1,-9,0,5,-7], removed=[5, -7], coefficientResult=14}
+Given the amount of [-1,-9,0,5,-7]
+And the coefficient calculated
+When some dishes are [5, -7]
+And the coefficient are calculated
+Then the coefficient is equal to 14 (FAILED)
+(java.lang.AssertionError: expected:<14> but was:<0>)
+
+
+
+
+

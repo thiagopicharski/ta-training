@@ -1,0 +1,42 @@
+<story path="com/wipro/ta/stories/my.story" title="">
+<beforeStorySteps>
+</beforeStorySteps>
+<scenario keyword="Scenario:" title="The solution must calculate the maximum sum of all possible Like-to-time coefficients.">
+<examples keyword="Examples:">
+<step>Given the amount of &lt;dishes&gt;</step>
+<step>When the coefficient are calculated</step>
+<step>Then the coefficient is equal to &lt;coefficientResult&gt;</step>
+<parameters>
+<names><name>dishes</name><name>coefficientResult</name></names>
+<values><value>[-1,7,4]</value><value>17</value></values>
+</parameters>
+
+<example keyword="Example:">{dishes=[-1,7,4], coefficientResult=17}</example>
+<step outcome="successful">Given the amount of <parameter>[-1,7,4]</parameter></step>
+<step outcome="successful">When the coefficient are calculated</step>
+<step outcome="failed" keyword="FAILED">Then the coefficient is equal to <parameter>17</parameter><failure>java.lang.AssertionError: expected:&lt;17&gt; but was:&lt;25&gt;</failure></step>
+</examples>
+</scenario>
+<scenario keyword="Scenario:" title="I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.">
+<examples keyword="Examples:">
+<step>Given the amount of &lt;dishes&gt;</step>
+<step>And the coefficient calculated</step>
+<step>When some dishes are &lt;removed&gt;</step>
+<step>And the coefficient are calculated</step>
+<step>Then the coefficient is equal to &lt;coefficientResult&gt;</step>
+<parameters>
+<names><name>dishes</name><name>removed</name><name>coefficientResult</name></names>
+<values><value>[-1,-9,0,5,-7]</value><value>[5, -7]</value><value>14</value></values>
+</parameters>
+
+<example keyword="Example:">{dishes=[-1,-9,0,5,-7], removed=[5, -7], coefficientResult=14}</example>
+<step outcome="successful">Given the amount of <parameter>[-1,-9,0,5,-7]</parameter></step>
+<step outcome="successful">And the coefficient calculated</step>
+<step outcome="successful">When some dishes are <parameter>[5, -7]</parameter></step>
+<step outcome="successful">And the coefficient are calculated</step>
+<step outcome="failed" keyword="FAILED">Then the coefficient is equal to <parameter>14</parameter><failure>java.lang.AssertionError: expected:&lt;14&gt; but was:&lt;0&gt;</failure></step>
+</examples>
+</scenario>
+<afterStorySteps>
+</afterStorySteps>
+</story>

@@ -1,0 +1,60 @@
+<div class="story">
+<h1></h1>
+<div class="path">com/wipro/ta/stories/my.story</div>
+<div class="beforeStorySteps">
+</div>
+<div class="scenario">
+<h2>Scenario: The solution must calculate the maximum sum of all possible Like-to-time coefficients.</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given the amount of &lt;dishes&gt;</div>
+<div class="step">When the coefficient are calculated</div>
+<div class="step">Then the coefficient is equal to &lt;coefficientResult&gt;</div>
+<table>
+<thead>
+<tr>
+<th>dishes</th><th>coefficientResult</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[-1,7,4]</td><td>17</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {dishes=[-1,7,4], coefficientResult=17}</h3>
+<div class="step successful">Given the amount of <span class="step parameter">[-1,7,4]</span></div>
+<div class="step successful">When the coefficient are calculated</div>
+<div class="step failed">Then the coefficient is equal to <span class="step parameter">17</span> <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.AssertionError: expected:&lt;17&gt; but was:&lt;25&gt;</span></div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given the amount of &lt;dishes&gt;</div>
+<div class="step">And the coefficient calculated</div>
+<div class="step">When some dishes are &lt;removed&gt;</div>
+<div class="step">And the coefficient are calculated</div>
+<div class="step">Then the coefficient is equal to &lt;coefficientResult&gt;</div>
+<table>
+<thead>
+<tr>
+<th>dishes</th><th>removed</th><th>coefficientResult</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[-1,-9,0,5,-7]</td><td>[5, -7]</td><td>14</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {dishes=[-1,-9,0,5,-7], removed=[5, -7], coefficientResult=14}</h3>
+<div class="step successful">Given the amount of <span class="step parameter">[-1,-9,0,5,-7]</span></div>
+<div class="step successful">And the coefficient calculated</div>
+<div class="step successful">When some dishes are <span class="step parameter">[5, -7]</span></div>
+<div class="step successful">And the coefficient are calculated</div>
+<div class="step failed">Then the coefficient is equal to <span class="step parameter">14</span> <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.AssertionError: expected:&lt;14&gt; but was:&lt;0&gt;</span></div>
+</div>
+</div>
+<div class="afterStorySteps">
+</div>
+</div>
