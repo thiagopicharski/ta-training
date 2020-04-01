@@ -15,7 +15,7 @@ Examples:
 |[-1,3,4]    |17           |
 
 
-Scenario: Check the solution when a dish must be removed and when anyone is removed
+Scenario: Check the solution when a dish must be removed and when anyone is removed.
 
 Given a collection of dishes '<list>'
 When i remove '<removeDishes>'
@@ -24,4 +24,4 @@ Then the coefficient of the list should be equals '<coefficient>'
 
 Examples:
 | list           | removeDishes  | coefficient |
-| [-1,-9,0,5,-7] | [-9, -7]| 14          |
+| [-1,-9,0,5,-7] | [-9, -7]      | 14          |

@@ -1,6 +1,6 @@
 #org.jbehave.core.embedder.StoryManager
-#Tue Mar 31 16:32:15 BRT 2020
-com/wipro/ta/stories/my.story=0
+#Tue Mar 31 22:28:11 BRT 2020
+com/wipro/ta/stories/My.story=0
 threads=2
 total=0
 threadAverage=0

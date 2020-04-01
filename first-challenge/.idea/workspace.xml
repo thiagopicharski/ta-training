@@ -2,78 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fb8ae22-9458-4bc1-b46b-da8df2002077" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/ta-training-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_valfirst_jbehave_junit_runner_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jbehave_jbehave_core_4_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jbehave_jbehave_spring_4_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-challenge.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wipro/ta/MyStories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wipro/ta/steps/MySteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wipro/ta/my_steps.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wipro/ta/stories/my.story" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/LikeToTimeDishes$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/LikeToTimeDishes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/MyStories.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/my_steps.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/steps/MySteps.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/stories/my.story" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.stats" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/storyDurations.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.txt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.txt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.stats.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.txt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/view/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jbehave/view/reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LikeToTimeDishes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wipro/ta/LikeToTimeDishes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wipro/ta/steps/MySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wipro/ta/steps/MySteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wipro/ta/stories/my.story" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wipro/ta/stories/My.story" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wipro/ta/steps/MySteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/steps/MySteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wipro/ta/stories/my.story" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/stories/my.story" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.stats" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/storyDurations.props" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/storyDurations.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.txt.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.txt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/reports.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,22 +111,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1585683714108">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1585704537690">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585683714108" />
-    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1585683714107">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585704537690" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1585704537690">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585683714107" />
-    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1585683714107">
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585704537690" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1585704537690">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585683714107" />
-    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1585683714108">
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585704537690" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1585704537690">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585683714108" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585704537690" />
     <state width="1323" height="2" key="GridCell.Tab.1.bottom" timestamp="1585683714108">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

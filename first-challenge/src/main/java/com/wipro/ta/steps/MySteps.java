@@ -17,14 +17,11 @@ public class MySteps {
     private Map<String, Object> context = new HashMap<String, Object>();
     private static com.wipro.ta.LikeToTimeDishes LikeToTimeDishes = new LikeToTimeDishes();
 
-
     @Given("a collection of dishes '$list'")
     public void givenCollection(@Value("list") String list) {
         ArrayList<Double> listGson = GSON.fromJson(list, ArrayList.class);
         int[] listTheDishs = listGson.stream().mapToInt(Double::intValue).toArray();
-
         context.put("listDish", listTheDishs);
-
     }
 
     @When("evaluate coefficient of the dishes")
@@ -33,13 +30,10 @@ public class MySteps {
         LikeToTimeDishes.Solution solution = LikeToTimeDishes.calculateSolution(listDishs);
         int coefficient = solution.getCoefficient();
         context.put("actualCoefficient", coefficient);
-
-
     }
 
     @Then("the coefficient of the list should be equals '$coefficient'")
     public void checkCoefficient(@Value("coefficient") int coefficient) {
-
         int actualCoefficient = (int) context.get("actualCoefficient");
         Assert.assertEquals(coefficient, actualCoefficient);
     }
@@ -54,6 +48,5 @@ public class MySteps {
         listWithoutRemovedDishes.removeAll(listOfRemovedDishes);
         int[] arrayDishesWithoutRemovedDishes = listWithoutRemovedDishes.stream().mapToInt(i -> i).toArray();
         context.put("listDish", arrayDishesWithoutRemovedDishes);
-
     }
 }
