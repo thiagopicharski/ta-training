@@ -1,0 +1,40 @@
+<story path="com/wipro/ta/stories/Dishes.story" title="">
+<beforeStorySteps>
+</beforeStorySteps>
+<scenario keyword="Scenario:" title="The solution must calculate the maximum sum of all possible Like-to-time coefficients.">
+<examples keyword="Examples:">
+<step>Given a collection of &lt;list&gt;</step>
+<step>When the coefficient is calculated</step>
+<step>Then the value should be equals to &lt;result&gt;</step>
+<parameters>
+<names><name>list</name><name>result</name></names>
+<values><value>[-1,3,4]</value><value>17</value></values>
+</parameters>
+
+<example keyword="Example:">{list=[-1,3,4], result=17}</example>
+<step outcome="successful">Given a collection of <parameter>[-1,3,4]</parameter></step>
+<step outcome="successful">When the coefficient is calculated</step>
+<step outcome="successful">Then the value should be equals to <parameter>17</parameter></step>
+</examples>
+</scenario>
+<scenario keyword="Scenario:" title="I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.">
+<examples keyword="Examples:">
+<step>Given a collection of &lt;list&gt;</step>
+<step>When Removed &lt;remove&gt;</step>
+<step>And the coefficient is calculated</step>
+<step>Then the value should be equals to &lt;result&gt;</step>
+<parameters>
+<names><name>list</name><name>remove</name><name>result</name></names>
+<values><value>[-1,-9,0,5,-7]</value><value>[-9, -7]</value><value>14</value></values>
+</parameters>
+
+<example keyword="Example:">{list=[-1,-9,0,5,-7], remove=[-9, -7], result=14}</example>
+<step outcome="successful">Given a collection of <parameter>[-1,-9,0,5,-7]</parameter></step>
+<step outcome="successful">When Removed <parameter>[-9, -7]</parameter></step>
+<step outcome="successful">And the coefficient is calculated</step>
+<step outcome="successful">Then the value should be equals to <parameter>14</parameter></step>
+</examples>
+</scenario>
+<afterStorySteps>
+</afterStorySteps>
+</story>

@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>com.wipro.ta.stories.SumDishes</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: txt"><![CDATA[
+
+(com/wipro/ta/stories/SumDishes.story)
+
+
+Scenario: The solution must calculate the maximum sum of all possible Like-to-time coefficients.
+Examples:
+Given a collection of <dishes>
+When the coefficient is calculated
+Then the value must be <coefficient>
+
+|dishes|coefficient|
+|[-1,3,4]|17|
+
+Example: {dishes=[-1,3,4], coefficient=17}
+Given a collection of [-1,3,4]
+When the coefficient is calculated
+Then the value must be 17
+
+
+Scenario: I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.
+Examples:
+Given a collection of <dishes>
+And calculate coefficient
+When I remove <removeNums>
+And the coefficient is calculated
+Then the value must be <coefficient>
+
+|dishes|removeNums|coefficient|
+|[-1,-9,0,5,-7]|[-9, -7]|14|
+
+Example: {dishes=[-1,-9,0,5,-7], removeNums=[-9, -7], coefficient=14}
+Given a collection of [-1,-9,0,5,-7]
+And calculate coefficient
+When I remove [-9, -7]
+And the coefficient is calculated
+Then the value must be 14
+
+
+
+
+
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
