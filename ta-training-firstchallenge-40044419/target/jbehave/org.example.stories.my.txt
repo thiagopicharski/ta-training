@@ -1,0 +1,34 @@
+
+(org/example/stories/my.story)
+
+
+Scenario: As a user, I want to the total Like-to-time coefficient to be maximum for the dishes.
+Examples:
+Given I receive the value of dishes '<field>'
+When I calculate the solution
+Then I shall see the coeffient: '<coeffient>'
+
+|field|coeffient|
+|1,2,3|14|
+|-1,3,4|17|
+|-1,-9,0,5,-7|14|
+
+Example: {field=1,2,3, coeffient=14}
+Given I receive the value of dishes '1,2,3'
+When I calculate the solution
+Then I shall see the coeffient: '14'
+
+Example: {field=-1,3,4, coeffient=17}
+Given I receive the value of dishes '-1,3,4'
+When I calculate the solution
+Then I shall see the coeffient: '17'
+
+Example: {field=-1,-9,0,5,-7, coeffient=14}
+Given I receive the value of dishes '-1,-9,0,5,-7'
+When I calculate the solution
+Then I shall see the coeffient: '14'
+
+
+
+
+
