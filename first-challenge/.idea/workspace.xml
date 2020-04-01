@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fb8ae22-9458-4bc1-b46b-da8df2002077" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/first-challenge.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wipro/ta/steps/MySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wipro/ta/steps/MySteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wipro/ta/my_steps.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wipro/ta/my_steps.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wipro/ta/my_steps.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/my_steps.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wipro/ta/steps/MySteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/steps/MySteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/storyDurations.props" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/storyDurations.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoApplication.log" beforeDir="false" afterPath="$PROJECT_DIR$/demoApplication.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wipro/ta/MyStories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wipro/ta/MyStories.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,22 +110,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1585708477802" />
-    <state width="1323" height="118" key="GridCell.Tab.0.bottom" timestamp="1585708502576">
+    <state width="1323" height="482" key="GridCell.Tab.0.bottom" timestamp="1585741534195">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="118" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585708502576" />
-    <state width="1323" height="118" key="GridCell.Tab.0.center" timestamp="1585708502576">
+    <state width="1323" height="482" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585741534195" />
+    <state width="1323" height="482" key="GridCell.Tab.0.center" timestamp="1585741534194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="118" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585708502576" />
-    <state width="1323" height="118" key="GridCell.Tab.0.left" timestamp="1585708502576">
+    <state width="1323" height="482" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585741534194" />
+    <state width="1323" height="482" key="GridCell.Tab.0.left" timestamp="1585741534194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="118" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585708502576" />
-    <state width="1323" height="118" key="GridCell.Tab.0.right" timestamp="1585708502576">
+    <state width="1323" height="482" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585741534194" />
+    <state width="1323" height="482" key="GridCell.Tab.0.right" timestamp="1585741534194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="118" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585708502576" />
+    <state width="1323" height="482" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585741534194" />
     <state width="1323" height="2" key="GridCell.Tab.1.bottom" timestamp="1585683714108">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -161,9 +146,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585707954221" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585704836168">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585741283734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585704836167" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585741283734" />
   </component>
 </project>
