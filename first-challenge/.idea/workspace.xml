@@ -2,25 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fb8ae22-9458-4bc1-b46b-da8df2002077" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/first-challenge.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wipro/ta/steps/MySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wipro/ta/steps/MySteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wipro/ta/stories/my.story" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wipro/ta/stories/My.story" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wipro/ta/my_steps.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wipro/ta/my_steps.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wipro/ta/my_steps.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/my_steps.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/wipro/ta/steps/MySteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/steps/MySteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wipro/ta/stories/my.story" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wipro/ta/stories/my.story" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/com.wipro.ta.stories.my.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/storyDurations.props" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/storyDurations.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.txt.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.txt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/com.wipro.ta.stories.my.xml.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/view/reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/reports.html" afterDir="false" />
     </list>
@@ -28,6 +25,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -53,10 +57,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BR40044423\Workspace\ta-training\first-challenge\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.MyStories">
     <configuration name="MyStories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -111,22 +121,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1585704537690">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1585708477802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585704537690" />
-    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1585704537690">
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1585708477802" />
+    <state width="1323" height="118" key="GridCell.Tab.0.bottom" timestamp="1585708502576">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585704537690" />
-    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1585704537690">
+    <state width="1323" height="118" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585708502576" />
+    <state width="1323" height="118" key="GridCell.Tab.0.center" timestamp="1585708502576">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585704537690" />
-    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1585704537690">
+    <state width="1323" height="118" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585708502576" />
+    <state width="1323" height="118" key="GridCell.Tab.0.left" timestamp="1585708502576">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585704537690" />
+    <state width="1323" height="118" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585708502576" />
+    <state width="1323" height="118" key="GridCell.Tab.0.right" timestamp="1585708502576">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="118" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585708502576" />
     <state width="1323" height="2" key="GridCell.Tab.1.bottom" timestamp="1585683714108">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -143,9 +157,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585683714108" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1585681193046">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1585707954221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585681193046" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585707954221" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585704836168">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585704836167" />
   </component>
 </project>

@@ -20,14 +20,14 @@ public class MySteps {
     @Given("a collection of dishes '$list'")
     public void givenCollection(@Value("list") String list) {
         ArrayList<Double> listGson = GSON.fromJson(list, ArrayList.class);
-        int[] listTheDishs = listGson.stream().mapToInt(Double::intValue).toArray();
-        context.put("listDish", listTheDishs);
+        int[] listTheDishes = listGson.stream().mapToInt(Double::intValue).toArray();
+        context.put("listDish", listTheDishes);
     }
 
     @When("evaluate coefficient of the dishes")
     public void evaluatedCoefficient() {
-        int[] listDishs = (int[]) context.get("listDish");
-        LikeToTimeDishes.Solution solution = LikeToTimeDishes.calculateSolution(listDishs);
+        int[] listDishes = (int[]) context.get("listDish");
+        LikeToTimeDishes.Solution solution = LikeToTimeDishes.calculateSolution(listDishes);
         int coefficient = solution.getCoefficient();
         context.put("actualCoefficient", coefficient);
     }
