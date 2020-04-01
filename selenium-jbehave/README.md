@@ -11,3 +11,7 @@ Verify that the product is indeed in the cart
 **Acceptance criteria**
 * Product searched is in the cart
 
+
+## Push your changes to your own branch
+git checkout -b secondChallenge/\<ID Wipro\>
+

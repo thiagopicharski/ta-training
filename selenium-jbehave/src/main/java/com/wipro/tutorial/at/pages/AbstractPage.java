@@ -19,6 +19,12 @@ public abstract class AbstractPage {
 		wait.until(ExpectedConditions.visibilityOfAllElements(elementsToWait()));
 	}
 	
+	public void waitElementToBeClickable(By locator) {
+		WebDriverWait wait = new WebDriverWait(webDriverProvider.get(), 30);
+		wait.until(ExpectedConditions.elementToBeClickable(locator));
+		webDriverProvider.get().findElement(locator).click();
+	}
+	
 	protected List<WebElement> elementsToWait() {
 		return null;
 	}
