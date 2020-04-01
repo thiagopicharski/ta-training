@@ -1,0 +1,40 @@
+<story path="com/wipro/ta/stories/my.story" title="">
+<beforeStorySteps>
+</beforeStorySteps>
+<scenario keyword="Scenario:" title="The solution must calculate the maximum sum of all possible Like-to-time coefficients.">
+<examples keyword="Examples:">
+<step>Given a collection of dishes &apos;&lt;list&gt;&apos;</step>
+<step>When evaluate coefficient of the dishes</step>
+<step>Then the coefficient of the list should be equals &apos;&lt;coefficient&gt;&apos;</step>
+<parameters>
+<names><name>list</name><name>coefficient</name></names>
+<values><value>[-1,11,56]</value><value>189</value></values>
+</parameters>
+
+<example keyword="Example:">{list=[-1,11,56], coefficient=189}</example>
+<step outcome="successful">Given a collection of dishes &apos;<parameter>[-1,11,56]</parameter>&apos;</step>
+<step outcome="successful">When evaluate coefficient of the dishes</step>
+<step outcome="successful">Then the coefficient of the list should be equals &apos;<parameter>189</parameter>&apos;</step>
+</examples>
+</scenario>
+<scenario keyword="Scenario:" title="I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.">
+<examples keyword="Examples:">
+<step>Given a collection of dishes &apos;&lt;list&gt;&apos;</step>
+<step>When I delete dishes &apos;&lt;deleteDishes&gt;&apos;</step>
+<step>When evaluate coefficient of the dishes</step>
+<step>Then the coefficient of the list should be equals &apos;&lt;coefficient&gt;&apos;</step>
+<parameters>
+<names><name>list</name><name>deleteDishes</name><name>coefficient</name></names>
+<values><value>[-1,-9,0,5,-7]</value><value>[-9,-7]</value><value>14</value></values>
+</parameters>
+
+<example keyword="Example:">{list=[-1,-9,0,5,-7], deleteDishes=[-9,-7], coefficient=14}</example>
+<step outcome="successful">Given a collection of dishes &apos;<parameter>[-1,-9,0,5,-7]</parameter>&apos;</step>
+<step outcome="successful">When I delete dishes &apos;<parameter>[-9,-7]</parameter>&apos;</step>
+<step outcome="successful">When evaluate coefficient of the dishes</step>
+<step outcome="successful">Then the coefficient of the list should be equals &apos;<parameter>14</parameter>&apos;</step>
+</examples>
+</scenario>
+<afterStorySteps>
+</afterStorySteps>
+</story>
