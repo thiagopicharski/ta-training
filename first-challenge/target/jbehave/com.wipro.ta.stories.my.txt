@@ -1,0 +1,19 @@
+
+(com/wipro/ta/stories/my.story)
+
+
+Scenario: 1 A scenario with some pending steps
+Given I am a pending step 'lalalala'
+And I am still pending step
+When a good soul will implement me
+Then I shall be happy
+
+Scenario: 2 A scenario with some pending steps
+Given I am a pending step 'blablabla'
+And I am still pending step
+When a good soul will implement me
+Then I shall be happy
+
+
+
+

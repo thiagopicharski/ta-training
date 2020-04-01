@@ -1,0 +1,18 @@
+<story path="com/wipro/ta/stories/my.story" title="">
+<beforeStorySteps>
+</beforeStorySteps>
+<scenario keyword="Scenario:" title="1 A scenario with some pending steps">
+<step outcome="successful">Given I am a pending step &apos;lalalala&apos;</step>
+<step outcome="successful">And I am still pending step</step>
+<step outcome="successful">When a good soul will implement me</step>
+<step outcome="successful">Then I shall be happy</step>
+</scenario>
+<scenario keyword="Scenario:" title="2 A scenario with some pending steps">
+<step outcome="successful">Given I am a pending step &apos;blablabla&apos;</step>
+<step outcome="successful">And I am still pending step</step>
+<step outcome="successful">When a good soul will implement me</step>
+<step outcome="successful">Then I shall be happy</step>
+</scenario>
+<afterStorySteps>
+</afterStorySteps>
+</story>

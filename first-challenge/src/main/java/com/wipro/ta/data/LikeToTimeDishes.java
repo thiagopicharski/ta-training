@@ -1,4 +1,4 @@
-package org.example.sut;
+package com.wipro.ta.data;
 
 import org.springframework.stereotype.Component;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 @Component
 public class LikeToTimeDishes {
-    public class Solution {
+    public static class Solution {
         private int[] preparedDishes;
         private int preparedDishesSize = 0;
         private int coefficient = 0;
@@ -60,6 +60,6 @@ public class LikeToTimeDishes {
             solution.preparedDishes[i + iShift] = a[i];
         }
 
-        return curSumP > curSumN ? curSumP : curSumN;
+        return Math.max(curSumP, curSumN);
     }
 }
