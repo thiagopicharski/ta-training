@@ -1,0 +1,12 @@
+[2020-04-01 14:43:24] [INFO ] [MySteps:41] - Not Removed: input: [1, 2, 3]
+[2020-04-01 14:43:24] [INFO ] [MySteps:47] - Output: 14
+[2020-04-01 14:43:24] [INFO ] [MySteps:41] - Not Removed: input: [-1, 3, 4]
+[2020-04-01 14:43:24] [INFO ] [MySteps:47] - Output: 17
+[2020-04-01 14:43:24] [INFO ] [MySteps:39] - Removed: input:[-1, -9, 0, 5, -7] #Dish [-9, -7] must be removed
+[2020-04-01 14:43:24] [INFO ] [MySteps:47] - Output: 14
+[2020-04-01 14:43:24] [INFO ] [MySteps:41] - Not Removed: input: [1, 3, 2]
+[2020-04-01 14:43:24] [INFO ] [MySteps:47] - Output: 13
+[2020-04-01 14:43:24] [INFO ] [MySteps:41] - Not Removed: input: [1, -1, 10]
+[2020-04-01 14:43:24] [INFO ] [MySteps:47] - Output: 29
+[2020-04-01 14:43:24] [INFO ] [MySteps:39] - Removed: input:[5, -14, 10, 33, -20] #Dish [-20] must be removed
+[2020-04-01 14:43:24] [INFO ] [MySteps:47] - Output: 139
