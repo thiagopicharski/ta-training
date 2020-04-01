@@ -6,12 +6,12 @@ import java.util.Arrays;
 @Component
 public class LikeToTimeDishes {
     public class Solution {
-        private int[] preparedDishes;
+        private int[] preparedDishesArray;
         private int preparedDishesSize = 0;
         private int coefficient = 0;
 
         public int[] getPreparedDishes() {
-            return preparedDishes;
+            return preparedDishesArray;
         }
 
         public int getCoefficient() {
@@ -21,7 +21,7 @@ public class LikeToTimeDishes {
         @Override
         public String toString() {
             return "Solution{" +
-                    "preparedDishes=" + Arrays.toString(preparedDishes) +
+                    "preparedDishes=" + Arrays.toString(preparedDishesArray) +
                     ", preparedDishesSize=" + preparedDishesSize +
                     ", coefficient=" + coefficient +
                     '}';
@@ -32,7 +32,7 @@ public class LikeToTimeDishes {
 
     public Solution calculateSolution(int[] dishes) {
         solution = new Solution();
-        solution.preparedDishes = new int[dishes.length];
+        solution.preparedDishesArray = new int[dishes.length];
         solution.coefficient = iterate(0, 0, dishes, 0);
 
         return solution;
@@ -54,9 +54,9 @@ public class LikeToTimeDishes {
             curSumP = iterate(i + 1, iShift, a, curSumP);
         }
         solution.preparedDishesSize += curSumP > curSumN ? 1 : -1;
-        solution.preparedDishes[i] = Integer.MIN_VALUE;
+        solution.preparedDishesArray[i] = Integer.MIN_VALUE;
         if(curSumP > curSumN) {
-            solution.preparedDishes[i + iShift] = a[i];
+            solution.preparedDishesArray[i + iShift] = a[i];
         }
 
         return curSumP > curSumN ? curSumP : curSumN;
