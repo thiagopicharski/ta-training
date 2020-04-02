@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ProductPage extends AbstractPage{
-    
+
     private final String ADD_CART_BTN_XPATH = "//div[@class='vip-action-primary']/input[3]";
 
     private WebElement getAddButton(){
