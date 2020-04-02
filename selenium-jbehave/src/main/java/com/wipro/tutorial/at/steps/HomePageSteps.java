@@ -14,15 +14,15 @@ public class HomePageSteps extends AbstractSteps {
 
 	@Autowired
 	private HomePage homePage;
-	
-	@Given("I am on google page")
+
+	@Given("I am on Mercado Livre")
 	public void IAmOnGooglePage() {
 		homePage.navigateTo();
 	}
 	
-	@When("I search for '$search'")
-	public void ISearchFor(@Named("search") String search) {
-		homePage.search(search);
+	@When("I search for '$item'")
+	public void ISearchFor(@Named("item") String item) {
+		homePage.search(item);
 	}
 	
 	@When("I click on search button")
@@ -31,12 +31,12 @@ public class HomePageSteps extends AbstractSteps {
 	}
 	
 	
-	@Given("I searched on google for '$search'")
+	@Given("I searched for '$item'")
 	@Composite(steps = {
-			"Given I am on google page",
-			"When I search for '$search'",
+			"Given I am on Mercado Livre",
+			"When I search for '$item'",
 			"When I click on search button"})
-	public void ISearchedOnGoogleFor(@Named("search") String search) {
+	public void ISearchedOnGoogleFor(@Named("item") String item) {
 
 	}
 }
