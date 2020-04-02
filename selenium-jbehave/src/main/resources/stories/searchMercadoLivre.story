@@ -1,7 +1,7 @@
 Narrative:
-As an user
-I want to search on mercado livre
-So that I can acquire knowledge
+As an user I want to be able to search mercadoLivre for a product
+Add this product to my cart
+Verify that the product is indeed in the cart
 
 Scenario: User must be able to search in mercado livre
 Given I am on mercado livre page
