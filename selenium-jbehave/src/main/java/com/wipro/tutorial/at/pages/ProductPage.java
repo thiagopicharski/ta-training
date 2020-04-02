@@ -13,6 +13,10 @@ public class ProductPage extends AbstractPage{
         return webDriverProvider.get().findElement(By.xpath(ADD_CART_BTN_XPATH));
     }
 
+    public boolean containsAddButton(){
+        return getAddButton() != null;
+    }
+
     public void clickAddButton(){
         getAddButton().click();
     }

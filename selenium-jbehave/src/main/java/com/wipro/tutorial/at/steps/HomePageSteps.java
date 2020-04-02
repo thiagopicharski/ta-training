@@ -31,7 +31,7 @@ public class HomePageSteps extends AbstractSteps {
 	}
 	
 	
-	@Given("I searched for '$item'")
+	@Given("I search for '$item'")
 	@Composite(steps = {
 			"Given I am on Mercado Livre",
 			"When I search for '$item'",
