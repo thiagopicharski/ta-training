@@ -28,7 +28,8 @@ public class ProjectConfiguration {
 		
 		System.setProperty("browser", "chrome");
 		if (System.getProperty("webdriver.chrome.driver") == null ) {
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver");
 		}
 		
 		return webDriverProvider;
