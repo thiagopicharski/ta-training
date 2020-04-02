@@ -5,11 +5,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ProductPage extends AbstractPage {
-    public final String ADD_CART_PATH ="/html/body/main/div[2]/section/section[3]/section[3]/div[2]/button";
+    public final String ADD_CART_BUTTON_ID ="buy-button-now";
 
     //Clicar no botão de compra e ver o carrinho
     public void addToCartAndVerify(){
-        waitElementToBeClickable(By.xpath(ADD_CART_PATH));
+        waitElementToBeClickable(By.id(ADD_CART_BUTTON_ID));
     }
 
 
