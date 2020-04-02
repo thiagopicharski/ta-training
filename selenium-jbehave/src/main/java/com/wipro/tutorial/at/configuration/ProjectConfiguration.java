@@ -20,8 +20,6 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 public class ProjectConfiguration {
 
 
-	@Value("${DATA_PATH}")
-	private String DATA_PATH;
 
 	@Bean
 	public static PropertySourcesPlaceholderConfigurer getPlaceholderConfigurer() {
@@ -30,7 +28,7 @@ public class ProjectConfiguration {
 
 	@Bean
 	public WebDriverProvider webDriverProvider() {
-		WebDriverProvider webDriverProvider = new CustomPropertyWebDriver();
+		WebDriverProvider webDriverProvider = new CustomWebDriverProvider();
 		System.setProperty("browser", "chrome");
 		if (System.getProperty("webdriver.chrome.driver") == null ) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver.exe");
@@ -42,35 +40,4 @@ public class ProjectConfiguration {
 	public WebDriverScreenshotOnFailure screenshotOnFailureDriver() {
 		return new WebDriverScreenshotOnFailure(webDriverProvider());
 	}
-	class CustomPropertyWebDriver implements WebDriverProvider{
-		private WebDriver driver;
-		public CustomPropertyWebDriver(){
-			this.driver = createChromeDriver();
-		}
-		protected ChromeDriver createChromeDriver() {
-			//String dataPath = "C:\\Users\\RE40044402\\AppData\\Local\\Google\\Chrome\\User Data";
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--user-data-dir="+DATA_PATH);
-			options.addArguments("--profile-directory=Default");
-			options.addArguments("--disable-extensions");
-			options.addArguments("--start-maximized");
-			return new ChromeDriver(options);
-		}
-		@Override
-		public WebDriver get() {
-			return driver;
-		}
-		@Override
-		public void initialize() {
-		}
-		@Override
-		public boolean saveScreenshotTo(String path) {
-			return true;
-		}
-		@Override
-		public void end() {
-			this.driver.quit();
-		}
-	}
-
 }

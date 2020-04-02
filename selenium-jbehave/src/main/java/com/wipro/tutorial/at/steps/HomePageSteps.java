@@ -19,7 +19,7 @@ public class HomePageSteps extends AbstractSteps {
 	public void iAmOnGooglePage() {
 		homePage.navigateTo();
 	}
-	
+
 	@When("I search for '$search'")
 	public void iSearchFor(@Named("search") String search) {
 		homePage.search(search);
