@@ -10,13 +10,12 @@ import com.wipro.tutorial.at.pages.ResultsPage;
 
 @Component
 public class ResultsPageSteps extends AbstractSteps {
-	
-	@Autowired
-	private ResultsPage resultsPage;
-	
-	@Then("I should see first result as '$firstResult'")
-	public void IShouldSeeFirstResultAs(@Named("firstResult") String titleExpected) {
-		assertEquals(titleExpected, resultsPage.firstResultText());
-	}
-	
+
+    @Autowired
+    private ResultsPage resultsPage;
+
+    @Then("I should see the url 'message'")
+    public void purchasedIsCart(@Named("message") String message) throws InterruptedException {
+        assertEquals(message,resultsPage.finish());
+    }
 }

@@ -1,13 +1,13 @@
 package com.wipro.tutorial.at.steps;
 
-import org.jbehave.core.annotations.Composite;
-import org.jbehave.core.annotations.Given;
-import org.jbehave.core.annotations.Named;
-import org.jbehave.core.annotations.When;
+import com.wipro.tutorial.at.pages.ResultsPage;
+import org.jbehave.core.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.wipro.tutorial.at.pages.HomePage;
+
+import static org.junit.Assert.assertEquals;
 
 @Component
 public class HomePageSteps extends AbstractSteps {
@@ -15,7 +15,7 @@ public class HomePageSteps extends AbstractSteps {
 	@Autowired
 	private HomePage homePage;
 	
-	@Given("I am on google page")
+	@Given("I am on ML page")
 	public void IAmOnGooglePage() {
 		homePage.navigateTo();
 	}
@@ -24,18 +24,20 @@ public class HomePageSteps extends AbstractSteps {
 	public void ISearchFor(@Named("search") String search) {
 		homePage.search(search);
 	}
-	
-	@When("I click on search button")
-	public void IClickOnSearchButton() {
-		homePage.clickSearch();
+
+	@When("I select the fist result")
+	public void selectFistResult() {
+		homePage.clickFirstResult();
 	}
-	
-	
-	@Given("I searched on google for '$search'")
+
+	@When("I click on add produtc to cart")
+	public void clickButtonAddCart() {
+		homePage.clickAddCart();
+	}
+
+	@Given("I searched on ML for '$search'")
 	@Composite(steps = {
-			"Given I am on google page",
-			"When I search for '$search'",
-			"When I click on search button"})
+			"Given I am on ML page"})
 	public void ISearchedOnGoogleFor(@Named("search") String search) {
 
 	}

@@ -34,6 +34,6 @@ public class WebDriverLifeCycleSteps {
 
     @AfterStory
     public void afterStory() throws Exception {
-        driverProvider.end();
+        //driverProvider.end();
     }
 }
