@@ -15,7 +15,7 @@ public class HomePageSteps extends AbstractSteps {
 	@Autowired
 	private HomePage homePage;
 	
-	@Given("I am on ML page")
+	@Given("I am on Netshoes page")
 	public void IAmOnGooglePage() {
 		homePage.navigateTo();
 	}
@@ -35,9 +35,9 @@ public class HomePageSteps extends AbstractSteps {
 		homePage.clickAddCart();
 	}
 
-	@Given("I searched on ML for '$search'")
+	@Given("I searched on Netshoes for '$search'")
 	@Composite(steps = {
-			"Given I am on ML page"})
+			"Given I am on Netshoes page"})
 	public void ISearchedOnGoogleFor(@Named("search") String search) {
 
 	}

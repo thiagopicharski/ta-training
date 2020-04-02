@@ -4,7 +4,7 @@ I want to search on google
 So that I can acquire knowledge
 
 Scenario: User must be able to search in google
-Given I searched on ML for '$search'
+Given I searched on Netshoes for '$search'
 When I search for 'search'
 And I select the fist result
 And I click on add produtc to cart

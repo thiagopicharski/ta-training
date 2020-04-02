@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 public class ResultsPage extends AbstractPage {
 	
 	public String finish() {
+		//waitPageLoad();
 		return webDriverProvider.get().getCurrentUrl();
 	}
 }
