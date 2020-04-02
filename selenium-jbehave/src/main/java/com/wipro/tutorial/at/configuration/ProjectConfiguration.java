@@ -3,6 +3,7 @@ package com.wipro.tutorial.at.configuration;
 import org.jbehave.web.selenium.PropertyWebDriverProvider;
 import org.jbehave.web.selenium.WebDriverProvider;
 import org.jbehave.web.selenium.WebDriverScreenshotOnFailure;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.springframework.context.annotation.Bean;
@@ -25,7 +26,8 @@ public class ProjectConfiguration {
 	@Bean
 	public WebDriverProvider webDriverProvider() {		
 		WebDriverProvider webDriverProvider = new CustomPropertyWebDriver();
-		
+		//WebDriverProvider webDriverProvider = new PropertyWebDriverProvider();
+
 		System.setProperty("browser", "chrome");
 		if (System.getProperty("webdriver.chrome.driver") == null ) {
 			//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver.exe");
@@ -40,15 +42,43 @@ public class ProjectConfiguration {
 		return new WebDriverScreenshotOnFailure(webDriverProvider());
 	}
 
-	class CustomPropertyWebDriver extends PropertyWebDriverProvider{
-		@Override
+	class CustomPropertyWebDriver implements WebDriverProvider{
+
+		private WebDriver driver;
+
+		public CustomPropertyWebDriver(){
+			this.driver = createChromeDriver();
+		}
+
 		protected ChromeDriver createChromeDriver() {
 			String dataPath = "/home/lodek/.config/chromium";
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments(String.format("user-data-dir=%s", dataPath));
+			options.addArguments("--user-data-dir="+dataPath);
+			options.addArguments("--profile-directory=Default");
+			options.addArguments("--disable-extensions");
 			options.addArguments("--start-maximized");
 			return new ChromeDriver(options);
         }
+
+		@Override
+		public WebDriver get() {
+			return driver;
+		}
+
+		@Override
+		public void initialize() {
+
+		}
+
+		@Override
+		public boolean saveScreenshotTo(String path) {
+			return true;
+		}
+
+		@Override
+		public void end() {
+			this.driver.quit();
+		}
 	}
 
 }
