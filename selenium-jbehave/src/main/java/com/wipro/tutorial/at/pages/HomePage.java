@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class HomePage extends AbstractPage {
-	private final String SEARCH_FIELD_NAME = "q";
-	private final String SEARCH_BUTTON_NAME = "btnK";
+	private final String SEARCH_FIELD_XPATH = "/html/body/header/div/form/input";
+	private final String SEARCH_BUTTON_XPATH = "/html/body/header/div/form/button/div";
 	
 	@Value("${URL}")
 	private String URL;
@@ -18,14 +18,14 @@ public class HomePage extends AbstractPage {
 	}
 	
 	private WebElement searchField() {
-		return webDriverProvider.get().findElement(By.name(SEARCH_FIELD_NAME));
+		return webDriverProvider.get().findElement(By.xpath(SEARCH_FIELD_XPATH));
 	}
 	
 	public void search(String strSearch) {
 		searchField().sendKeys(strSearch);
 	}
 	public void clickSearch() {
-		waitElementToBeClickable(By.name(SEARCH_BUTTON_NAME));
+		waitElementToBeClickable(By.xpath(SEARCH_BUTTON_XPATH));
 	}
 }
 

@@ -29,6 +29,7 @@ public class ProjectConfiguration {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver.exe");
 		}
 		
+		
 		return webDriverProvider;
 	}
 		
