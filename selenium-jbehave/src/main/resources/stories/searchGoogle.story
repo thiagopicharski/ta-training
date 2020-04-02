@@ -13,3 +13,11 @@ Examples:
 |potato          | Sr & Sra Cabeça De Batata Potato Head Toy Story 4 Hasbro   |
 |plastico bolha  |  Bobina Plástico Bolha 1,30 X 100m Para Proteção - Oferta  |
 
+Scenario: User must be able to see item page
+Given I search for '$item'
+When I select the first item
+Then I get redirected to a page that contains add to cart button
+Examples:
+|item            |
+|potato          |
+|plastico bolha  |
