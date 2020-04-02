@@ -1,0 +1,49 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/searchGoogle.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">As a</span> n user</div>
+<div class="element asA"><span class="keyword asA">I want to</span> search on google</div>
+<div class="element iWantTo"><span class="keyword iWantTo">So that</span> I can acquire knowledge</div>
+</div>
+<div class="scenario">
+<h2>Scenario: User must be able to search in google</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given I searched on google for '$search'</div>
+<div class="step">When I search for 'search'</div>
+<div class="step">And I click on search button</div>
+<div class="step">Then I should see first result as 'firstResult'</div>
+<table>
+<thead>
+<tr>
+<th>search</th><th>firstResult</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Ronaldo</td><td>Ronaldo Naz&aacute;rio &ndash; Wikip&eacute;dia, a enciclop&eacute;dia livre</td></tr>
+<tr>
+<td>Rivaldo</td><td>Rivaldo &ndash; Wikip&eacute;dia, a enciclop&eacute;dia livre</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {search=Ronaldo, firstResult=Ronaldo Naz&aacute;rio &ndash; Wikip&eacute;dia, a enciclop&eacute;dia livre}</h3>
+<div class="step successful">Given I searched on google for '$search'</div>
+<div class="step successful">Given I am on google page</div>
+<div class="step successful">When I search for '$search'</div>
+<div class="step failed">When I click on search button <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.03 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Conrado_PC', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\CONRAD~1\AppData\Local\Temp\scoped_dir6360_10770}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=80.0.3987.149, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4272741fcb485a10ad952a74f83d78d6
+*** Element info: {Using=name, value=btnK}</span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-4ba8e9d6-6532-4607-ab9d-aae4607d9466.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+<div class="step notPerformed">When I search for 'search' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And I click on search button <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then I should see first result as 'firstResult' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+
+<h3 class="example">Example: {search=Rivaldo, firstResult=Rivaldo &ndash; Wikip&eacute;dia, a enciclop&eacute;dia livre}</h3>
+<div class="step successful">Given I searched on google for '$search'</div>

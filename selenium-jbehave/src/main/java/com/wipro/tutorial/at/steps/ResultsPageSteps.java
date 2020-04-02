@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
+import org.jbehave.core.annotations.When;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import com.wipro.tutorial.at.pages.ResultsPage;
@@ -13,10 +14,10 @@ public class ResultsPageSteps extends AbstractSteps {
 	
 	@Autowired
 	private ResultsPage resultsPage;
-	
-	@Then("I should see first result as '$firstResult'")
-	public void IShouldSeeFirstResultAs(@Named("firstResult") String titleExpected) {
-		assertEquals(titleExpected, resultsPage.firstResultText());
+
+	@Then("I add the product to my cart")
+	public void addToCart()
+	{
+		resultsPage.addToCar();
 	}
-	
 }
