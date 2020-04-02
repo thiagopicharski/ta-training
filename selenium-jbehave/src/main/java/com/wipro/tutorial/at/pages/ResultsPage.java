@@ -7,14 +7,14 @@ import org.springframework.stereotype.Component;
 @Component
 public class ResultsPage extends AbstractPage {
 	
-	private final String FIRST_RESULT_CSS = "#rso > div:nth-child(1) > div > div.r > a > h3";
+	private final String FIRST_RESULT_XPATH = "//li[@class='results-item highlighted article stack '][1]/div/div[1]";
 	
 	private WebElement getFirstResult() {
-		return webDriverProvider.get().findElement(By.cssSelector(FIRST_RESULT_CSS));
+		return webDriverProvider.get().findElement(By.cssSelector(FIRST_RESULT_XPATH));
 	}
 	
-	public String firstResultText() {
-		return getFirstResult().getText();
+	public void clickFirstResult() {
+		getFirstResult().click();
 	}
 	
 }
