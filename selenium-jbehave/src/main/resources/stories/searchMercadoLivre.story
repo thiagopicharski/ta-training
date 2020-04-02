@@ -25,7 +25,7 @@ Examples:
 Scenario: User must be able to add item to cart
 Given I searched for '$item' and clicked the first result
 When I add item to cart
-Then I get cart contains item
+Then cart contains '$item'
 Examples:
 |item            |
 |potato          |
