@@ -42,9 +42,9 @@ public class NetshoesHomePageSteps extends AbstractSteps {
                 , netshoesPage.searchBar.isDisplayed());
     }
 
-    @Then("I should search for something")
-    public void searchForSomething() {
-        netshoesPage.searchBar.sendKeys("Tênis Nike");
+    @Then("I should search for $something")
+    public void searchForSomething(@Value("something") String item) {
+        netshoesPage.searchBar.sendKeys(item);
         netshoesPage.searchBar.submit();
 
     }
