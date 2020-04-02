@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ResultsPage extends AbstractPage {
 	
-	private final String RESULT_XPATH = "//*[@id='item-list']/div[1]/div[1]/div[1]/a/img"; //id="MLB1420706127" xpath=//*[@id="MLB1420706127"]/div/div
+	private final String RESULT_XPATH = "//*[@id='item-list']/div[1]/div[1]/div[1]/a/img";
 	private final String BUY_BTN = "buy-button-now";
 
 	private WebElement getResult() {

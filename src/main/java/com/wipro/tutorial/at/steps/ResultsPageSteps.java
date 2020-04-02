@@ -27,8 +27,6 @@ public class ResultsPageSteps extends AbstractSteps {
 
 	@Then("I should see the message $msg")
 		public void IShouldSeeFirstResultAs(@Named("msg") String message) {
-		System.out.println(message);
-		System.out.println(resultsPage.message().getText());
 		assertEquals(message, resultsPage.message().getText());
 	}
 	
