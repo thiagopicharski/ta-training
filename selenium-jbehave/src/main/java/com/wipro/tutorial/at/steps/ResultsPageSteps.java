@@ -14,9 +14,9 @@ public class ResultsPageSteps extends AbstractSteps {
 	@Autowired
 	private ResultsPage resultsPage;
 	
-	@Then("I should see first result as '$firstResult'")
-	public void IShouldSeeFirstResultAs(@Named("firstResult") String titleExpected) {
-		assertEquals(titleExpected, resultsPage.firstResultText());
+	@Then("I should see first result as '$result'")
+	public void IShouldSeeFirstResultAs(@Named("result") String titleExpected) {
+		assertEquals(titleExpected, resultsPage.clickFirstResult(););
 	}
 	
 }
