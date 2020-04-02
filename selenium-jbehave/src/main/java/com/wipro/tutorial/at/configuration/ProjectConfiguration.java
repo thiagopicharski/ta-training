@@ -42,15 +42,9 @@ public class ProjectConfiguration {
 		return new WebDriverScreenshotOnFailure(webDriverProvider());
 	}
 
-	class CustomPropertyWebDriver implements WebDriverProvider{
-
-		private WebDriver driver;
-
-		public CustomPropertyWebDriver(){
-			this.driver = createChromeDriver();
-		}
-
-		protected ChromeDriver createChromeDriver() {
+	class CustomPropertyWebDriver extends PropertyWebDriverProvider {
+		@Override
+		protected ChromeDriver createChromeDriver(){
 			String dataPath = "/home/lodek/.config/chromium";
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--user-data-dir="+dataPath);
@@ -58,27 +52,8 @@ public class ProjectConfiguration {
 			options.addArguments("--disable-extensions");
 			options.addArguments("--start-maximized");
 			return new ChromeDriver(options);
-        }
-
-		@Override
-		public WebDriver get() {
-			return driver;
 		}
+    }
 
-		@Override
-		public void initialize() {
-
-		}
-
-		@Override
-		public boolean saveScreenshotTo(String path) {
-			return true;
-		}
-
-		@Override
-		public void end() {
-			this.driver.quit();
-		}
-	}
 
 }
