@@ -25,8 +25,7 @@ public class ProjectConfiguration {
 	
 	@Bean
 	public WebDriverProvider webDriverProvider() {		
-		WebDriverProvider webDriverProvider = new CustomPropertyWebDriver();
-		//WebDriverProvider webDriverProvider = new PropertyWebDriverProvider();
+		WebDriverProvider webDriverProvider = new ParametrizedWebDriverProvider();
 
 		System.setProperty("browser", "chrome");
 		if (System.getProperty("webdriver.chrome.driver") == null ) {
@@ -41,19 +40,5 @@ public class ProjectConfiguration {
 	public WebDriverScreenshotOnFailure screenshotOnFailureDriver() {
 		return new WebDriverScreenshotOnFailure(webDriverProvider());
 	}
-
-	class CustomPropertyWebDriver extends PropertyWebDriverProvider {
-		@Override
-		protected ChromeDriver createChromeDriver(){
-			String dataPath = "/home/lodek/.config/chromium";
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--user-data-dir="+dataPath);
-			options.addArguments("--profile-directory=Default");
-			options.addArguments("--disable-extensions");
-			options.addArguments("--start-maximized");
-			return new ChromeDriver(options);
-		}
-    }
-
 
 }
