@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class HomePage extends AbstractPage {
 	private final String SEARCH_FIELD_NAME = "q";
-	private final String SEARCH_BUTTON_NAME = "btnK";
+	private final String SEARCH_BUTTON_NAME = "//*[@id=\"header-content\"]/header/div[1]/section[2]/section/form/div/button";
 	
 	@Value("${URL}")
 	private String URL;
@@ -25,7 +25,7 @@ public class HomePage extends AbstractPage {
 		searchField().sendKeys(strSearch);
 	}
 	public void clickSearch() {
-		waitElementToBeClickable(By.name(SEARCH_BUTTON_NAME));
+		waitElementToBeClickable(By.xpath(SEARCH_BUTTON_NAME));
 	}
 }
 
