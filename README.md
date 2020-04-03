@@ -4,7 +4,7 @@
 
 ### Create a test automation for ta-training-api project
 
-**Use the project this Jbehave project as reference:**  
+**Use this Jbehave project as reference:**  
 *third-challenge/api-jbehave*   
 
 API Code: *third-challenge/ta-training-api*
