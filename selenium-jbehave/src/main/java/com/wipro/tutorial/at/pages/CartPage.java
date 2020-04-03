@@ -11,10 +11,10 @@ import java.util.stream.Collectors;
 @Component
 public class CartPage extends AbstractPage{
 
-     private final String CART_ITEM_TEXT_CSS = ".cart-congrats__item-title";
+     private final String CART_ITEM_TEXT_CLASS_NAME = "cart-congrats__item-title";
 
      public List<String> getCartItems(){
-         List<WebElement> cartElements = webDriverProvider.get().findElements(By.className(CART_ITEM_TEXT_CSS));
+         List<WebElement> cartElements = webDriverProvider.get().findElements(By.className(CART_ITEM_TEXT_CLASS_NAME));
          List<String> texts = new ArrayList<>();
          for (WebElement element : cartElements)
              texts.add(element.getText());
