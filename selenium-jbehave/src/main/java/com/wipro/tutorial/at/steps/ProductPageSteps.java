@@ -10,6 +10,9 @@ public class ProductPageSteps {
     @Autowired
     private ProductPage productPage;
     @When ("I add to the cart")
-    public void iAddToCart(){ productPage.clickfirstResult(); }
+    public void iAddToCart(){
+        productPage.clickFirstResult();
+        productPage.clickCartButton();
+    }
 
 }

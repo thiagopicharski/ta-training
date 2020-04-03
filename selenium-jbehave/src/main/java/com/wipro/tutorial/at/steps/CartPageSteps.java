@@ -15,7 +15,7 @@ public class CartPageSteps {
 
     @Then ("I should see the '$product' added in cart")
     public void iShouldSeeTheProductAddedToTheCart(@Named("product") String product){
-        Assert.assertEquals(product, cartPage.productAddedText());
+        Assert.assertTrue(cartPage.isIteminTheCart(product));
 
     }
 }
