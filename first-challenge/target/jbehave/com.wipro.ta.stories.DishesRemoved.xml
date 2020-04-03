@@ -1,0 +1,38 @@
+<story path="com/wipro/ta/stories/DishesRemoved.story" title="">
+<beforeStorySteps>
+</beforeStorySteps>
+<scenario keyword="Scenario:" title="Check that solution returns the correct coeffient for a valid input of dishes">
+<examples keyword="Examples:">
+<step>Given a list of &apos;&lt;dishesList&gt;&apos;</step>
+<step>When it removes &apos;&lt;removeDishes&gt;&apos; from the list</step>
+<step>And calculates the sum of like-to-time coefficient of dishes</step>
+<step>Then it should return &apos;&lt;coefficient&gt;&apos;</step>
+<parameters>
+<names><name>dishesList</name><name>removeDishes</name><name>coefficient</name></names>
+<values><value>[1,3,5,2]</value><value>[2,5]</value><value>7</value></values>
+<values><value>[4,-1,3,2]</value><value>[2]</value><value>11</value></values>
+<values><value>[1,2,3,4]</value><value>[]</value><value>30</value></values>
+</parameters>
+
+<example keyword="Example:">{dishesList=[1,3,5,2], removeDishes=[2,5], coefficient=7}</example>
+<step outcome="successful">Given a list of &apos;<parameter>[1,3,5,2]</parameter>&apos;</step>
+<step outcome="successful">When it removes &apos;<parameter>[2,5]</parameter>&apos; from the list</step>
+<step outcome="successful">And calculates the sum of like-to-time coefficient of dishes</step>
+<step outcome="successful">Then it should return &apos;<parameter>7</parameter>&apos;</step>
+
+<example keyword="Example:">{dishesList=[4,-1,3,2], removeDishes=[2], coefficient=11}</example>
+<step outcome="successful">Given a list of &apos;<parameter>[4,-1,3,2]</parameter>&apos;</step>
+<step outcome="successful">When it removes &apos;<parameter>[2]</parameter>&apos; from the list</step>
+<step outcome="successful">And calculates the sum of like-to-time coefficient of dishes</step>
+<step outcome="successful">Then it should return &apos;<parameter>11</parameter>&apos;</step>
+
+<example keyword="Example:">{dishesList=[1,2,3,4], removeDishes=[], coefficient=30}</example>
+<step outcome="successful">Given a list of &apos;<parameter>[1,2,3,4]</parameter>&apos;</step>
+<step outcome="successful">When it removes &apos;<parameter>[]</parameter>&apos; from the list</step>
+<step outcome="successful">And calculates the sum of like-to-time coefficient of dishes</step>
+<step outcome="successful">Then it should return &apos;<parameter>30</parameter>&apos;</step>
+</examples>
+</scenario>
+<afterStorySteps>
+</afterStorySteps>
+</story>

@@ -1,6 +1,5 @@
 package com.wipro.tutorial.at.steps;
 
-import org.jbehave.core.annotations.Composite;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.When;
@@ -15,8 +14,8 @@ public class HomePageSteps extends AbstractSteps {
 	@Autowired
 	private HomePage homePage;
 	
-	@Given("I am on google page")
-	public void IAmOnGooglePage() {
+	@Given("I am on Netshoes page")
+	public void IAmOnNetshoesPage() {
 		homePage.navigateTo();
 	}
 	
@@ -29,14 +28,5 @@ public class HomePageSteps extends AbstractSteps {
 	public void IClickOnSearchButton() {
 		homePage.clickSearch();
 	}
-	
-	
-	@Given("I searched on google for '$search'")
-	@Composite(steps = {
-			"Given I am on google page",
-			"When I search for '$search'",
-			"When I click on search button"})
-	public void ISearchedOnGoogleFor(@Named("search") String search) {
 
-	}
 }

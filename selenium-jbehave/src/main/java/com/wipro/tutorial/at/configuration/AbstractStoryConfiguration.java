@@ -37,12 +37,10 @@ public abstract class AbstractStoryConfiguration extends JUnitStories {
 		StoryReporterBuilder reporterBuilder = new StoryReporterBuilder().withFormats(storyFormat())
 													.withFailureTraceCompression(true);
 
-		Configuration configuration = new MostUsefulConfiguration().useStoryReporterBuilder(reporterBuilder)
+		return new MostUsefulConfiguration().useStoryReporterBuilder(reporterBuilder)
 				.useStoryLoader(new LoadFromClasspath(this.getClass()))
 				.useStoryControls(new StoryControls().doResetStateBeforeScenario(true))
 				.useParameterControls(new ParameterControls().useDelimiterNamedParameters(true));
-
-		return configuration;
 	}
 
 	@Override
@@ -51,8 +49,7 @@ public abstract class AbstractStoryConfiguration extends JUnitStories {
 	}
 	
 	protected Format[] storyFormat() {
-		Format[] formats = new Format[] { Format.IDE_CONSOLE, Format.STATS, WebDriverHtmlOutput.WEB_DRIVER_HTML };
-		return formats;
+		return new Format[] { Format.IDE_CONSOLE, Format.STATS, WebDriverHtmlOutput.WEB_DRIVER_HTML };
 	}
 	
 	public abstract ApplicationContext getAnnotatedApplicationContext();
