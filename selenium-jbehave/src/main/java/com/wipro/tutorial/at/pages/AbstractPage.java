@@ -15,7 +15,7 @@ public abstract class AbstractPage {
 	protected WebDriverProvider webDriverProvider;	
 	
 	public void waitPageLoad() {
-		WebDriverWait wait = new WebDriverWait(webDriverProvider.get(), 30);		
+		WebDriverWait wait = new WebDriverWait(webDriverProvider.get(), 30);
 		wait.until(ExpectedConditions.visibilityOfAllElements(elementsToWait()));
 	}
 	

@@ -1,5 +1,6 @@
 package com.wipro.tutorial.at.steps;
 
+import com.wipro.tutorial.at.pages.HomePage;
 import org.jbehave.core.annotations.Composite;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
@@ -7,15 +8,13 @@ import org.jbehave.core.annotations.When;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.wipro.tutorial.at.pages.HomePage;
-
 @Component
 public class HomePageSteps extends AbstractSteps {
 
 	@Autowired
 	private HomePage homePage;
 	
-	@Given("I am on google page")
+	@Given("I am on Netshoes")
 	public void IAmOnGooglePage() {
 		homePage.navigateTo();
 	}
@@ -24,19 +23,13 @@ public class HomePageSteps extends AbstractSteps {
 	public void ISearchFor(@Named("search") String search) {
 		homePage.search(search);
 	}
-	
+
 	@When("I click on search button")
-	public void IClickOnSearchButton() {
-		homePage.clickSearch();
+	public void IClickOnSearchButton() { homePage.clickSearch();
 	}
-	
-	
-	@Given("I searched on google for '$search'")
-	@Composite(steps = {
-			"Given I am on google page",
-			"When I search for '$search'",
-			"When I click on search button"})
-	public void ISearchedOnGoogleFor(@Named("search") String search) {
+
+	@When("I click on the first product")
+	public void IClickOnTheFProduct() { homePage.clickOnProduct();
 
 	}
 }
