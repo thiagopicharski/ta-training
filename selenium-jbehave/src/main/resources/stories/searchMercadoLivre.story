@@ -25,8 +25,8 @@ Examples:
 Scenario: User must be able to add item to cart
 Given I searched for '$item' and clicked the first result
 When I add item to cart
-Then cart contains '$item'
+Then cart contains '$result'
 Examples:
-|item            |
-|potato          |
-|plastico bolha  |
+|item            |  result                                                    |
+|potato          | Sr & Sra Cabeça De Batata Potato Head Toy Story 4 Hasbro   |
+|plastico bolha  |  Bobina Plástico Bolha 1,30 X 100m Para Proteção - Oferta  |

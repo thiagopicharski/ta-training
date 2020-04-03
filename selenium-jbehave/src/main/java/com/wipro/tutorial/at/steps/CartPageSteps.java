@@ -16,8 +16,8 @@ public class CartPageSteps extends AbstractSteps{
     @Autowired
     CartPage cartPage;
 
-    @Then("cart contains '$item'")
-    public void containsItem(@Named("item") String itemTitle){
+    @Then("cart contains '$result'")
+    public void containsItem(@Named("result") String itemTitle){
         List<String> itemTitles = cartPage.getCartItems();
         assertTrue(itemTitles.contains(itemTitle));
     }
