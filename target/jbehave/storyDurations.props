@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Fri Apr 03 17:43:23 BRT 2020
+stories/searchGoogle.story=57000
+threads=1
+total=57000
+threadAverage=57000
