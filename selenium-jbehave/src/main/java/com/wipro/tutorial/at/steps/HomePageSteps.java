@@ -14,29 +14,30 @@ public class HomePageSteps extends AbstractSteps {
 
 	@Autowired
 	private HomePage homePage;
-	
-	@Given("I am on google page")
-	public void IAmOnGooglePage() {
+
+	@Given("I am on MercadoLivre page")
+	public void IAmOnMercadoLivrePage() {
 		homePage.navigateTo();
 	}
-	
+
 	@When("I search for '$search'")
 	public void ISearchFor(@Named("search") String search) {
 		homePage.search(search);
 	}
-	
+
 	@When("I click on search button")
 	public void IClickOnSearchButton() {
 		homePage.clickSearch();
 	}
-	
-	
-	@Given("I searched on google for '$search'")
-	@Composite(steps = {
-			"Given I am on google page",
-			"When I search for '$search'",
-			"When I click on search button"})
-	public void ISearchedOnGoogleFor(@Named("search") String search) {
 
+	@When("I click on the first product")
+	public void IClickOnTheFirstProduct() {
+		homePage.clickProduct();
 	}
+
+	@When("I add to cart")
+	public void IAttCart() {
+		homePage.addCart();
+	}
+
 }
