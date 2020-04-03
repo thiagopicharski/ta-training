@@ -1,71 +1,40 @@
 # Test Automation Training
 
-## 1st Challenge:
+## 3rd Challenge:
 
-### Create a new Jbehave project with maven
+### Create a test automation for ta-training-api project
 
-**Use the archetype to create the project:**  
-*mvn archetype:generate*  
-Use the ID **2074** for org.jbehave:jbehave-spring-archetype
+**Use the project this Jbehave project as reference:**  
+*third-challenge/api-jbehave*   
 
->jbehaveCoreVersion: 4.6.2  
-groupId: com.wipro.ta  
-artifactId: first-challenge  
-version: 0.0.1-SNAPSHOT  
-package: com.wipro.ta
-
-Use log4j with this log pattern: *[%d{yyyy-MM-dd HH:mm:ss}] [%-5p] [%c{1}:%L] - %m%n*
+API Code: *third-challenge/ta-training-api*
 
 ### Create automated tests based on the story below:
 
-As an user, I want to the total Like-to-time coefficient to be maximum for the dishes.
-1. I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.
-2. The solution must calculate the maximum sum of all possible Like-to-time coefficients.
-3. Like-to-time coefficient is calculated with the algoritm below:  
-*V[] = {X1, X2 ... XN}  
-coefficient = X1\*1 + X2\*2 + ... + XN\*N*  
+As an user, I want to access a cart API where I can handle products, calculate total value and shipment costs.
+1. I want to add, update and remove products from/to the cart
+2. The solution must provide a way to calculate the total value of products the cart contains
+3. Should be possible calculate shipment costs on the cart solution based on destination address
+4. The API must provide authentication
 
-**Input Specification:**
-input: Array representing the linking value of each dish
-
-**Output Specification:**
-Return maximum like-to-time coefficient possible
+**Documentation Reference:**
+http://training.33b096.rest.picz.com.br:8197/swagger-ui.html#/cart-controller
 
 **Acceptance Criteria:**
-1. Check that solution returns the correct coeffient for a valid input of dishes
-2. Check the solution when a dish must be removed and when no dishes is removed
-
-Examples:
-
-Not Removed:
-input: {-1,3,4}
-Output: 17
-
-Removed:
-input: {-1,-9,0,5,-7} #Dish -9 and -7 must be removed
-Output: 14
+1. Should be possible use all methods the documentation above
+2. The total value on cart should be the sum of all product's values
+3. Should be possible calculate shipment value
+4. All methods must be authenticated
 
 ## System Under Test
-Use the class first-challenge/LikeToTimeDishes.java as your system under test.
+http://training.33b096.rest.picz.com.br:8197/api/cart
+http://training.33b096.rest.picz.com.br:8197/api/product
 
-Example of usage:
-```java
-int input = {1, 2, 3};
-LikeToTimeDishes likeToTimeDishes = new LikeToTimeDishes();
+Authentication Type: Basic
+user: admin
+password: password
 
-likeToTimeDishes.calculateSolution(input);
-Solution solution = input.getSolution();
-System.out.println(solution);
-
-/**
-/* Shows:
- * Solution{
- * preparedDishes={1, 2, 3}
- * preparedDishesSize=3
- * coefficient=14
- */
-```
 
 ## Push your changes to your own branch
-git checkout -b firstchallenge/\<ID Wipro\>
+git checkout -b thirdchallenge/\<ID Wipro\>
 
