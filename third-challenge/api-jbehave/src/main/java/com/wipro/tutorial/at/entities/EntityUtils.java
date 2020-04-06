@@ -3,7 +3,9 @@ package com.wipro.tutorial.at.entities;
 import com.jayway.jsonpath.DocumentContext;
 import com.wipro.tutorial.at.util.JsonUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class EntityUtils {
 
     @Autowired
