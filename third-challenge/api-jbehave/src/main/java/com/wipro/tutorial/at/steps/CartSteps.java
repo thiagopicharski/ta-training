@@ -12,9 +12,9 @@ import org.junit.Assert;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 @Component
 public class CartSteps extends AbstractSteps {
@@ -53,10 +53,15 @@ public class CartSteps extends AbstractSteps {
 
     @Given("cart with populated with the following product ids: '$productIds'")
     public void createCartWithProducts(@Named("productIds") List<Integer> productIds){
-        List<String> productsJson = productIds.stream().map(productOperations::getProduct).collect(Collectors.toList());
+        List<String> productsJson = new ArrayList<>();
+        for (Integer id : productIds)
+            productsJson.add(productOperations.getProduct(id));
+
         String response = cartOperations.createCart(productsJson.get(0));
         this.cartId = entityUtils.getCartId(response);
-        productsJson.subList(1, productsJson.size()).forEach((product) -> cartOperations.addProduct(product, cartId));
+
+        for (String product : productsJson.subList(1, productsJson.size()))
+            cartOperations.addProduct(product, cartId);
     }
 
     @When("I remove the product with id '$id' from the cart")
