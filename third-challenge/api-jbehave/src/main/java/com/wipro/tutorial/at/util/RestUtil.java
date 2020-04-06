@@ -49,6 +49,12 @@ public class RestUtil {
         return sendRequest(HttpMethod.GET, url, null);
     }
 
+
+    public static String sendDelete(String url) {
+        LOGGER.info("REQ[" + url + "]: GET");
+        return sendRequest(HttpMethod.DELETE, url, null);
+    }
+
     public static String sendPost(String url, String payload) {
         LOGGER.info("REQ[" + url + "]: " + payload);
 
