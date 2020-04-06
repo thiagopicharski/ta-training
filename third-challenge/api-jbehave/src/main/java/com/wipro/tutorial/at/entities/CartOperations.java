@@ -1,13 +1,10 @@
 package com.wipro.tutorial.at.entities;
 
-import com.wipro.tutorial.at.context.TestContext;
 import com.wipro.tutorial.at.util.JsonUtil;
 import com.wipro.tutorial.at.util.RestUtil;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-
-import java.util.Locale;
 
 public class CartOperations {
     @Autowired
