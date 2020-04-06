@@ -20,12 +20,12 @@ import java.util.Optional;
 public class CartService {
 
     private CartRepository cartRepository;
-    private ProductRepository productRepository;
+    private ProductService productService;
 
     @Autowired
-    public CartService(CartRepository cartRepository, ProductRepository productRepository) {
+    public CartService(CartRepository cartRepository, ProductService productService) {
         this.cartRepository = cartRepository;
-        this.productRepository = productRepository;
+        this.productService = productService;
     }
 
     public List<Cart> getCarts() {
@@ -44,7 +44,7 @@ public class CartService {
     public Cart addProduct(Product productReceived) {
         Cart cart = cartRepository.save(new Cart());
         productReceived.setCart(cart);
-        Product product = productRepository.save(productReceived);
+        Product product = productService.saveProduct(productReceived);
         cart.getProducts().add(product);
         updateTotal(cart);
         return cartRepository.save(cart);
@@ -53,7 +53,7 @@ public class CartService {
     public Cart addProduct(long id, Product productReceived) throws NotFoundException {
         Cart cart = getCart(id);
         productReceived.setCart(cart);
-        Product product = productRepository.save(productReceived);
+        Product product = productService.saveProduct(productReceived);
         cart.getProducts().add(product);
         updateTotal(cart);
         return cartRepository.save(cart);
@@ -61,7 +61,7 @@ public class CartService {
 
     public Cart removeProduct(long id, long productId) throws NotFoundException {
         Cart cart = getCart(id);
-        Product product = productRepository.getOne(productId);
+        Product product = productService.getProduct(productId);
 
         cart.getProducts().remove(product);
         updateTotal(cart);

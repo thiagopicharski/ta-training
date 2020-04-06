@@ -31,8 +31,8 @@ public class ProductService {
         return optionalProduct.orElseThrow(() -> new NotFoundException("Product Id:" + id + " not found"));
     }
 
-    public void saveProduct(Product product) {
-        productRepository.save(product);
+    public Product saveProduct(Product product) {
+        return productRepository.save(product);
     }
 
     public void updateProduct(long id, Map.Entry<String, Integer> entry) {
