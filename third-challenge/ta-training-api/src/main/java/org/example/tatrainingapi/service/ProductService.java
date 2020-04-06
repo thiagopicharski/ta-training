@@ -1,5 +1,6 @@
 package org.example.tatrainingapi.service;
 
+import org.example.tatrainingapi.exception.NotFoundException;
 import org.example.tatrainingapi.model.Cart;
 import org.example.tatrainingapi.model.Product;
 import org.example.tatrainingapi.persistence.CartRepository;
@@ -9,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 @Service
 public class ProductService {
@@ -24,8 +26,9 @@ public class ProductService {
         return productRepository.findAll();
     }
 
-    public Product getProduct(long id) {
-        return productRepository.getOne(id);
+    public Product getProduct(long id) throws NotFoundException {
+        Optional<Product> optionalProduct = productRepository.findById(id);
+        return optionalProduct.orElseThrow(() -> new NotFoundException("Product Id:" + id + " not found"));
     }
 
     public void saveProduct(Product product) {

@@ -19,7 +19,7 @@ public class Cart {
 
     private double total = 0;
 
-    @OneToMany(targetEntity = Product.class)
+    @OneToMany(targetEntity = Product.class, fetch = FetchType.EAGER)
     @JsonManagedReference
     private List<Product> products = new ArrayList<>();
 

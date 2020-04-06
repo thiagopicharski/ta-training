@@ -24,7 +24,7 @@ public class Product {
     //@NotBlank(message = "Value is mandatory")
     private double value;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     @JsonBackReference
     private Cart cart;
 

@@ -1,5 +1,6 @@
 package org.example.tatrainingapi.api;
 
+import org.example.tatrainingapi.exception.NotFoundException;
 import org.example.tatrainingapi.model.Product;
 import org.example.tatrainingapi.service.CartService;
 import org.example.tatrainingapi.service.ProductService;
@@ -15,15 +16,14 @@ import java.util.Map;
 public class ProductController {
 
     private ProductService productService;
-    private CartService cartService;
 
     @Autowired
-    public ProductController(ProductService productService, CartService cartService) {
+    public ProductController(ProductService productService) {
         this.productService = productService;
     }
 
     @GetMapping("/{id}")
-    public Product getProduct(@PathVariable(required = true) long id) {
+    public Product getProduct(@PathVariable(required = true) long id) throws NotFoundException {
         return productService.getProduct(id);
     }
 
