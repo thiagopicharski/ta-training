@@ -2,7 +2,7 @@
 
 ### Details
 
-As an user I want to be able to search Mercado Livre for a product
+As an user I want to be able to search Netshoes for a product
 
 Add this product to my cart
 
