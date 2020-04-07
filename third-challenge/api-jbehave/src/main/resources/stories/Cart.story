@@ -34,3 +34,10 @@ Examples:
 |total | products |
 | 23 | ["{ \"description\": \"p1\", \"id\": 0, \"value\": 11, \"weight\": 11 }", "{ \"description\": \"p2\", \"id\": 0, \"value\": 12, \"weight\": 12 }" ] |
 
+Scenario: Calculate shipping
+Given a new cart with the following products '$products'
+When I calculate shipment for created cart with '$request'
+Then shipment was calculated  and total weight is '$weight'
+Examples:
+|weight | request | products |
+|23 | {"cep":"81520-300", "serviceType":"SEDEX_VAREJO"} | ["{ \"description\": \"p1\", \"id\": 0, \"value\": 11, \"weight\": 11 }", "{ \"description\": \"p2\", \"id\": 0, \"value\": 12, \"weight\": 12 }" ] |

@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 @Component
 public class CartSteps extends AbstractSteps {
@@ -112,5 +112,18 @@ public class CartSteps extends AbstractSteps {
     @Then("response has '$total' as the total")
     public void assertTotal(@Named("total") int total){
         assertEquals("Cart total does not equal expected", total, entityUtils.getCartTotal(this.response));
+    }
+
+    @When("I calculate shipment for created cart with '$request'")
+    public void calculateShipment(@Named("request") String request){
+        this.response = cartOperations.calculateShipment(request, this.cartId);
+    }
+
+    @Then("shipment was calculated and total weight is '$weight'")
+    public void responseWasShipment(@Named("weight") int weight){
+        DocumentContext dc = jsonUtil.loadJson(this.response);
+        assertTrue(dc.read("$.deadline", Integer.class) > 0);
+        assertEquals(weight, dc.read("$.totalWeight", Integer.class).intValue());
+        assertTrue(dc.read("$.deadline", Integer.class) > 0);
     }
 }
