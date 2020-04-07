@@ -102,4 +102,15 @@ public class CartSteps extends AbstractSteps {
     public void elementRemoved(){
         assertEquals(this.productsLen -1, entityUtils.getProductsLen(this.response));
     }
+
+
+    @When("I get cart")
+    public void getCart(){
+        this.response = cartOperations.getCard(this.cartId);
+    }
+
+    @Then("response has '$total' as the total")
+    public void assertTotal(@Named("total") int total){
+        assertEquals("Cart total does not equal expected", total, entityUtils.getCartTotal(this.response));
+    }
 }

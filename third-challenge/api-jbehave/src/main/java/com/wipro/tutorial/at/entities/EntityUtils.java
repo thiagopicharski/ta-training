@@ -23,4 +23,9 @@ public class EntityUtils {
         return jsonUtil.loadJson(cartJson)
                 .read(String.format("$.products[%s].id", productIndex), Integer.class);
     }
+
+    public int getCartTotal(String cartJson){
+        return jsonUtil.loadJson(cartJson)
+                .read("$.total", Integer.class);
+    }
 }

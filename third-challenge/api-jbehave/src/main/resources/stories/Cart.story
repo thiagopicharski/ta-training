@@ -26,3 +26,11 @@ Examples:
 | products |
 | ["{ \"description\": \"p1\", \"id\": 0, \"value\": 11, \"weight\": 11 }", "{ \"description\": \"p2\", \"id\": 0, \"value\": 12, \"weight\": 12 }" ] |
 
+Scenario: Calculate cart total
+Given a new cart with the following products '$products'
+When I get cart
+Then response has '$total' as the total
+Examples:
+|total | products |
+| 23 | ["{ \"description\": \"p1\", \"id\": 0, \"value\": 11, \"weight\": 11 }", "{ \"description\": \"p2\", \"id\": 0, \"value\": 12, \"weight\": 12 }" ] |
+
