@@ -1,4 +1,2 @@
-# ta-training
-Test Automation Training
-
+# First Challenge
 Not finished (50%)
