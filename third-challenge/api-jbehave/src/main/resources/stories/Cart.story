@@ -18,3 +18,11 @@ Examples:
 | n | productIds |
 | 2 | 2, 5, 7    |
 
+Scenario: Create cart with new products then remove one
+Given a new cart with the following products '$products'
+When I remove the first item from created cart
+Then cart has one less element
+Examples:
+| products |
+| ["{ \"description\": \"p1\", \"id\": 0, \"value\": 11, \"weight\": 11 }", "{ \"description\": \"p2\", \"id\": 0, \"value\": 12, \"weight\": 12 }" ] |
+
