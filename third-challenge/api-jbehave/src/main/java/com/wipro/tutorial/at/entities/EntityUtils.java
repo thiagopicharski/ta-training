@@ -12,7 +12,15 @@ public class EntityUtils {
     JsonUtil jsonUtil;
 
     public int getCartId(String cartJson){
-        DocumentContext json = jsonUtil.loadJson(cartJson);
-        return json.read("$.id", Integer.class);
+        return jsonUtil.loadJson(cartJson).read("$.id", Integer.class);
+    }
+
+    public int getProductsLen(String cartJson){
+        return jsonUtil.loadJson(cartJson).read("$.products.length()", Integer.class);
+    }
+
+    public int getNthProductId(String cartJson, int productIndex){
+        return jsonUtil.loadJson(cartJson)
+                .read(String.format("$.products[%s].id", productIndex), Integer.class);
     }
 }
