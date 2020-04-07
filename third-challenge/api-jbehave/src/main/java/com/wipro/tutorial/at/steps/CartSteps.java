@@ -16,6 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import static org.junit.Assert.assertEquals;
+
 @Component
 public class CartSteps extends AbstractSteps {
 
@@ -30,6 +32,8 @@ public class CartSteps extends AbstractSteps {
 
     private String response;
     private int cartId;
+    private int productsLen;
+    private int firstProductId;
 
     @Given("no cart")
     public void noop(){
@@ -47,7 +51,7 @@ public class CartSteps extends AbstractSteps {
     @Then("I should get a cart with a single product in it")
     public void cartHasProduct(){
         DocumentContext cart = jsonUtil.loadJson(this.response);
-        Assert.assertEquals(new Integer(1), cart.read("$.products.length()", Integer.class));
+        assertEquals(new Integer(1), cart.read("$.products.length()", Integer.class));
     }
 
 
@@ -76,4 +80,26 @@ public class CartSteps extends AbstractSteps {
         Assert.assertTrue("The removed item shouldn't be in the cart", matches.size() == 0);
     }
 
+
+    @Given("a new cart with the following products '$products'")
+    public void createCart(@Named("products") String listProductsJson){
+        List<String> jsons = jsonUtil.loadJson(listProductsJson).read("$", List.class);
+        this.productsLen = jsons.size();
+        this.response = cartOperations.createCart(jsons.get(0));
+        this.cartId = entityUtils.getCartId(this.response);
+        this.firstProductId = entityUtils.getNthProductId(this.response, 0);
+        for (String product : jsons.subList(1, jsons.size())){
+            cartOperations.addProduct(product, this.cartId);
+        }
+    }
+
+    @When("I remove the first item from created cart")
+    public void removeFirst(){
+        this.response = cartOperations.removeItem(this.firstProductId, this.cartId);
+    }
+
+    @Then("cart has one less element")
+    public void elementRemoved(){
+        assertEquals(this.productsLen -1, entityUtils.getProductsLen(this.response));
+    }
 }
