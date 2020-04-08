@@ -15,4 +15,6 @@ public abstract class AbstractSteps {
 	protected JsonUtil jsonUtil;
 	
 	protected Logger LOGGER = Logger.getLogger(this.getClass());
+
+    protected abstract void createCart();
 }

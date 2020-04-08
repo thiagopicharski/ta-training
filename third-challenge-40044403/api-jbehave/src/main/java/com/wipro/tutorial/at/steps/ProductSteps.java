@@ -10,16 +10,19 @@ import org.junit.Assert;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 @Component
-public class ProductSteps extends AbstractSteps {
+public abstract class ProductSteps extends AbstractSteps {
 
     private String product;
     private String response;
+    private int productId;
+    private int cartId;
 
     @Value("${api.cart.create}")
-    private String createCard;
+    private String createCart;
     @Value("${api.cart.product.add}")
     private String addProduct;
 
@@ -29,8 +32,8 @@ public class ProductSteps extends AbstractSteps {
     }
 
     @When("I create a cart and put a product")
-    public void whenCreateNewCart() {
-        this.response = RestUtil.sendPut(this.createCard, this.product);
+    public void createNewCartWithProduct() {
+        this.response = RestUtil.sendPut(this.createCart, this.product);
     }
 
     @Then("I should see the response with a product of '$price' in the cart")
@@ -39,6 +42,24 @@ public class ProductSteps extends AbstractSteps {
         int cartId = context.read("$.id", Integer.class).intValue();
         assertTrue(cartId > 0);
         int productPrice = context.read("$.products[0].value", Integer.class).intValue();
-        Assert.assertEquals("The price of product in the car is", price, productPrice);
+        assertEquals("The price of product in the car is", price, productPrice);
+    }
+
+    @Given("a '$product' in the cart")
+    public void createNewCartWithProduct(@Named("product") String product) {
+        this.givenAProduct(product);
+        this.createCart();
+        this.productId = jsonUtil.loadJson(this.response).read("$.products[0].id", Integer.class);
+    }
+
+    @When("I delete the product")
+    public void whenDeleteProduct() {
+        this.response = RestUtil.sendDelete(product);
+    }
+
+    @Then("I should see the response without product")
+    public void thenISeeResponseWithoutProduct() {
+        assertEquals(0, jsonUtil.loadJson(this.response)
+                .read("$.products.length{}", Integer.class).intValue());
     }
 }
