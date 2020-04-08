@@ -1,14 +1,16 @@
 Narrative:
 As an user
-I want to search on google
-So that I can acquire knowledge
+I want to search on Netshoes for a product
+So that I can buy this product
 
-Scenario: User must be able to search in google
-Given I searched on google for '$search'
-When I search for 'search'
-And I click on search button
-Then I should see first result as 'firstResult'
+Scenario: User must be able to search in netshoes
+Given I open netshoes page
+And I search for '$product'
+When I click on the product
+Then 'I add the product to my cart'
+
 Examples:
-|search |firstResult                                      |
-|Ronaldo|Ronaldo Nazário – Wikipédia, a enciclopédia livre|
-|Rivaldo|Rivaldo – Wikipédia, a enciclopédia livre        |
+|product |
+|meia    |
+
+

@@ -14,9 +14,10 @@ public class ResultsPageSteps extends AbstractSteps {
 	@Autowired
 	private ResultsPage resultsPage;
 	
-	@Then("I should see first result as '$firstResult'")
-	public void IShouldSeeFirstResultAs(@Named("firstResult") String titleExpected) {
-		assertEquals(titleExpected, resultsPage.firstResultText());
+	@Then("'I add the product to my cart'")
+	public void addToCart(){
+		resultsPage.addToCar();
 	}
+
 	
 }
