@@ -16,9 +16,15 @@ Scenario: Verify if cart with an id is present
 Given I am on a store with model 'loadTemplate(product)'
 Then I verify if the cart with id 1998 has been added
 
+Scenario: Verify if cart with an id is present and add a product to cart
+Given I am on a store with model 'loadTemplate(product)'
+Given the cart with id 1998 is present
+Then I add a product with description Fortunato, value 1234 and weight 130 to the cart with id 1998
+
+
 Scenario: Verify if product inside cart with id can be removed
 Given I am on a store with model 'loadTemplate(product)'
-Given the cart with id 2558 has is present
+Given the cart with id 2558 is present
 Then Then I delete the product with id 2559 inside cart with id 2558
 
 Scenario: I remove everything modified in the api

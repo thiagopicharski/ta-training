@@ -62,7 +62,7 @@ public class CartControllerSteps extends AbstractSteps {
     }
 
     @Then("I verify if the cart with id $id has been added")
-    @Given("the cart with id $id has is present")
+    @Given("the cart with id $id is present")
     public void verifyIfCartIsPresent(@Named("id") int id) {
         String result = RestUtil.sendGet(cartApi + "/" + id);
         if (result.contains("httpStatus") || result.contains("not found")) {
@@ -71,6 +71,18 @@ public class CartControllerSteps extends AbstractSteps {
             Cart carts = gson.fromJson(result, Cart.class);
             Assert.assertEquals("The cart is present", carts.getId(), id);
         }
+    }
+
+    @Then("I add a product with description $description, value $value and weight $weight to the cart with id $id")
+    public void addProductToCart(@Named("description") String description, @Named("value") int value, @Named("weight") int weight, @Named("id") int id) {
+        DocumentContext json = (DocumentContext) context.getResource("payload");
+        json.set("description", description);
+        json.set("value", value);
+        json.set("weight", weight);
+        LOGGER.info("JSON: " + json.jsonString());
+        String result = RestUtil.sendPut(cartApi + "/" + id + "/product", json.jsonString());
+        LOGGER.info("PUT Response " + result);
+        context.saveResource("result", result);
     }
 
     @Then("Then I delete the product with id $id inside cart with id $cartId")
@@ -102,4 +114,5 @@ public class CartControllerSteps extends AbstractSteps {
             });
         });
     }
+
 }
