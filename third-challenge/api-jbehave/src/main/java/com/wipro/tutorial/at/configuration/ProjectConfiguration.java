@@ -16,7 +16,7 @@ import org.springframework.core.env.Environment;
 
 @Configuration
 @ComponentScan({"com.wipro.tutorial.at", "templates"})
-@PropertySource("classpath:properties/${environment}/application.properties")
+@PropertySource("classpath:properties/dev/application.properties")
 public class ProjectConfiguration implements InitializingBean {
 
 	@Autowired

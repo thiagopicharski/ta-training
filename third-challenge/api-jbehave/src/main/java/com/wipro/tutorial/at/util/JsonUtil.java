@@ -23,7 +23,7 @@ public class JsonUtil {
     private static Logger LOGGER = Logger.getLogger(JsonUtil.class);
     private static Configuration JSON_CONFIG = Configuration.defaultConfiguration();
 
-    @Value("templates/${environment}/")
+    @Value("src/main/resources/templates/dev/")
     private String templatePrefix;
 
     public DocumentContext loadTemplate(String template) {

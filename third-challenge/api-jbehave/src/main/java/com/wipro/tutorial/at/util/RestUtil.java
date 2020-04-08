@@ -57,4 +57,19 @@ public class RestUtil {
         HttpEntity request = new HttpEntity(payload, headers);
         return sendRequest(HttpMethod.POST, url, request);
     }
+
+    public static String sendPut(String url, String payload) {
+        LOGGER.info("REQ[" + url + "]: " + payload);
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        HttpEntity request = new HttpEntity(payload, headers);
+        return sendRequest(HttpMethod.PUT, url, request);
+
+    }
+
+    public static String sendDelete(String url){
+        LOGGER.info("REQ[" + url + ")]: DELETE ");
+
+        return sendRequest(HttpMethod.DELETE, url, null);
+    }
 }

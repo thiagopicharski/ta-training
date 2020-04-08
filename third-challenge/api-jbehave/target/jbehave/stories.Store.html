@@ -1,0 +1,170 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/Store.story</div>
+<div class="scenario">
+<h2>Scenario: I want to get a cart</h2>
+<div class="step successful">Given I am on the store</div>
+<div class="step failed">When I make a request to a cart with id '5' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.springframework.web.client.ResourceAccessException: I/O error: null; nested exception is org.apache.http.client.ClientProtocolException</span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-496e37a8-c99f-42e9-8b10-35e0cb94b983.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+<div class="step notPerformed">Then I should receive the cart <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to get a list of cart</h2>
+<div class="step successful">Given I am on the store</div>
+<div class="step failed">When I make a request to a list of carts <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.springframework.web.client.ResourceAccessException: I/O error: null; nested exception is org.apache.http.client.ClientProtocolException</span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-87c43e68-6617-45f2-b762-07e1907c07f4.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+<div class="step notPerformed">Then I should receive the list of carts <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to get a product</h2>
+<div class="step successful">Given I am on the store</div>
+<div class="step failed">When I make a request to a product with id '10' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.springframework.web.client.ResourceAccessException: I/O error: null; nested exception is org.apache.http.client.ClientProtocolException</span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-1bbcca02-e9ab-43b0-87f7-f0381ef21213.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+<div class="step notPerformed">Then I should receive the product <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to get some products from a cart</h2>
+<div class="step successful">Given I am on the store</div>
+<div class="step failed">When I request some product list that's in a cart with id '7' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.springframework.web.client.ResourceAccessException: I/O error: null; nested exception is org.apache.http.client.ClientProtocolException</span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-e5772da8-2cbf-448a-b949-e8f92b99c69d.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+<div class="step pending">Then I should see the product list
+
+
+&lt;Post&gt;//////// <span class="keyword pending">(PENDING)</span></div>
+<div><pre class="pending">@Then(&quot;I should see the product list\r\n\r\n\r\n&lt;Post&gt;////////&quot;)
+@Pending
+public void thenIShouldSeeTheProductListPost() {
+  // PENDING
+}
+</pre></div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to make a count of the shipment</h2>
+<div class="step pending">Given Some shipment with model 'loadTemplate(shipment)' <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">And I set my cep to '000000000' <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">When I want to make a count of the total in the cart with id '25' <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">Then I should see the total count of the shipment
+
+
+&lt;Put&gt;///////// <span class="keyword pending">(PENDING)</span></div>
+<div><pre class="pending">@Given(&quot;Some shipment with model 'loadTemplate(shipment)'&quot;)
+@Pending
+public void givenSomeShipmentWithModelloadTemplateshipment() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@Given(&quot;I set my cep to '000000000'&quot;)
+@Pending
+public void givenISetMyCepTo000000000() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I want to make a count of the total in the cart with id '25'&quot;)
+@Pending
+public void whenIWantToMakeACountOfTheTotalInTheCartWithId25() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@Then(&quot;I should see the total count of the shipment\r\n\r\n\r\n&lt;Put&gt;/////////&quot;)
+@Pending
+public void thenIShouldSeeTheTotalCountOfTheShipmentPut() {
+  // PENDING
+}
+</pre></div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to add some products to the cart</h2>
+<div class="step pending">Given Some product with  model 'loadTemplate(product)' <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">When I set the product description to 'Is a product' <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">And I set the product value to '99.99' <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">And I set the product weight to '13.0' <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">And I add the product to the cart <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">Then I shoul see product added to the cart <span class="keyword pending">(PENDING)</span></div>
+<div><pre class="pending">@Given(&quot;Some product with  model 'loadTemplate(product)'&quot;)
+@Pending
+public void givenSomeProductWithModelloadTemplateproduct() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I set the product description to 'Is a product'&quot;)
+@Pending
+public void whenISetTheProductDescriptionToIsAProduct() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I set the product value to '99.99'&quot;)
+@Pending
+public void whenISetTheProductValueTo9999() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I set the product weight to '13.0'&quot;)
+@Pending
+public void whenISetTheProductWeightTo130() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I add the product to the cart&quot;)
+@Pending
+public void whenIAddTheProductToTheCart() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@Then(&quot;I shoul see product added to the cart&quot;)
+@Pending
+public void thenIShoulSeeProductAddedToTheCart() {
+  // PENDING
+}
+</pre></div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to add some products to the cart with an id</h2>
+<div class="step pending">Given Some product with model 'loadTemplate(product)' <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">When I set  the product description to 'Is a product' <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">And I set the product value to '99.99' <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">And I set the product weight to '13.0' <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">And I add the product to the cart with the id '9' <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">Then I shoul see product added to the cart
+
+
+&lt;Delete&gt;/////// <span class="keyword pending">(PENDING)</span></div>
+<div><pre class="pending">@Given(&quot;Some product with model 'loadTemplate(product)'&quot;)
+@Pending
+public void givenSomeProductWithModelloadTemplateproduct() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I set  the product description to 'Is a product'&quot;)
+@Pending
+public void whenISetTheProductDescriptionToIsAProduct() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I set the product value to '99.99'&quot;)
+@Pending
+public void whenISetTheProductValueTo9999() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I set the product weight to '13.0'&quot;)
+@Pending
+public void whenISetTheProductWeightTo130() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I add the product to the cart with the id '9'&quot;)
+@Pending
+public void whenIAddTheProductToTheCartWithTheId9() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@Then(&quot;I shoul see product added to the cart\r\n\r\n\r\n&lt;Delete&gt;///////&quot;)
+@Pending
+public void thenIShoulSeeProductAddedToTheCartDelete() {
+  // PENDING
+}
+</pre></div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to delete a product from my cart</h2>
+<div class="step successful">Given Some cart on the Store</div>
+<div class="step successful">When I delete the product with id '15' from my cart with id '25'</div>
+<div class="step successful">Then I should see the deleted product from the cart</div>
+</div>
+</div>
