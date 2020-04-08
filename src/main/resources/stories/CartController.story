@@ -1,6 +1,6 @@
 Narrative:
 As an user
-I want to handle heros on the hero store
+I want to handle my cart and prodcuts in the store
 
 Meta:
 Scenario: Get the list of products
