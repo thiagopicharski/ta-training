@@ -1,23 +1,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.wipro.ta</groupId>
-  <artifactId>ta-training-api</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<groupId>com.wipro.ta</groupId>
+	<artifactId>ta-training-api</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-  <name>ta-training-api</name>
+	<name>ta-training-api</name>
 
-  <properties>
+	<properties>
 		<jbehave.core.version>4.0.5</jbehave.core.version>
 		<jbehave.site.version>3.3</jbehave.site.version>
 		<junit.runner.version>1.2.0</junit.runner.version>
 		<log4j.version>1.2.17</log4j.version>
 		<maven.compiler.version>3.3</maven.compiler.version>
-		<maven.compiler.source>1.7</maven.compiler.source>		
-		<selenium.version>2.53.0</selenium.version>	
-		<spring.version>3.1.1.RELEASE</spring.version>		
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<selenium.version>2.53.0</selenium.version>
+		<spring.version>3.1.1.RELEASE</spring.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -28,13 +28,25 @@
 			<artifactId>selenium-java</artifactId>
 			<version>${selenium.version}</version>
 		</dependency>
-		
-		<!-- JBehave -->
+
+
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+
 		<dependency>
 			<groupId>de.codecentric</groupId>
 			<artifactId>jbehave-junit-runner</artifactId>
 			<version>${junit.runner.version}</version>
-		</dependency>	
+		</dependency>
+
+
+
+
+
 		<dependency>
 			<groupId>org.jbehave</groupId>
 			<artifactId>jbehave-core</artifactId>
@@ -51,27 +63,21 @@
 		<dependency>
 			<groupId>org.jbehave</groupId>
 			<artifactId>jbehave-spring</artifactId>
-			<version>${jbehave.core.version}</version>		
+			<version>${jbehave.core.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jbehave.web</groupId>
 			<artifactId>jbehave-web-selenium</artifactId>
-			<version>3.6-beta-2</version>			
+			<version>3.6-beta-2</version>
 		</dependency>
-		
+
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
-		<!-- Log4j-->
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>${log4j.version}</version>
-		</dependency>
+
 
 		<dependency>
 			<groupId>com.jayway.jsonpath</groupId>
@@ -83,7 +89,13 @@
 			<artifactId>guava</artifactId>
 			<version>28.2-jre</version>
 		</dependency>
-		
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>4.3.0</version>
+			<scope>compile</scope>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
@@ -99,7 +111,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
-			</plugin>			
+			</plugin>
 			<plugin>
 				<groupId>org.jbehave</groupId>
 				<artifactId>jbehave-maven-plugin</artifactId>
@@ -123,13 +135,13 @@
 									<value>true</value>
 								</property>
 								<property>
-                                	<name>file.encoding</name>
-                                	<value>${project.build.sourceEncoding}</value>
-                            	</property>
+									<name>file.encoding</name>
+									<value>${project.build.sourceEncoding}</value>
+								</property>
 							</systemProperties>
 							<ignoreFailureInStories>true</ignoreFailureInStories>
 							<ignoreFailureInView>true</ignoreFailureInView>
-							<threads>${jbehave.execution.threads}</threads>							
+							<threads>${jbehave.execution.threads}</threads>
 						</configuration>
 						<goals>
 							<goal>run-stories-as-embeddables</goal>
