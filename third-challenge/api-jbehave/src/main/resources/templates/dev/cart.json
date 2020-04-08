@@ -1,0 +1,12 @@
+{
+  "id": 0,
+  "products": [
+    {
+      "description": "string",
+      "id": 0,
+      "value": 0,
+      "weight": 0
+    }
+  ],
+  "total": 0
+}

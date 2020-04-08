@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Wed Apr 08 15:29:41 BRT 2020
+stories/Cart.story=11000
+threads=1
+total=11000
+threadAverage=11000

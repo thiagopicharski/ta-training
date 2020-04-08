@@ -1,0 +1,124 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/Cart.story</div>
+<div class="scenario">
+<h2>Scenario: Add a product to an empty cart</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given an empty cart</div>
+<div class="step">When I put the '$product' to a cart</div>
+<div class="step">Then I should have only one product on the cart</div>
+<table>
+<thead>
+<tr>
+<th>product</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>{ &quot;description&quot;: &quot;frogPhone&quot;, &quot;id&quot;: 626, &quot;value&quot;: 100, &quot;weight&quot;: 900 }</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {product={ &quot;description&quot;: &quot;frogPhone&quot;, &quot;id&quot;: 626, &quot;value&quot;: 100, &quot;weight&quot;: 900 }}</h3>
+<div class="step successful">Given an empty cart</div>
+<div class="step failed">When I put the '$product' to a cart <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.springframework.web.client.HttpServerErrorException: 500 </span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-2b1a2d71-dcbe-4863-8ff6-ed022df2e381.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+<div class="step notPerformed">Then I should have only one product on the cart <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Remove item from cart with some items</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given cart with items containing product ids: '$idproducts'</div>
+<div class="step">When product id '$id' is removed from the cart</div>
+<div class="step">Then product '$id' won't be found</div>
+<table>
+<thead>
+<tr>
+<th>n</th><th>idproducts</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td><td>1, 5, 11</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {n=1, idproducts=1, 5, 11}</h3>
+<div class="step failed">Given cart with items containing product ids: '$idproducts' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.jbehave.core.steps.ParameterConverters$ParameterConvertionFailed: $idproducts</span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-8ea5608d-3ce1-4847-bf17-f9667102a8ed.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+<div class="step notPerformed">When product id '$id' is removed from the cart <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then product '$id' won't be found <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Create cart a list of products then subtract one item</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a cart with a list of '$products'</div>
+<div class="step">When I delete a product</div>
+<div class="step">Then cart size is subtracted</div>
+<table>
+<thead>
+<tr>
+<th>products</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[&quot;{ \&quot;description\&quot;: \&quot;productToDelete\&quot;, \&quot;id\&quot;: 0, \&quot;value\&quot;: 50, \&quot;weight\&quot;: 400 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;productToSurvive\&quot;, \&quot;id\&quot;: 0, \&quot;value\&quot;: 250, \&quot;weight\&quot;: 700 }&quot; ]</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {products=[&quot;{ \&quot;description\&quot;: \&quot;productToDelete\&quot;, \&quot;id\&quot;: 0, \&quot;value\&quot;: 50, \&quot;weight\&quot;: 400 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;productToSurvive\&quot;, \&quot;id\&quot;: 0, \&quot;value\&quot;: 250, \&quot;weight\&quot;: 700 }&quot; ]}</h3>
+<div class="step successful">Given a cart with a list of '$products'</div>
+<div class="step successful">When I delete a product</div>
+<div class="step successful">Then cart size is subtracted</div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Calculate amount price in the cart</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a cart with a list of '$products'</div>
+<div class="step">When I have a cart</div>
+<div class="step">Then cart price amount is '$total'</div>
+<table>
+<thead>
+<tr>
+<th>total</th><th>products</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>12</td><td>[&quot;{ \&quot;description\&quot;: \&quot;xilofone\&quot;, \&quot;id\&quot;: 0, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 80000 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;aipo\&quot;, \&quot;id\&quot;: 0, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 3 }&quot; ]</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {total=12, products=[&quot;{ \&quot;description\&quot;: \&quot;xilofone\&quot;, \&quot;id\&quot;: 0, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 80000 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;aipo\&quot;, \&quot;id\&quot;: 0, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 3 }&quot; ]}</h3>
+<div class="step successful">Given a cart with a list of '$products'</div>
+<div class="step successful">When I have a cart</div>
+<div class="step failed">Then cart price amount is '$total' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Integer</span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-81b8dbbb-130c-4628-814a-18f1cac59a06.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Generate shipping price</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a cart with a list of '$products'</div>
+<div class="step">When I call shipment method with the following '$request'</div>
+<div class="step">Then the total weight of the requested products is'$weight'</div>
+<table>
+<thead>
+<tr>
+<th>weight</th><th>request</th><th>products</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>8001</td><td>{&quot;cep&quot;:&quot;68440-970&quot;, &quot;serviceType&quot;:&quot;SEDEX_VAREJO&quot;}</td><td>[&quot;{ \&quot;description\&quot;: \&quot;brinquedoUpaUpaDoGugu\&quot;, \&quot;id\&quot;: 0, \&quot;value\&quot;: 40000000, \&quot;weight\&quot;: 1 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;tekpix\&quot;, \&quot;id\&quot;: 0, \&quot;value\&quot;: 50, \&quot;weight\&quot;: 8000 }&quot; ]</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {weight=8001, request={&quot;cep&quot;:&quot;68440-970&quot;, &quot;serviceType&quot;:&quot;SEDEX_VAREJO&quot;}, products=[&quot;{ \&quot;description\&quot;: \&quot;brinquedoUpaUpaDoGugu\&quot;, \&quot;id\&quot;: 0, \&quot;value\&quot;: 40000000, \&quot;weight\&quot;: 1 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;tekpix\&quot;, \&quot;id\&quot;: 0, \&quot;value\&quot;: 50, \&quot;weight\&quot;: 8000 }&quot; ]}</h3>
+<div class="step successful">Given a cart with a list of '$products'</div>
+<div class="step failed">When I call shipment method with the following '$request' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.springframework.web.client.HttpServerErrorException: 500 </span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-4f53745c-cf75-4237-acd4-aec2c586f7c9.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+<div class="step notPerformed">Then the total weight of the requested products is'$weight' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+</div>
+</div>
