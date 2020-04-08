@@ -17,7 +17,7 @@ import java.util.List;
 public class CartSteps extends AbstractSteps {
 
     @Given("i don't have a cart yet")
-    public void doenstHaventCart() {
+    public void doenstHaveCart() {
         LOGGER.info("don't have a cart yet");
     }
     @Given("I have a '$id' of a Product")
