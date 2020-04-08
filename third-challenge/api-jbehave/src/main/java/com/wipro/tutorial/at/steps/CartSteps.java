@@ -181,4 +181,17 @@ public class CartSteps extends AbstractSteps {
         Assert.assertEquals(expectedWeight, actualWeight);
         LOGGER.info("Expected Shipment weight: "+ expectedWeight +"/Shipment weight: "+actualWeight);
     }
+    @Then("i should see the cart id in cart list")
+    public void getCarts(){
+        DocumentContext result = (DocumentContext) context.getResource("socks");
+        int cartId = result.read("$.id");
+        String response = RestUtil.sendGet("http://training.33b096.rest.picz.com.br:8197/api/cart/");
+        List<Integer>idsList =  JsonPath.parse(response).read("$..id",List.class);
+        boolean flag = false;
+        for (Integer id :idsList ){
+            if (cartId == id){flag=true;}
+        }
+        Assert.assertTrue(flag);
+
+    }
 }

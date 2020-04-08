@@ -7,6 +7,7 @@ Scenario: I want to add products  thea new  cart
 Given i don't have a cart yet
 When i want to add a 'product' to a new cart
 Then i should see 'expectedDescription' in the cart
+And i should see the cart id in cart list
 Examples:
 |product                                                                |expectedDescription|
 |{"description": "socks" , "id": 1, "value":17,"weight": 1  }           |socks|
@@ -64,6 +65,8 @@ And the product value should be equals to 'expectedValue'
 Examples:
 |id|expectedDescription|expectedWeight|expectedValue|
 |481|apple             |5             |6            |
+
+
 
 
 
