@@ -16,6 +16,27 @@ import java.util.List;
 @Component
 public class CartSteps extends AbstractSteps {
 
+    @Value("${app.base.url}")
+    private  String baseUrl;
+
+    private String newCartUrl = "/cart/product";
+
+    private String addProductUrl  ="/cart/%s/product";
+
+    private String cartUrl = "/cart/%s";
+
+    private String cartProductsUrl ="/cart/%s/products";
+
+    private String deleteProductUrl ="/cart/%s/product/%s";
+
+    private String productUrl = "/product/%s";
+
+    private String shipmentUrl = "/cart/%s/shipment";
+
+    private String allCartsUrl = "/cart";
+
+
+
     @Given("i don't have a cart yet")
     public void doenstHaveCart() {
         LOGGER.info("don't have a cart yet");
@@ -28,16 +49,15 @@ public class CartSteps extends AbstractSteps {
     @Given("i have  a cart with '$products'")
     public void newCartWithProducts(@Named("products") String products) {
         List<String> productJson = jsonUtil.loadJson(products).read("$", List.class);
-        String response = RestUtil.sendPut("http://training.33b096.rest.picz.com.br:8197/api/cart/product", productJson.get(0));
+        String response = RestUtil.sendPut(baseUrl+newCartUrl, productJson.get(0));
         int cartId = JsonPath.parse(response).read("$.id", Integer.class);
         int productId = JsonPath.parse(response).read("$.products[0].id", Integer.class);
         context.saveResource("productId", productId);
         List<String> payloads = productJson.subList(1, productJson.size());
         for (String payload : payloads) {
-            RestUtil.sendPut("http://training.33b096.rest.picz.com.br:8197/api/cart/" + cartId + "/product", payload);
-
+            RestUtil.sendPut(baseUrl+String.format(addProductUrl,cartId), payload);
         }
-        String result = RestUtil.sendGet("http://training.33b096.rest.picz.com.br:8197/api/cart/" + cartId);
+        String result = RestUtil.sendGet(baseUrl+String.format(cartUrl,cartId));
 
         DocumentContext documentContext = JsonPath.parse(result);
         LOGGER.info("Adding products to  a cart(Id: "+cartId+ ")");
@@ -47,7 +67,7 @@ public class CartSteps extends AbstractSteps {
     @When("i want to add a '$product' to a new cart")
     public void addProductNewCart(@Named("product") String product) {
 
-        String response = RestUtil.sendPut("http://training.33b096.rest.picz.com.br:8197/api/cart/product", product);
+        String response = RestUtil.sendPut(baseUrl+newCartUrl, product);
         DocumentContext documentContext = JsonPath.parse(response);
         context.saveResource("socks", documentContext);
         LOGGER.info("Creating a new cart with a product inside");
@@ -56,7 +76,7 @@ public class CartSteps extends AbstractSteps {
     public void getAllProductsOfCart(){
         DocumentContext result = (DocumentContext) context.getResource("newCartWithProducts");
         int cartId = result.read("$.id");
-        String response = RestUtil.sendGet("http://training.33b096.rest.picz.com.br:8197/api/cart/"+cartId+"/products");
+        String response = RestUtil.sendGet(baseUrl+String.format(cartProductsUrl,cartId));
         DocumentContext documentContext = JsonPath.parse(response);
         context.saveResource("cartProducts", documentContext);
         LOGGER.info("Getting all products of a given cart");
@@ -66,7 +86,7 @@ public class CartSteps extends AbstractSteps {
         DocumentContext result = (DocumentContext) context.getResource("newCartWithProducts");
         int cartId = result.read("$.id");
         int productId = (Integer) context.getResource("productId");
-        String response = RestUtil.sendDelete("http://training.33b096.rest.picz.com.br:8197/api/cart/" + cartId + "/product/" + productId);
+        String response = RestUtil.sendDelete(baseUrl+String.format(deleteProductUrl,cartId,productId));
         DocumentContext documentContext = JsonPath.parse(response);
         context.saveResource("deletedResponse", documentContext);
         LOGGER.info("Removing product (Id: "+productId+" )");
@@ -74,7 +94,7 @@ public class CartSteps extends AbstractSteps {
     @When("i want to see product details")
     public void getProductDetails(){
         long id = (Long)context.getResource("productId");
-        String response = RestUtil.sendGet("http://training.33b096.rest.picz.com.br:8197/api/product/"+id);
+        String response = RestUtil.sendGet(baseUrl+String.format(productUrl,id));
         DocumentContext documentContext = JsonPath.parse(response);
         context.saveResource("productDetails" ,documentContext);
         LOGGER.info("getting product details");
@@ -83,7 +103,7 @@ public class CartSteps extends AbstractSteps {
     public void addProductExistingCart(@Named("product") String product) {
         DocumentContext result = (DocumentContext) context.getResource("newCartWithProducts");
         int cartId = result.read("$.id",Integer.class);
-        String response = RestUtil.sendPut("http://training.33b096.rest.picz.com.br:8197/api/cart/" + cartId + "/product", product);
+        String response = RestUtil.sendPut(baseUrl+String.format(addProductUrl,cartId), product);
         DocumentContext documentContext = JsonPath.parse(response);
         context.saveResource("productAdded", documentContext);
         DocumentContext productAdded = (DocumentContext) context.getResource("productAdded");
@@ -101,7 +121,7 @@ public class CartSteps extends AbstractSteps {
     public void costAndWeightOfShipment(@Named("shipment") String shipment) {
         DocumentContext result = (DocumentContext) context.getResource("newCartWithProducts");
         int cartId = result.read("$.id", Integer.class);
-        String response = RestUtil.sendPost("http://training.33b096.rest.picz.com.br:8197/api/cart/" + cartId + "/shipment", shipment);
+        String response = RestUtil.sendPost(baseUrl+String.format(shipmentUrl,cartId), shipment);
         DocumentContext documentContext = JsonPath.parse(response);
         context.saveResource("shipment", documentContext);
         LOGGER.info("Creating Shipment for cart(Id: "+cartId+" )");
@@ -185,13 +205,13 @@ public class CartSteps extends AbstractSteps {
     public void getCarts(){
         DocumentContext result = (DocumentContext) context.getResource("socks");
         int cartId = result.read("$.id");
-        String response = RestUtil.sendGet("http://training.33b096.rest.picz.com.br:8197/api/cart/");
+        String response = RestUtil.sendGet(baseUrl+allCartsUrl);
         List<Integer>idsList =  JsonPath.parse(response).read("$..id",List.class);
         boolean flag = false;
         for (Integer id :idsList ){
             if (cartId == id){flag=true;}
         }
         Assert.assertTrue(flag);
-
+        LOGGER.info("checking if a new cart is in the cart list");
     }
 }

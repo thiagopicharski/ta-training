@@ -1,13 +1,19 @@
 
-Z
-java:S1128"8Remove this unused import 'java.net.URISyntaxException'.(Ä®íÿÿÿÿÿ8øñ•¨•.
-q
-java:S3008"VRename this field "REQ_FACTORY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íœúÿÿÿÿ
-@
-java:S5411"*Use the primitive boolean expression here.(öÜíÿ
 l
-java:S3008"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ„Æ¾şÿÿÿÿ
-f
-java:S1128"DRemove this unused import 'io.restassured.internal.http.URIBuilder'.(ĞßñÄıÿÿÿÿ8¿ü€¨•.
-P
-java:S1118":Add a private constructor to hide the implicit public one.(ì Ú
+java:S3008"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ„Æ¾şÿÿÿÿ
+N
+java:S3599#",Use another way to initialize this instance.(®©¢›şÿÿÿÿ8ñ¤Èº•.
+q
+java:S3008"VRename this field "REQ_FACTORY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íœúÿÿÿÿ
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8üŞ‰º•.
+W
+java:S1118":Add a private constructor to hide the implicit public one.(ì Ú8„•«º•.
+_
+java:S4719&"=Replace Charset.forName() call with StandardCharsets.US_ASCII(½ğÕ¹ûÿÿÿÿ8ñ¤Èº•.
+{
+java:S1171#"YMove the contents of this initializer to a standard constructor or to field initializers.(®©¢›şÿÿÿÿ8ñ¤Èº•.
+e
+java:S1128"HRemove this unused import 'org.apache.http.impl.auth.HttpAuthenticator'.(øØ¸¹8ìÁí¹•.
+B
+java:S1068"%Remove this unused "T" private field.(õçıô8À¶º•.
