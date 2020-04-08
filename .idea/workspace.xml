@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d6f819c-3dec-4407-a383-1f8fc7cf571b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aDcDCQznXEbleIEepxz20gO8Gc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SY40044542\eclipse-workspace\third-challenge\src\main\resources" />
+      <recent name="C:\Users\SY40044542\eclipse-workspace\third-challenge" />
+      <recent name="C:\Users\SY40044542\eclipse-workspace\third-challenge\src\main\resources\at" />
+      <recent name="C:\Users\SY40044542\eclipse-workspace\third-challenge\src\main\resources\at\templates" />
+      <recent name="C:\Users\SY40044542\eclipse-workspace\third-challenge\src\main\resources\at\templates\dev" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SY40044542\eclipse-workspace\third-challenge\src\main\resources\at\templates\prod" />
+      <recent name="C:\Users\SY40044542\eclipse-workspace\third-challenge\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AllStories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="third-challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.configuration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at" />
+      <option name="MAIN_CLASS_NAME" value="at.AllStories" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AllStories" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d6f819c-3dec-4407-a383-1f8fc7cf571b" name="Default Changelist" comment="" />
+      <created>1586273483017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586273483017</updated>
+      <workItem from="1586273488119" duration="3451000" />
+      <workItem from="1586277009688" duration="15024000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="495" y="139" key="FileChooserDialogImpl" timestamp="1586276946425">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state x="495" y="139" key="FileChooserDialogImpl/64.0.1302.768@64.0.1302.768" timestamp="1586276946425" />
+    <state width="1259" height="251" key="GridCell.Tab.0.bottom" timestamp="1586360524970">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state width="1259" height="251" key="GridCell.Tab.0.bottom/64.0.1302.768@64.0.1302.768" timestamp="1586360524970" />
+    <state width="1259" height="251" key="GridCell.Tab.0.center" timestamp="1586360524970">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state width="1259" height="251" key="GridCell.Tab.0.center/64.0.1302.768@64.0.1302.768" timestamp="1586360524970" />
+    <state width="1259" height="251" key="GridCell.Tab.0.left" timestamp="1586360524970">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state width="1259" height="251" key="GridCell.Tab.0.left/64.0.1302.768@64.0.1302.768" timestamp="1586360524970" />
+    <state width="1259" height="251" key="GridCell.Tab.0.right" timestamp="1586360524970">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state width="1259" height="251" key="GridCell.Tab.0.right/64.0.1302.768@64.0.1302.768" timestamp="1586360524970" />
+    <state x="245" y="39" key="Maven.ArtifactSearchDialog" timestamp="1586282204359">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state x="245" y="39" key="Maven.ArtifactSearchDialog/64.0.1302.768@64.0.1302.768" timestamp="1586282204359" />
+    <state x="216" y="26" key="SettingsEditor" timestamp="1586273957091">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state x="216" y="26" key="SettingsEditor/64.0.1302.768@64.0.1302.768" timestamp="1586273957091" />
+    <state x="371" y="172" key="run.anything.popup" timestamp="1586277130775">
+      <screen x="64" y="0" width="1302" height="768" />
+    </state>
+    <state x="371" y="172" key="run.anything.popup/64.0.1302.768@64.0.1302.768" timestamp="1586277130775" />
+  </component>
+</project>

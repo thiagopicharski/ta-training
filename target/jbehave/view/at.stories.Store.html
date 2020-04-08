@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>at.stories.Store</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">at/stories/Store.story</div>
+<div class="scenario">
+<h2>Scenario: I want to add products to the cart</h2>
+<div class="step successful">Given A product model 'loadTemplate(product)'</div>
+<div class="step successful">When I set product description to 'Just a product'</div>
+<div class="step successful">And I set product value to '13.60'</div>
+<div class="step successful">And I set product weight to '2.0'</div>
+<div class="step successful">And I add the product to the cart</div>
+<div class="step successful">Then I should not see any error</div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to add products to a cart</h2>
+<div class="step successful">Given A product model 'loadTemplate(product)'</div>
+<div class="step successful">When I set product description to 'Just a product'</div>
+<div class="step successful">And I set product value to '13.60'</div>
+<div class="step successful">And I set product weight to '2.0'</div>
+<div class="step pending">And I add the product to the cart with id '1' <span class="keyword pending">(PENDING)</span></div>
+<div class="step notPerformed">Then I should not see any error <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step ignorable">!-- GET METHOD</div>
+<div><pre class="pending">@When(&quot;I add the product to the cart with id '1'&quot;)
+@Pending
+public void whenIAddTheProductToTheCartWithId1() {
+  // PENDING
+}
+</pre></div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to get a cart list</h2>
+<div class="step successful">Given I am on the store</div>
+<div class="step successful">When I request a list of carts</div>
+<div class="step successful">Then I should receive a list of carts</div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to get a cart</h2>
+<div class="step successful">Given I am on the store</div>
+<div class="step successful">When I request a cart with id '1'</div>
+<div class="step successful">Then I should see the cart</div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to get products from a cart</h2>
+<div class="step successful">Given I am on the store</div>
+<div class="step successful">When I request a product list in a cart with id '1'</div>
+<div class="step successful">Then I should see a product list</div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to get a product</h2>
+<div class="step successful">Given I am on the store</div>
+<div class="step successful">When I request a product with id '5'</div>
+<div class="step successful">Then I should see the product</div>
+<div class="step ignorable">!-- POST METHOD</div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to calculate shipment</h2>
+<div class="step successful">Given A shipment model 'loadTemplate(shipment)'</div>
+<div class="step successful">And I set my cep to '80240440'</div>
+<div class="step successful">When I want to calculate the total price in the cart with id '1'</div>
+<div class="step successful">Then I should see the total price for shipment</div>
+<div class="step ignorable">!-- DELETE METHOD</div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to remove a product from my cart</h2>
+<div class="step successful">Given A cart on the store</div>
+<div class="step successful">When I remove the product with id '2' from my cart with id '1'</div>
+<div class="step successful">Then I should not see any error</div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
