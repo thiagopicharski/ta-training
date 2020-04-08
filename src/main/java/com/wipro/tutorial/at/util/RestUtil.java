@@ -67,4 +67,13 @@ public class RestUtil {
         HttpEntity request = new HttpEntity(payload, headers);
         return sendRequest(HttpMethod.PUT, url, request);
     }
+
+    public static String sendDelete(String url) {
+        LOGGER.info("REQ[" + url + "]: ");
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.add("Authorization", "Basic YWRtaW46cGFzc3dvcmQ=");
+        HttpEntity request = new HttpEntity(headers);
+        return sendRequest(HttpMethod.DELETE, url, request);
+    }
 }

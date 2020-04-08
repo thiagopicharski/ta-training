@@ -4,20 +4,16 @@ import com.google.gson.Gson;
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
 import com.wipro.tutorial.at.util.Cart;
-import com.wipro.tutorial.at.util.Product;
 import com.wipro.tutorial.at.util.RestUtil;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
-import org.jbehave.core.annotations.When;
 import org.junit.Assert;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.logging.Logger;
 
 @Component
 public class CartControllerSteps extends AbstractSteps {
@@ -29,6 +25,7 @@ public class CartControllerSteps extends AbstractSteps {
     @Value("${app.base.url}/api/cart/product")
     private String productApi;
     Gson gson = new Gson();
+
     @Given("I am on a store with model '$template'")
     public void givenAHero(@Named("template") String template) {
         LOGGER.info(appUrl + '\n' + cartApi + '\n' + productApi);
@@ -54,41 +51,55 @@ public class CartControllerSteps extends AbstractSteps {
         LOGGER.info("PUT Response " + result);
         context.saveResource("result", result);
     }
+
     @Then("I verify if the product with description $description has been added")
-    public void verifyIfProductHasBeenAdded(@Named("description") String description){
+    public void verifyIfProductHasBeenAdded(@Named("description") String description) {
+        String result = RestUtil.sendGet(cartApi);
+        List<Cart> carts = Arrays.asList(gson.fromJson(result, Cart[].class));
+        Assert.assertTrue("The product is present", carts.stream().anyMatch(cart -> Arrays.stream(cart.getProducts()).anyMatch(product -> {
+            return product.getDescription().equals(description);
+        })));
+    }
+
+    @Then("I verify if the cart with id $id has been added")
+    @Given("the cart with id $id has is present")
+    public void verifyIfCartIsPresent(@Named("id") int id) {
+        String result = RestUtil.sendGet(cartApi + "/" + id);
+        if (result.contains("httpStatus") || result.contains("not found")) {
+            throw new AssertionError();
+        } else {
+            Cart carts = gson.fromJson(result, Cart.class);
+            Assert.assertEquals("The cart is present", carts.getId(), id);
+        }
+    }
+
+    @Then("Then I delete the product with id $id inside cart with id $cartId")
+    public void deleteProductWithIdInsideCart(@Named("id") int productId, @Named("cartId") int cartId) {
+        String result = RestUtil.sendGet(cartApi + "/" + cartId);
+        if (result.contains("httpStatus") || result.contains("not found")) {
+            throw new AssertionError();
+        } else {
+            Cart carts = gson.fromJson(result, Cart.class);
+            Arrays.stream(carts.getProducts()).filter(product -> product.getId() == productId).findAny().ifPresent(product -> {
+                String res = RestUtil.sendDelete(cartApi + "/" + cartId + "/product" + "/" + productId);
+                if (result.contains("httpStatus") || result.contains("not found")) {
+                    throw new AssertionError();
+                }
+            });
+        }
+    }
+
+    @Then("I remove everything with description $description")
+    public void removeEverythingWithDescription(@Named("description") String description) {
         String result = RestUtil.sendGet(cartApi);
         List<Cart> carts = Arrays.asList(gson.fromJson(result, Cart[].class));
         carts.forEach(cart -> {
-            Arrays.asList(cart.getProducts()).forEach(product -> {
-                LOGGER.info(product.toString());
+            Arrays.stream(cart.getProducts()).filter(product -> product.getDescription().equals(description)).forEach(product -> {
+                String res = RestUtil.sendDelete(cartApi + "/" + cart.getId() + "/product" + "/" + product.getId());
+                if (res.contains("httpStatus") || res.contains("not found")) {
+                    throw new AssertionError();
+                }
             });
         });
-        //Assert.assertTrue("The product is present", products.stream().anyMatch(product -> product.getDescription().equals(description)));
-    }
-
-    @When("I set the hero's superpower to '$superpower'")
-    public void setHeroSuperpower(@Named("superpower") String superpower) {
-        DocumentContext json = (DocumentContext) context.getResource("payload");
-        json.set("superpower", superpower);
-    }
-
-    @When("I add the hero to store")
-    public void setHeroStore() {
-        DocumentContext json = (DocumentContext) context.getResource("payload");
-        LOGGER.info("JSON: " + json.jsonString());
-        String result = RestUtil.sendPost(appUrl, json.jsonString());
-        context.saveResource("result", result);
-    }
-
-    @Then("I should not see any error")
-    public void thenNoErrors() {
-        String result = (String) context.getResource("result");
-        LOGGER.info("REST_RESULT: " + result);
-    }
-
-    @Then("I should receive a list of heroes")
-    public void thenReceiveHeroes() {
-        DocumentContext result = (DocumentContext) context.getResource("result");
-        LOGGER.info("Result: " + result.jsonString());
     }
 }
