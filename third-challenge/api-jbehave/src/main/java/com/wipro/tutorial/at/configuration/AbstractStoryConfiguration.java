@@ -1,5 +1,6 @@
 package com.wipro.tutorial.at.configuration;
 
+import org.apache.commons.codec.binary.Base64;
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.configuration.MostUsefulConfiguration;
 import org.jbehave.core.embedder.Embedder;
@@ -13,6 +14,9 @@ import org.jbehave.core.steps.ParameterControls;
 import org.jbehave.core.steps.spring.SpringStepsFactory;
 import org.jbehave.web.selenium.WebDriverHtmlOutput;
 import org.springframework.context.ApplicationContext;
+import org.springframework.http.HttpHeaders;
+
+import java.nio.charset.Charset;
 
 public abstract class AbstractStoryConfiguration extends JUnitStories {
 
@@ -56,4 +60,6 @@ public abstract class AbstractStoryConfiguration extends JUnitStories {
 	}
 	
 	public abstract ApplicationContext getAnnotatedApplicationContext();
+
+
 }

@@ -28,13 +28,25 @@
 			<artifactId>selenium-java</artifactId>
 			<version>${selenium.version}</version>
 		</dependency>
-		
-		<!-- JBehave -->
+
+
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+
 		<dependency>
 			<groupId>de.codecentric</groupId>
 			<artifactId>jbehave-junit-runner</artifactId>
 			<version>${junit.runner.version}</version>
-		</dependency>	
+		</dependency>
+
+
+
+
+
 		<dependency>
 			<groupId>org.jbehave</groupId>
 			<artifactId>jbehave-core</artifactId>
@@ -65,13 +77,7 @@
 			<artifactId>spring-web</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
-		<!-- Log4j-->
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>${log4j.version}</version>
-		</dependency>
+
 
 		<dependency>
 			<groupId>com.jayway.jsonpath</groupId>
@@ -83,7 +89,13 @@
 			<artifactId>guava</artifactId>
 			<version>28.2-jre</version>
 		</dependency>
-		
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>4.3.0</version>
+			<scope>compile</scope>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>

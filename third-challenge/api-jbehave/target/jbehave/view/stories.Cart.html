@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>stories.Cart</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">stories/Cart.story</div>
+<div class="scenario">
+<h2>Scenario: I want to add products  thea new  cart</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given i don't have a cart yet</div>
+<div class="step">When i want to add a 'product' to a new cart</div>
+<div class="step">Then i should see 'expectedDescription' in the cart</div>
+<table>
+<thead>
+<tr>
+<th>product</th><th>expectedDescription</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>{&quot;description&quot;: &quot;socks&quot; , &quot;id&quot;: 1, &quot;value&quot;:17,&quot;weight&quot;: 1  }</td><td>socks</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {product={&quot;description&quot;: &quot;socks&quot; , &quot;id&quot;: 1, &quot;value&quot;:17,&quot;weight&quot;: 1  }, expectedDescription=socks}</h3>
+<div class="step successful">Given i don't have a cart yet</div>
+<div class="step successful">When i want to add a 'product' to a new cart</div>
+<div class="step successful">Then i should see 'expectedDescription' in the cart</div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to add a product to an existing cart</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given i have  a cart with 'products'</div>
+<div class="step">When i  add a 'product' to a existing cart</div>
+<div class="step">Then i should see 'expectedDescription' in the existing cart</div>
+<table>
+<thead>
+<tr>
+<th>products</th><th>product</th><th>expectedDescription</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;]</td><td>{&quot;description&quot;: &quot;socks&quot; , &quot;id&quot;: 1, &quot;value&quot;:17,&quot;weight&quot;: 1  }</td><td>socks</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {products=[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;], product={&quot;description&quot;: &quot;socks&quot; , &quot;id&quot;: 1, &quot;value&quot;:17,&quot;weight&quot;: 1  }, expectedDescription=socks}</h3>
+<div class="step successful">Given i have  a cart with 'products'</div>
+<div class="step successful">When i  add a 'product' to a existing cart</div>
+<div class="step successful">Then i should see 'expectedDescription' in the existing cart</div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to remove a product from the cart</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given i have  a cart with 'products'</div>
+<div class="step">When i want to remove a product from the cart</div>
+<div class="step">Then the 'numberOfProducts' in the cart should have one less product</div>
+<table>
+<thead>
+<tr>
+<th>products</th><th>numberOfProducts</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;]</td><td>1</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {products=[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;], numberOfProducts=1}</h3>
+<div class="step successful">Given i have  a cart with 'products'</div>
+<div class="step successful">When i want to remove a product from the cart</div>
+<div class="step successful">Then the 'numberOfProducts' in the cart should have one less product</div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to see all products in my cart</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given i have  a cart with 'products'</div>
+<div class="step">When i  want to see all products in my cart</div>
+<div class="step">Then the 'numberOfProducts' in the cart should be the same as the initial cart</div>
+<table>
+<thead>
+<tr>
+<th>products</th><th>numberOfProducts</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;]</td><td>2</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {products=[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;], numberOfProducts=2}</h3>
+<div class="step successful">Given i have  a cart with 'products'</div>
+<div class="step successful">When i  want to see all products in my cart</div>
+<div class="step successful">Then the 'numberOfProducts' in the cart should be the same as the initial cart</div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: I want to have a sum of all items in cart</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given i have  a cart with 'products'</div>
+<div class="step">When i want to have the sum of all items</div>
+<div class="step">Then i should see the 'expectedSum'</div>
+<table>
+<thead>
+<tr>
+<th>products</th><th>expectedSum</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;]</td><td>15</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {products=[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;], expectedSum=15}</h3>
+<div class="step successful">Given i have  a cart with 'products'</div>
+<div class="step successful">When i want to have the sum of all items</div>
+<div class="step successful">Then i should see the 'expectedSum'</div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: i want to evaluate the total weight of my shipment</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given i have  a cart with 'products'</div>
+<div class="step">When i want to have the total cost  and the weight of my 'shipment'</div>
+<div class="step">Then the cost should be equals to 'cost'</div>
+<div class="step">And the weight should be equals to 'weight'</div>
+<table>
+<thead>
+<tr>
+<th>products</th><th>shipment</th><th>weight</th><th>cost</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;]</td><td>{&quot;cep&quot;:&quot;80730-350&quot;, &quot;serviceType&quot;:&quot;SEDEX_VAREJO&quot;}</td><td>9</td><td>41.6</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {products=[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;], shipment={&quot;cep&quot;:&quot;80730-350&quot;, &quot;serviceType&quot;:&quot;SEDEX_VAREJO&quot;}, weight=9, cost=41.6}</h3>
+<div class="step successful">Given i have  a cart with 'products'</div>
+<div class="step successful">When i want to have the total cost  and the weight of my 'shipment'</div>
+<div class="step successful">Then the cost should be equals to 'cost'</div>
+<div class="step successful">And the weight should be equals to 'weight'</div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Using product Id i want to  acess product details</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given I have a 'id' of a Product</div>
+<div class="step">When i want to see product details</div>
+<div class="step">Then the product description should be equals to 'expectedDescription'</div>
+<div class="step">And the product weight should be equals to 'expectedWeight'</div>
+<div class="step">And the product value should be equals to 'expectedValue'</div>
+<table>
+<thead>
+<tr>
+<th>id</th><th>expectedDescription</th><th>expectedWeight</th><th>expectedValue</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>481</td><td>apple</td><td>5</td><td>6</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {id=481, expectedDescription=apple, expectedWeight=5, expectedValue=6}</h3>
+<div class="step successful">Given I have a 'id' of a Product</div>
+<div class="step successful">When i want to see product details</div>
+<div class="step successful">Then the product description should be equals to 'expectedDescription'</div>
+<div class="step successful">And the product weight should be equals to 'expectedWeight'</div>
+<div class="step successful">And the product value should be equals to 'expectedValue'</div>
+</div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

@@ -1,0 +1,14 @@
+
+p
+java:S1128"NRemove this unused import 'io.restassured.specification.RequestSpecification'.(«‘ÏÜþÿÿÿÿ8ÜÝ¶§•.
+X	java:S1257"<This block of commented-out lines of code should be removed.(ƒß‡8¨øä©•.
+]	java:S125%"<This block of commented-out lines of code should be removed.(Òœ€·ûÿÿÿÿ8÷ë£¨•.
+]	java:S125:"<This block of commented-out lines of code should be removed.(ñˆÕ÷øÿÿÿÿ8ÌÒ©•.
+Z
+java:S1128"8Remove this unused import 'java.net.URISyntaxException'.(Ä®íÿÿÿÿÿ8®š–¨•.
+g
+java:S1128"ERemove this unused import 'io.restassured.internal.http.HTTPBuilder'.(³ž§òøÿÿÿÿ8é§ý¦•.
+j
+java:S1128"HRemove this unused import 'org.springframework.web.client.RestTemplate'.(Îö¼Þûÿÿÿÿ8¯˜Ç§•.
+b
+java:S1128"@Remove this unused import 'com.wipro.tutorial.at.util.JsonUtil'.(ŽÖ¿æûÿÿÿÿ8Á‹Ñ¨•.
