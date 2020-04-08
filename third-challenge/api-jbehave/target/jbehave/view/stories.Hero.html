@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>stories.Hero</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">stories/Hero.story</div>
+<div class="scenario">
+<h2>Scenario: Add a product to a cart</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given A product</div>
+<div class="step">When I add a '$product' in a cart</div>
+<div class="step">Then The product should be on cart</div>
+<table>
+<thead>
+<tr>
+<th>product</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>&quot;{ \&quot;description\&quot;: &quot;Product description&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 10, \&quot;weight\&quot;: 5 }&quot;</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {product=&quot;{ \&quot;description\&quot;: &quot;Product description&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 10, \&quot;weight\&quot;: 5 }&quot;}</h3>
+<div class="step pending">Given A product <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">When I add a '$product' in a cart <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">Then The product should be on cart <span class="keyword pending">(PENDING)</span></div>
+<div><pre class="pending">@Given(&quot;A product&quot;)
+@Pending
+public void givenAProduct() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I add a '$product' in a cart&quot;)
+@Pending
+public void whenIAddAproductInACart() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@Then(&quot;The product should be on cart&quot;)
+@Pending
+public void thenTheProductShouldBeOnCart() {
+  // PENDING
+}
+</pre></div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Remove a product from a cart</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given A cart with the product '$id'</div>
+<div class="step">When I remove the product '$id'</div>
+<div class="step">Then The cart should be empty</div>
+<table>
+<thead>
+<tr>
+<th>id</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {id=1}</h3>
+<div class="step pending">Given A cart with the product '$id' <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">When I remove the product '$id' <span class="keyword pending">(PENDING)</span></div>
+<div class="step pending">Then The cart should be empty <span class="keyword pending">(PENDING)</span></div>
+<div><pre class="pending">@Given(&quot;A cart with the product '$id'&quot;)
+@Pending
+public void givenACartWithTheProductid() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@When(&quot;I remove the product '$id'&quot;)
+@Pending
+public void whenIRemoveTheProductid() {
+  // PENDING
+}
+</pre></div>
+<div><pre class="pending">@Then(&quot;The cart should be empty&quot;)
+@Pending
+public void thenTheCartShouldBeEmpty() {
+  // PENDING
+}
+</pre></div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: </h2>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

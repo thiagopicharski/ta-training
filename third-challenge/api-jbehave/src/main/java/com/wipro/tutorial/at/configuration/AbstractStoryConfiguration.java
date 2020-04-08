@@ -23,9 +23,9 @@ public abstract class AbstractStoryConfiguration extends JUnitStories {
 		context = getAnnotatedApplicationContext();
 		
 		Embedder embedder = configuredEmbedder();									
-		embedder.embedderControls().doIgnoreFailureInStories(true)
+		embedder.embedderControls().doIgnoreFailureInStories(false)
 									.useStoryTimeouts(DEFAULT_STORY_TIMEOUT_SECS)
-									.doFailOnStoryTimeout(false)
+									.doFailOnStoryTimeout(true)
 									.doGenerateViewAfterStories(true)
 									.doIgnoreFailureInView(false)
 									.doVerboseFailures(true);

@@ -13,7 +13,6 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.core.env.Environment;
 
-
 @Configuration
 @ComponentScan({"com.wipro.tutorial.at", "templates"})
 @PropertySource("classpath:properties/${environment}/application.properties")
