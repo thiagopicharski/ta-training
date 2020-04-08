@@ -1,19 +1,19 @@
 
-F
-java:S1128"0Remove this unused import 'java.io.InputStream'.(¹»º
-q
-java:S3008"VRename this field "JSON_CONFIG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ûÔÄÿÿÿÿÿ
-K
-java:S1481"0Remove this unused "classLoader" local variable.(¹ÌíÍÿÿÿÿÿ
-M
-java:S1128"7Remove this unused import 'com.google.gson.JsonParser'.(Œƒ¸Æ
-D
-java:S1481")Remove this unused "file" local variable.(Ë»¡™øÿÿÿÿ
 a
 java:S1128"FRemove this unused import 'com.jayway.jsonpath.spi.json.JsonProvider'.(×Ì¹ˆıÿÿÿÿ
+q
+java:S3008"VRename this field "JSON_CONFIG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ûÔÄÿÿÿÿÿ
 I
 java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ
-l
-java:S3008"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â€‰œúÿÿÿÿ
 Z
 java:S1854"?Remove this useless assignment to local variable "classLoader".(¹ÌíÍÿÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.io.InputStream'.(¹»º
+K
+java:S1481"0Remove this unused "classLoader" local variable.(¹ÌíÍÿÿÿÿÿ
+D
+java:S1481")Remove this unused "file" local variable.(Ë»¡™øÿÿÿÿ
+M
+java:S1128"7Remove this unused import 'com.google.gson.JsonParser'.(Œƒ¸Æ
+l
+java:S3008"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â€‰œúÿÿÿÿ

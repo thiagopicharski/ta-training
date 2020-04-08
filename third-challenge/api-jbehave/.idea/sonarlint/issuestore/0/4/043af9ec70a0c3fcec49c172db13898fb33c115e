@@ -1,19 +1,13 @@
 
-l
-java:S3008"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ„Æ¾þÿÿÿÿ
-N
-java:S3599#",Use another way to initialize this instance.(®©¢›þÿÿÿÿ8ñ¤Èº•.
+X	java:S1257"<This block of commented-out lines of code should be removed.(‹à¬Ü8³·²Õ•.
 q
-java:S3008"VRename this field "REQ_FACTORY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Žíœúÿÿÿÿ
-R
-java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8üÞ‰º•.
-W
-java:S1118":Add a private constructor to hide the implicit public one.(ì Ú8„•«º•.
-_
-java:S4719&"=Replace Charset.forName() call with StandardCharsets.US_ASCII(½ðÕ¹ûÿÿÿÿ8ñ¤Èº•.
+java:S3008"VRename this field "REQ_FACTORY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Žíœúÿÿÿÿ
+W	java:S125J"<This block of commented-out lines of code should be removed.(™æø8 ªˆÖ•.
+N
+java:S3599%",Use another way to initialize this instance.(®©¢›þÿÿÿÿ8ñ¤Èº•.
 {
-java:S1171#"YMove the contents of this initializer to a standard constructor or to field initializers.(®©¢›þÿÿÿÿ8ñ¤Èº•.
-e
-java:S1128"HRemove this unused import 'org.apache.http.impl.auth.HttpAuthenticator'.(øØ¸¹8ìÁí¹•.
-B
-java:S1068"%Remove this unused "T" private field.(õçýô8À¶º•.
+java:S1171%"YMove the contents of this initializer to a standard constructor or to field initializers.(®©¢›þÿÿÿÿ8ñ¤Èº•.
+_
+java:S4719("=Replace Charset.forName() call with StandardCharsets.US_ASCII(½ðÕ¹ûÿÿÿÿ8ñ¤Èº•.
+l
+java:S3008"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ„Æ¾þÿÿÿÿ

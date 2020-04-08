@@ -18,5 +18,5 @@ public abstract class AbstractSteps {
 	@Autowired
 	protected CartUtil cartUtil;
 	
-	protected Logger LOGGER = Logger.getLogger(this.getClass());
+	protected Logger logger = Logger.getLogger(this.getClass());
 }

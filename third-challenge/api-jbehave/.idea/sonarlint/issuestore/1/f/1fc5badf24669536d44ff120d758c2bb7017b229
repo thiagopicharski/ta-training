@@ -1,14 +1,14 @@
 
-	java:S116"eRename this field "DEFAULT_STORY_TIMEOUT_SECS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä‰áşÿÿÿÿ
-c
-java:S1128"ARemove this unused import 'org.springframework.http.HttpHeaders'.(ãŸñ×úÿÿÿÿ8Ğò¢º•.
 e
 java:S1128"CRemove this unused import 'org.apache.commons.codec.binary.Base64'.(¡é“ûÿÿÿÿ8Ğò¢º•.
-W
-java:S1128"5Remove this unused import 'java.nio.charset.Charset'.(ü¶ØŸıÿÿÿÿ8Ğò¢º•.
+c
+java:S1128"ARemove this unused import 'org.springframework.http.HttpHeaders'.(ãŸñ×úÿÿÿÿ8Ğò¢º•.
 <
 java:S1170"!Make this final field static too.(Ä‰áşÿÿÿÿ
 €
 java:S1488,"eImmediately return this expression instead of assigning it to the temporary variable "configuration".(£ °ˆıÿÿÿÿ
 z
 java:S1488:"_Immediately return this expression instead of assigning it to the temporary variable "formats".(—ÃÄŞûÿÿÿÿ
+W
+java:S1128"5Remove this unused import 'java.nio.charset.Charset'.(ü¶ØŸıÿÿÿÿ8Ğò¢º•.
+	java:S116"eRename this field "DEFAULT_STORY_TIMEOUT_SECS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä‰áşÿÿÿÿ

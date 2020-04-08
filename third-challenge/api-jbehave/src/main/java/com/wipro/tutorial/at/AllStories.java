@@ -2,8 +2,6 @@
 package com.wipro.tutorial.at;
 
 
-
-
 import com.wipro.tutorial.at.configuration.AbstractStoryConfiguration;
 import com.wipro.tutorial.at.configuration.ProjectConfiguration;
 import de.codecentric.jbehave.junit.monitoring.JUnitReportingRunner;
@@ -22,7 +20,7 @@ public class AllStories extends AbstractStoryConfiguration {
 
 	public AllStories() {
 		configuredEmbedder().embedderControls().doGenerateViewAfterStories(true)
-				.doIgnoreFailureInView(true).useThreads(2).useStoryTimeoutInSecs(60);
+				.doIgnoreFailureInView(true).useThreads(2);
 	}
 
 	@Override
@@ -32,8 +30,8 @@ public class AllStories extends AbstractStoryConfiguration {
 	
 	@Override
 	public List<String> storyPaths() {
-		List<String> paths = new StoryFinder().findPaths(
+		return new StoryFinder().findPaths(
 				CodeLocations.codeLocationFromClass(this.getClass()), "**/stories/Cart.story", "");
-		return paths;
+
 	}
 }

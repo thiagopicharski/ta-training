@@ -1,9 +1,6 @@
 package com.wipro.tutorial.at.configuration;
 
 import com.wipro.tutorial.at.util.RestUtil;
-import org.jbehave.web.selenium.PropertyWebDriverProvider;
-import org.jbehave.web.selenium.WebDriverProvider;
-import org.jbehave.web.selenium.WebDriverScreenshotOnFailure;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
