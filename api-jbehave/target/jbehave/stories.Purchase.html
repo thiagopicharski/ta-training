@@ -1,0 +1,124 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/Purchase.story</div>
+<div class="scenario">
+<h2>Scenario: Adding products to a cart</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given an empty cart</div>
+<div class="step">When I add a'$prod' to the cart</div>
+<div class="step">Then the cart should have one product inside</div>
+<table>
+<thead>
+<tr>
+<th>prod</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>{ &quot;description&quot;: &quot;game console&quot;, &quot;id&quot;: 64, &quot;value&quot;: 1200, &quot;weight&quot;: 4 }</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {prod={ &quot;description&quot;: &quot;game console&quot;, &quot;id&quot;: 64, &quot;value&quot;: 1200, &quot;weight&quot;: 4 }}</h3>
+<div class="step successful">Given an empty cart</div>
+<div class="step failed">When I add a'$prod' to the cart <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.springframework.web.client.HttpServerErrorException: 500 </span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-a941587c-d586-4531-ae2b-472e5c7af1b1.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+<div class="step notPerformed">Then the cart should have one product inside <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Remove a product from the cart</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a cart filled with products which their ids are '$prodIds'</div>
+<div class="step">When I remove a product with the following '$id' from the cart</div>
+<div class="step">Then the cart no long contain the product with '$id'</div>
+<table>
+<thead>
+<tr>
+<th>n</th><th>prodIds</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td><td>2, 5, 7</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {n=2, prodIds=2, 5, 7}</h3>
+<div class="step failed">Given a cart filled with products which their ids are '$prodIds' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.springframework.web.client.HttpServerErrorException: 500 </span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-af80f77f-1e6e-4c0b-a552-759538807430.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+<div class="step notPerformed">When I remove a product with the following '$id' from the cart <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then the cart no long contain the product with '$id' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Create cart with new products then remove one</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a new cart with the following products '$prod'</div>
+<div class="step">When I remove the first element from the cart</div>
+<div class="step">Then the cart needs to have one less element</div>
+<table>
+<thead>
+<tr>
+<th>prod</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>[&quot;{ \&quot;description\&quot;: \&quot;game console\&quot;, \&quot;id\&quot;: 64, \&quot;value\&quot;: 1200, \&quot;weight\&quot;: 4 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;game cartidge\&quot;, \&quot;id\&quot;: 89, \&quot;value\&quot;: 150, \&quot;weight\&quot;: 1 }&quot; ]</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {prod=[&quot;{ \&quot;description\&quot;: \&quot;game console\&quot;, \&quot;id\&quot;: 64, \&quot;value\&quot;: 1200, \&quot;weight\&quot;: 4 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;game cartidge\&quot;, \&quot;id\&quot;: 89, \&quot;value\&quot;: 150, \&quot;weight\&quot;: 1 }&quot; ]}</h3>
+<div class="step failed">Given a new cart with the following products '$prod' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.springframework.web.client.HttpServerErrorException: 500 </span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-2c3d67f1-9c26-4eb8-b728-955a43988ff8.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+<div class="step notPerformed">When I remove the first element from the cart <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then the cart needs to have one less element <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Calculate cart total</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a new cart with the following products '$prod'</div>
+<div class="step">When I proceed to checkout</div>
+<div class="step">Then the total amount should be '$total'</div>
+<table>
+<thead>
+<tr>
+<th>total</th><th>prod</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td><td>[&quot;{ \&quot;description\&quot;: \&quot;game console\&quot;, \&quot;id\&quot;: 64, \&quot;value\&quot;: 1200, \&quot;weight\&quot;: 4 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;game cartidge\&quot;, \&quot;id\&quot;: 89, \&quot;value\&quot;: 150, \&quot;weight\&quot;: 1 }&quot; ]</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {total=5, prod=[&quot;{ \&quot;description\&quot;: \&quot;game console\&quot;, \&quot;id\&quot;: 64, \&quot;value\&quot;: 1200, \&quot;weight\&quot;: 4 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;game cartidge\&quot;, \&quot;id\&quot;: 89, \&quot;value\&quot;: 150, \&quot;weight\&quot;: 1 }&quot; ]}</h3>
+<div class="step failed">Given a new cart with the following products '$prod' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.springframework.web.client.HttpServerErrorException: 500 </span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-d174f891-cdbe-4186-9ca5-c13182c8a1f1.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+<div class="step notPerformed">When I proceed to checkout <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then the total amount should be '$total' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Calculate shipping</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a new cart with the following products '$prod'</div>
+<div class="step">When I receive the shipment value through '$shipment'</div>
+<div class="step">Then the shipment cost should correspond to the weight '$weight'</div>
+<table>
+<thead>
+<tr>
+<th>weight</th><th>shipment</th><th>prod</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td><td>{&quot;cep&quot;:&quot;81920-060&quot;, &quot;serviceType&quot;:&quot;SEDEX_VAREJO&quot;}</td><td>[&quot;{ \&quot;description\&quot;: \&quot;game console\&quot;, \&quot;id\&quot;: 64, \&quot;value\&quot;: 1200, \&quot;weight\&quot;: 4 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;game cartidge\&quot;, \&quot;id\&quot;: 89, \&quot;value\&quot;: 150, \&quot;weight\&quot;: 1 }&quot; ]</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {weight=5, shipment={&quot;cep&quot;:&quot;81920-060&quot;, &quot;serviceType&quot;:&quot;SEDEX_VAREJO&quot;}, prod=[&quot;{ \&quot;description\&quot;: \&quot;game console\&quot;, \&quot;id\&quot;: 64, \&quot;value\&quot;: 1200, \&quot;weight\&quot;: 4 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;game cartidge\&quot;, \&quot;id\&quot;: 89, \&quot;value\&quot;: 150, \&quot;weight\&quot;: 1 }&quot; ]}</h3>
+<div class="step failed">Given a new cart with the following products '$prod' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.springframework.web.client.HttpServerErrorException: 500 </span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-641bc900-d6d2-4ac5-936c-4267babdc776.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+<div class="step notPerformed">When I receive the shipment value through '$shipment' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then the shipment cost should correspond to the weight '$weight' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+</div>
+</div>
