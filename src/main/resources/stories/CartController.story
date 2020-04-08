@@ -27,6 +27,11 @@ Given I am on a store with model 'loadTemplate(product)'
 Given the cart with id 2558 is present
 Then Then I delete the product with id 2559 inside cart with id 2558
 
-Scenario: I remove everything modified in the api
+Scenario: Verify if there is any product inside cart with id
+Given I am on a store with model 'loadTemplate(product)'
+Given the cart with id 1998 is present
+Then I verify if the cart 1998 has products
+
+Scenario: I remove everything modified in the test
 Given I am on a store with model 'loadTemplate(product)'
 Then I remove everything with description Fortunato

@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
 import com.wipro.tutorial.at.util.Cart;
+import com.wipro.tutorial.at.util.Product;
 import com.wipro.tutorial.at.util.RestUtil;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
@@ -99,6 +100,13 @@ public class CartControllerSteps extends AbstractSteps {
                 }
             });
         }
+    }
+
+    @Then("I verify if the cart $id has products")
+    public void verifyIfCartIsEmpty(@Named("id") int id) {
+        String result = RestUtil.sendGet(cartApi + "/" + id + "/products");
+        List<Product> products = Arrays.asList(gson.fromJson(result, Product[].class));
+        Assert.assertFalse(products.isEmpty());
     }
 
     @Then("I remove everything with description $description")
