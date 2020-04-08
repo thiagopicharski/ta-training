@@ -13,57 +13,70 @@ import org.springframework.stereotype.Component;
 import java.util.logging.Logger;
 
 @Component
-public class HeroSteps extends AbstractSteps {
+public class ProductSteps extends AbstractSteps {
 
     @Value("${app.base.url}")
     private String appUrl;
 
-    @Given("I am on a hero store with model '$template'")
-    public void givenAHero(@Named("template") String template) {
+    @Given("A product in the API'")
+    public void givenAProduct( String template) {
         DocumentContext json = jsonUtil.loadJson(template);
         context.saveResource("payload", json);
     }
 
-    @Given("I am on a hero store")
-    public void givenAHero() {
+    @Given("A product in the cart ")
+    public void productInCart() {
+    	
+    }
+    
+    @Given("A product in the cart ")
+    public void productInCartUpdate() {
     }
 
-    @When("I request the list of heroes")
-    public void requestHeroes() {
-        String result = RestUtil.sendGet(appUrl);
-        DocumentContext documentContext = JsonPath.parse(result);
-        context.saveResource("result", documentContext);
-    }
-
-    @When("I set the hero's name to '$name'")
-    public void setHeroName(@Named("name") String name) {
-        DocumentContext json = (DocumentContext)context.getResource("payload");
-        json.set("name", name);
-    }
-
-    @When("I set the hero's superpower to '$superpower'")
-    public void setHeroSuperpower(@Named("superpower") String superpower) {
-        DocumentContext json = (DocumentContext)context.getResource("payload");
-        json.set("superpower", superpower);
-    }
-
-    @When("I add the hero to store")
-    public void setHeroStore() {
-        DocumentContext json = (DocumentContext)context.getResource("payload");
+    
+    
+    @When("I  add a product  to the  cart")
+    public void addToCart() {
+    	DocumentContext json = (DocumentContext)context.getResource("payload");
         LOGGER.info("JSON: " + json.jsonString());
         String result = RestUtil.sendPost(appUrl, json.jsonString());
         context.saveResource("result", result);
     }
-
-    @Then("I should not see any error")
-    public void thenNoErrors() {
-        String result = (String) context.getResource("result");
-        LOGGER.info("REST_RESULT: " + result);
+    
+    @When(" I remove the  product to  the cart")
+    public void removeToCart() {
+    	DocumentContext json = (DocumentContext)context.getResource("payload");
+        LOGGER.info("JSON: " + json.jsonString());
+        String result = RestUtil.sendPost(appUrl, json.jsonString());
+        context.removeResource("result", result);
     }
-
-    @Then("I should receive a list of heroes")
-    public void thenReceiveHeroes() {
-        DocumentContext result = (DocumentContext) context.getResource("result");
-        LOGGER.info("Result: " + result.jsonString());
+    
+    @When("I update the product ")
+    public void uptadeProduct() {
+    	DocumentContext json = (DocumentContext)context.getResource("payload");
+        LOGGER.info("JSON: " + json.jsonString());
+        String result = RestUtil.sendPost(appUrl, json.jsonString());
+        context.updateResource("result", result);
+    	
     }
+    
+    
+    
+    @Then("I  should see the product in the cart")
+    public void thenSeeTheProducts() {
+    	 String result = (String) context.getResource("result");
+         LOGGER.info("REST_RESULT: " + result);
+    }
+    
+    @Then("I  get the cart empty")
+    public void cartEmpty() {
+    	LOGGER.info("REST_RESULT: " + appUrl);
+    }
+    
+    @Then("I  changed the cart")
+    public void updateCart() {
+    	LOGGER.info("REST_RESULT: " + appUrl);
+    }
+    
+   
 }

@@ -18,11 +18,21 @@ public class TestContext {
 		resourceMap.put(key, object);
 	}
 	
+	public void removeResource(String key, Object object) {
+		resourceMap.put(key, object);
+	}
+	
+	
 	public Object getResource(String key) {
 		return resourceMap.get(key);
 	}
 	
 	public void clearContext() {
 		resourceMap.clear();
+	}
+
+	public void updateResource(String string, String result) {
+		// TODO Auto-generated method stub
+		
 	}
 }
