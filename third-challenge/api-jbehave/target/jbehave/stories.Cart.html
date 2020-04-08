@@ -1,0 +1,28 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/Cart.story</div>
+<div class="scenario">
+<h2>Scenario: Add a product to the cart</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a cart</div>
+<div class="step">When I add a product with '$id' to the cart</div>
+<div class="step">Then I should see the product on the cart</div>
+<table>
+<thead>
+<tr>
+<th>id</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {id=200}</h3>
+<div class="step successful">Given a cart</div>
+<div class="step failed">When I add a product with '$id' to the cart <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.springframework.web.client.HttpServerErrorException: 500 </span><br/><a color="black" target="jb_scn_shot" href="../screenshots/failed-scenario-753d0e55-c901-41bc-be04-e18f62cf8d74.png"><img src="images/failing_screenshot.png" alt="failing screenshot"/></a></div>
+<div class="step notPerformed">Then I should see the product on the cart <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+</div>
+</div>
