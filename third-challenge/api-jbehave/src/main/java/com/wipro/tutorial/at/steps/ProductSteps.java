@@ -13,19 +13,15 @@ import org.springframework.stereotype.Component;
 import java.util.logging.Logger;
 
 @Component
-public class HeroSteps extends AbstractSteps {
+public class ProductSteps extends AbstractSteps {
 
-    @Value("${app.base.url}")
+    @Value("${app.base.url}/product")
     private String appUrl;
 
-    @Given("I am on a hero store with model '$template'")
+    @Given("A product '$template'")
     public void givenAHero(@Named("template") String template) {
         DocumentContext json = jsonUtil.loadJson(template);
         context.saveResource("payload", json);
-    }
-
-    @Given("I am on a hero store")
-    public void givenAHero() {
     }
 
     @When("I request the list of heroes")
@@ -35,19 +31,25 @@ public class HeroSteps extends AbstractSteps {
         context.saveResource("result", documentContext);
     }
 
-    @When("I set the hero's name to '$name'")
-    public void setHeroName(@Named("name") String name) {
+    @When("I set the product's description to '$description'")
+    public void setProductDescription(@Named("description") String description) {
         DocumentContext json = (DocumentContext)context.getResource("payload");
-        json.set("name", name);
+        json.set("description", description);
     }
 
-    @When("I set the hero's superpower to '$superpower'")
-    public void setHeroSuperpower(@Named("superpower") String superpower) {
+    @When("And I set product value to '$value'")
+    public void setProductValue(@Named("value") String value) {
         DocumentContext json = (DocumentContext)context.getResource("payload");
-        json.set("superpower", superpower);
+        json.set("value", value);
     }
 
-    @When("I add the hero to store")
+    @When("And I set product weight to '$weight'")
+    public void setProductWeight(@Named("weight") String weight) {
+        DocumentContext json = (DocumentContext)context.getResource("payload");
+        json.set("weight", weight);
+    }
+
+    @When("I add the product to the cart")
     public void setHeroStore() {
         DocumentContext json = (DocumentContext)context.getResource("payload");
         LOGGER.info("JSON: " + json.jsonString());
@@ -59,11 +61,5 @@ public class HeroSteps extends AbstractSteps {
     public void thenNoErrors() {
         String result = (String) context.getResource("result");
         LOGGER.info("REST_RESULT: " + result);
-    }
-
-    @Then("I should receive a list of heroes")
-    public void thenReceiveHeroes() {
-        DocumentContext result = (DocumentContext) context.getResource("result");
-        LOGGER.info("Result: " + result.jsonString());
     }
 }
