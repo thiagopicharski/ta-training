@@ -1,20 +1,24 @@
 package com.wipro.tutorial.at.util;
 
-import com.wipro.tutorial.at.configuration.HttpComponentsClientHttpRequestFactoryBasicAuth;
+import org.apache.commons.codec.binary.Base64;
 import org.apache.http.HttpHost;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
 import org.apache.log4j.Logger;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
+import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.http.client.SimpleClientHttpRequestFactory;
-import org.springframework.http.client.support.BasicAuthorizationInterceptor;
+
 import org.springframework.http.converter.StringHttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
 import java.net.InetSocketAddress;
 import java.net.Proxy;
+import java.nio.charset.Charset;
 
 public class RestUtil {
 
@@ -32,15 +36,15 @@ public class RestUtil {
                 Integer.parseInt(env.getProperty("proxy.port"))));
         REQ_FACTORY.setProxy(proxy);
     }
-//   public static HttpHeaders createHeaders(final String username, final String password){
-//        return new HttpHeaders() {{
-//            String auth = username + ":" + password;
-//            byte[] encodedAuth = Base64.encodeBase64(
-//                    auth.getBytes(Charset.forName("US-ASCII")) );
-//            String authHeader = "Basic " + new String( encodedAuth );
-//            set( "Authorization", authHeader );
-//        }};
-//    }
+   public static HttpHeaders createHeaders(final String username, final String password){
+        return new HttpHeaders() {{
+            String auth = username + ":" + password;
+            byte[] encodedAuth = Base64.encodeBase64(
+                    auth.getBytes(Charset.forName("US-ASCII")) );
+            String authHeader = "Basic " + new String( encodedAuth );
+            set( "Authorization", authHeader );
+        }};
+    }
 
 
 
@@ -50,11 +54,11 @@ public class RestUtil {
 
         RestTemplate template = new RestTemplate(REQ_FACTORY);
 
-        HttpHost host = new HttpHost("training.33b096.rest.picz.com.br",8197,"http");
-//        CloseableHttpClient httpClient = HttpClients.custom().build();
-        template.setRequestFactory(new HttpComponentsClientHttpRequestFactoryBasicAuth(host));
+//        HttpHost host = new HttpHost("training.33b096.rest.picz.com.br",8197,"http");
+        CloseableHttpClient httpClient = HttpClients.custom().build();
+        template.setRequestFactory(new HttpComponentsClientHttpRequestFactory(httpClient));
         template.getMessageConverters().add(0, new StringHttpMessageConverter());
-        template.getInterceptors().add(new BasicAuthorizationInterceptor("admin","password"));
+//        template.getInterceptors().add(new BasicAuthorizationInterceptor("admin","password"));
 
 
 
@@ -68,29 +72,29 @@ public class RestUtil {
         LOGGER.info("REQ[" + url + "]: GET");
 
 
-//        HttpHeaders headers = createHeaders("admin","password");
-//        HttpEntity request = new HttpEntity(null, headers);
-        return sendRequest(HttpMethod.GET, url, null);
+        HttpHeaders headers = createHeaders("admin","password");
+        HttpEntity request = new HttpEntity(null, headers);
+        return sendRequest(HttpMethod.GET, url, request);
     }
 
     public static String sendPost(String url, String payload) {
         LOGGER.info("REQ[" + url + "]: " + payload);
 
-        HttpHeaders headers = new HttpHeaders();
+        HttpHeaders headers = createHeaders("admin","password");
         headers.setContentType(MediaType.APPLICATION_JSON);
         HttpEntity request = new HttpEntity(payload, headers);
         return sendRequest(HttpMethod.POST, url, request);
     }
 
     public static String sendPut(String url, String payload)   {
-        HttpHeaders headers = new HttpHeaders();
+        HttpHeaders headers = createHeaders("admin","password");
         headers.setContentType(MediaType.APPLICATION_JSON);
         HttpEntity request = new HttpEntity(payload, headers);
         return sendRequest(HttpMethod.PUT, url, request);
     }
 
     public static String sendDelete(String url) {
-        HttpHeaders headers = new HttpHeaders();
+        HttpHeaders headers = createHeaders("admin","password");
         headers.setContentType(MediaType.APPLICATION_JSON);
         HttpEntity request = new HttpEntity(null, headers);
 
