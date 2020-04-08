@@ -1,0 +1,39 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/searchNetshoes.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">As a</span> n user</div>
+<div class="element asA"><span class="keyword asA">I want to</span> be able to search Netshoes for a product</div>
+<div class="element iWantTo"><span class="keyword iWantTo">So that</span> I add the product to the cart</div>
+</div>
+<div class="scenario">
+<h2>Scenario: The user must be able to search Netshoes for a product, add to the cart and view the item in the cart</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given I am on Netshoes Home Page</div>
+<div class="step">When I search for '$product'</div>
+<div class="step">And I click on search button</div>
+<div class="step">When I click the first product</div>
+<div class="step">And I add the product to the cart</div>
+<div class="step">Then I check if the product is in the cart</div>
+<table>
+<thead>
+<tr>
+<th>product</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>meia</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {product=meia}</h3>
+<div class="step successful">Given I am on Netshoes Home Page</div>
+<div class="step successful">When I search for '$product'</div>
+<div class="step successful">And I click on search button</div>
+<div class="step successful">When I click the first product</div>
+<div class="step successful">And I add the product to the cart</div>
+<div class="step successful">Then I check if the product is in the cart</div>
+</div>
+</div>
+</div>

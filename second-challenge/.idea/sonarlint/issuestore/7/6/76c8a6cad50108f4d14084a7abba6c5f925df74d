@@ -1,0 +1,19 @@
+
+<
+java:S1170"!Make this final field static too.(‰ŠÃøÿÿÿÿ
+c	java:S116"NRename this field "URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºë½Ñ
+n	java:S116"ZRename this field "CLICK_ADD_XPATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Ï¸c
+7
+java:S1170"!Make this final field static too.(©“Þ²
+6
+java:S1170"!Make this final field static too.(—Ï¸c
+s	java:S116"^Rename this field "SEARCH_BUTTON_XPATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©“Þ²
+7
+java:S1170"!Make this final field static too.(¥ÉöÃ
+r	java:S116"]Rename this field "SEARCH_FIELD_XPATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÉöÃ
+y	java:S116"_Rename this field "VERIFY_PRODUCT_XPATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—àÆÝøÿÿÿÿ
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(—àÆÝøÿÿÿÿ
+x	java:S116"^Rename this field "CLICK_PRODUCT_XPATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ŠÃøÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(—àÆÝøÿÿÿÿ

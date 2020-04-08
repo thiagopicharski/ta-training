@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Fri Apr 03 08:36:28 BRT 2020
+stories/searchNetshoes.story=20000
+threads=1
+total=20000
+threadAverage=20000
