@@ -39,22 +39,22 @@
 <h2>Scenario: I want to add a product to an existing cart</h2>
 <div class="examples">
 <h3>Examples:</h3>
-<div class="step">Given i have  a cart with 'products'</div>
+<div class="step">Given i have  a cart with products</div>
 <div class="step">When i  add a 'product' to a existing cart</div>
 <div class="step">Then i should see 'expectedDescription' in the existing cart</div>
 <table>
 <thead>
 <tr>
-<th>products</th><th>product</th><th>expectedDescription</th></tr>
+<th>product</th><th>expectedDescription</th></tr>
 </thead>
 <tbody>
 <tr>
-<td>[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;]</td><td>{&quot;description&quot;: &quot;socks&quot; , &quot;id&quot;: 1, &quot;value&quot;:17,&quot;weight&quot;: 1  }</td><td>socks</td></tr>
+<td>{&quot;description&quot;: &quot;socks&quot; , &quot;id&quot;: 1, &quot;value&quot;:17,&quot;weight&quot;: 1  }</td><td>socks</td></tr>
 </tbody>
 </table>
 
-<h3 class="example">Example: {products=[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;], product={&quot;description&quot;: &quot;socks&quot; , &quot;id&quot;: 1, &quot;value&quot;:17,&quot;weight&quot;: 1  }, expectedDescription=socks}</h3>
-<div class="step successful">Given i have  a cart with 'products'</div>
+<h3 class="example">Example: {product={&quot;description&quot;: &quot;socks&quot; , &quot;id&quot;: 1, &quot;value&quot;:17,&quot;weight&quot;: 1  }, expectedDescription=socks}</h3>
+<div class="step successful">Given i have  a cart with products</div>
 <div class="step successful">When i  add a 'product' to a existing cart</div>
 <div class="step successful">Then i should see 'expectedDescription' in the existing cart</div>
 </div>
@@ -63,22 +63,22 @@
 <h2>Scenario: I want to remove a product from the cart</h2>
 <div class="examples">
 <h3>Examples:</h3>
-<div class="step">Given i have  a cart with 'products'</div>
+<div class="step">Given i have  a cart with products</div>
 <div class="step">When i want to remove a product from the cart</div>
 <div class="step">Then the 'numberOfProducts' in the cart should have one less product</div>
 <table>
 <thead>
 <tr>
-<th>products</th><th>numberOfProducts</th></tr>
+<th>numberOfProducts</th></tr>
 </thead>
 <tbody>
 <tr>
-<td>[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;]</td><td>1</td></tr>
+<td>1</td></tr>
 </tbody>
 </table>
 
-<h3 class="example">Example: {products=[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;], numberOfProducts=1}</h3>
-<div class="step successful">Given i have  a cart with 'products'</div>
+<h3 class="example">Example: {numberOfProducts=1}</h3>
+<div class="step successful">Given i have  a cart with products</div>
 <div class="step successful">When i want to remove a product from the cart</div>
 <div class="step successful">Then the 'numberOfProducts' in the cart should have one less product</div>
 </div>
@@ -87,22 +87,22 @@
 <h2>Scenario: I want to see all products in my cart</h2>
 <div class="examples">
 <h3>Examples:</h3>
-<div class="step">Given i have  a cart with 'products'</div>
+<div class="step">Given i have  a cart with products</div>
 <div class="step">When i  want to see all products in my cart</div>
 <div class="step">Then the 'numberOfProducts' in the cart should be the same as the initial cart</div>
 <table>
 <thead>
 <tr>
-<th>products</th><th>numberOfProducts</th></tr>
+<th>numberOfProducts</th></tr>
 </thead>
 <tbody>
 <tr>
-<td>[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;]</td><td>2</td></tr>
+<td>2</td></tr>
 </tbody>
 </table>
 
-<h3 class="example">Example: {products=[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;], numberOfProducts=2}</h3>
-<div class="step successful">Given i have  a cart with 'products'</div>
+<h3 class="example">Example: {numberOfProducts=2}</h3>
+<div class="step successful">Given i have  a cart with products</div>
 <div class="step successful">When i  want to see all products in my cart</div>
 <div class="step successful">Then the 'numberOfProducts' in the cart should be the same as the initial cart</div>
 </div>
@@ -111,22 +111,22 @@
 <h2>Scenario: I want to have a sum of all items in cart</h2>
 <div class="examples">
 <h3>Examples:</h3>
-<div class="step">Given i have  a cart with 'products'</div>
+<div class="step">Given i have  a cart with products</div>
 <div class="step">When i want to have the sum of all items</div>
 <div class="step">Then i should see the 'expectedSum'</div>
 <table>
 <thead>
 <tr>
-<th>products</th><th>expectedSum</th></tr>
+<th>expectedSum</th></tr>
 </thead>
 <tbody>
 <tr>
-<td>[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;]</td><td>15</td></tr>
+<td>15</td></tr>
 </tbody>
 </table>
 
-<h3 class="example">Example: {products=[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;], expectedSum=15}</h3>
-<div class="step successful">Given i have  a cart with 'products'</div>
+<h3 class="example">Example: {expectedSum=15}</h3>
+<div class="step successful">Given i have  a cart with products</div>
 <div class="step successful">When i want to have the sum of all items</div>
 <div class="step successful">Then i should see the 'expectedSum'</div>
 </div>
@@ -135,23 +135,23 @@
 <h2>Scenario: i want to evaluate the total weight of my shipment</h2>
 <div class="examples">
 <h3>Examples:</h3>
-<div class="step">Given i have  a cart with 'products'</div>
+<div class="step">Given i have  a cart with products</div>
 <div class="step">When i want to have the total cost  and the weight of my 'shipment'</div>
 <div class="step">Then the cost should be equals to 'cost'</div>
 <div class="step">And the weight should be equals to 'weight'</div>
 <table>
 <thead>
 <tr>
-<th>products</th><th>shipment</th><th>weight</th><th>cost</th></tr>
+<th>shipment</th><th>weight</th><th>cost</th></tr>
 </thead>
 <tbody>
 <tr>
-<td>[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;]</td><td>{&quot;cep&quot;:&quot;80730-350&quot;, &quot;serviceType&quot;:&quot;SEDEX_VAREJO&quot;}</td><td>9</td><td>41.6</td></tr>
+<td>{&quot;cep&quot;:&quot;80730-350&quot;, &quot;serviceType&quot;:&quot;SEDEX_VAREJO&quot;}</td><td>9</td><td>41.6</td></tr>
 </tbody>
 </table>
 
-<h3 class="example">Example: {products=[&quot;{ \&quot;description\&quot;: \&quot;apple\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 6, \&quot;weight\&quot;: 5 }&quot;, &quot;{ \&quot;description\&quot;: \&quot;lemon\&quot;, \&quot;id\&quot;: 1, \&quot;value\&quot;: 9, \&quot;weight\&quot;: 3 }&quot;], shipment={&quot;cep&quot;:&quot;80730-350&quot;, &quot;serviceType&quot;:&quot;SEDEX_VAREJO&quot;}, weight=9, cost=41.6}</h3>
-<div class="step successful">Given i have  a cart with 'products'</div>
+<h3 class="example">Example: {shipment={&quot;cep&quot;:&quot;80730-350&quot;, &quot;serviceType&quot;:&quot;SEDEX_VAREJO&quot;}, weight=9, cost=41.6}</h3>
+<div class="step successful">Given i have  a cart with products</div>
 <div class="step successful">When i want to have the total cost  and the weight of my 'shipment'</div>
 <div class="step successful">Then the cost should be equals to 'cost'</div>
 <div class="step successful">And the weight should be equals to 'weight'</div>

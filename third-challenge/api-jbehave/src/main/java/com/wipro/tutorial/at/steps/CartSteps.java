@@ -46,14 +46,14 @@ public class CartSteps extends AbstractSteps {
         context.saveResource("productId", id);
         LOGGER.info("saving in context the productId");
     }
-    @Given("i have  a cart with '$products'")
-    public void newCartWithProducts(@Named("products") String products) {
-        List<String> productJson = jsonUtil.loadJson(products).read("$", List.class);
-        String response = RestUtil.sendPut(baseUrl+newCartUrl, productJson.get(0));
+    @Given("i have  a cart with products")
+    public void newCartWithProducts() {
+
+        String response = RestUtil.sendPut(baseUrl+newCartUrl, cartUtil.createProducts().get(0) );
         int cartId = JsonPath.parse(response).read("$.id", Integer.class);
         int productId = JsonPath.parse(response).read("$.products[0].id", Integer.class);
         context.saveResource("productId", productId);
-        List<String> payloads = productJson.subList(1, productJson.size());
+        List<String> payloads =  cartUtil.createProducts().subList(1, cartUtil.createProducts().size());
         for (String payload : payloads) {
             RestUtil.sendPut(baseUrl+String.format(addProductUrl,cartId), payload);
         }
