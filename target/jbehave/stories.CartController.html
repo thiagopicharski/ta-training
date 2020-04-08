@@ -1,0 +1,19 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/CartController.story</div>
+<div class="beforeStorySteps">
+</div>
+<div class="scenario">
+<h2>Scenario: Get the list of products</h2>
+<div class="step successful">Given I am on a store with model 'loadTemplate(product)'</div>
+<div class="step successful">Then I get the list of products</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Verify if product with an id is present</h2>
+<div class="step successful">Given I am on a store with model 'loadTemplate(product)'</div>
+<div class="step successful">Given I add a product to the store with description Fortunato, value <span class="step parameter">1234</span> and weight <span class="step parameter">130</span></div>
+<div class="step successful">Then I verify if the product with description <span class="step parameter">Fortunato</span> has been added</div>
+</div>
+<div class="afterStorySteps">
+</div>
+</div>
