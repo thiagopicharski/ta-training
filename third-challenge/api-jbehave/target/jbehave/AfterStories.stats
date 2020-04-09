@@ -1,5 +1,5 @@
 #org.jbehave.core.reporters.PostStoryStatisticsCollector
-#Wed Apr 08 17:58:58 BRT 2020
+#Thu Apr 09 11:38:23 BRT 2020
 scenariosPending=0
 pending=0
 stepsFailed=0

@@ -2,12 +2,12 @@ Narrative:
 As an user
 I want to access an APi cart, where I can handle products, calculate total value and the shipment costs.
 
-<Get>////////
+
 
 Scenario: I want to get a cart
 
 Given I am on the store
-When I make a request to a cart with id '5'
+When I make a request to a cart with id '6'
 Then I should receive the cart
 
 Scenario: I want to get a list of cart
@@ -19,17 +19,17 @@ Then I should receive the list of carts
 Scenario: I want to get a product
 
 Given I am on the store
-When I make a request to a product with id '10'
+When I make a request to a product with id '11'
 Then I should receive the product
 
 Scenario: I want to get some products from a cart
 
 Given I am on the store
-When I request some product list that's in a cart with id '7'
+When I request some product list that's in a cart with id '8'
 Then I should see the product list
 
 
-<Post>////////
+
 
 Scenario: I want to make a count of the shipment
 
@@ -39,7 +39,7 @@ When I want to make a count of the total in the cart with id '25'
 Then I should see the total count of the shipment
 
 
-<Put>/////////
+
 
 Scenario: I want to add some products to the cart
 
@@ -60,7 +60,7 @@ And I add the product to the cart with the id '9'
 Then I shoul see product added to the cart
 
 
-<Delete>///////
+
 
 Scenario: I want to delete a product from my cart
 

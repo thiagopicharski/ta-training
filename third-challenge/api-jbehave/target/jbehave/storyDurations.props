@@ -1,6 +1,6 @@
 #org.jbehave.core.embedder.StoryManager
-#Wed Apr 08 17:58:58 BRT 2020
-total=1000
-threadAverage=1000
+#Thu Apr 09 11:38:23 BRT 2020
+total=4000
+threadAverage=4000
 threads=1
-stories/Store.story=1000
+stories/Store.story=4000

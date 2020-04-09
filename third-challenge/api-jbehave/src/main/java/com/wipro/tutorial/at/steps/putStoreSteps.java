@@ -8,9 +8,8 @@ import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.springframework.beans.factory.annotation.Value;
 
-import javax.swing.text.Document;
 
-public class putStoreSteps  extends AbstractSteps {
+public class putStoreSteps extends AbstractSteps {
 
     @Value("${app.base.url}cart/")
     private String cartUrl;
@@ -18,7 +17,7 @@ public class putStoreSteps  extends AbstractSteps {
     @Given("Some product with  model '$template'")
     public void someProduct(@Named("template") String template) {
         DocumentContext productJson = jsonUtil.loadJson(template);
-        context.saveResource("payload", productJson);
+        context.saveResource("apayload", productJson);
     }
 
     @When("I set the product description to '$description'")
@@ -59,7 +58,7 @@ public class putStoreSteps  extends AbstractSteps {
     }
 
     @Then("I shoul see product added to the cart")
-    public void addedToCart(){
+    public void addedToCart() {
         String addedResult = (String) context.getResource("result");
         LOGGER.info("REST_RESULT: " + addedResult);
     }
