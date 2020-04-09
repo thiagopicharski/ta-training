@@ -1,4 +1,3 @@
-
 package com.wipro.tutorial.at;
 
 import java.util.List;
@@ -17,11 +16,11 @@ public class AllStories extends AbstractStoryConfiguration {
 	public ApplicationContext getAnnotatedApplicationContext() {
 		return new AnnotationConfigApplicationContext(ProjectConfiguration.class);
 	}
-	
+
 	@Override
 	public List<String> storyPaths() {
 		List<String> paths = new StoryFinder().findPaths(
-				CodeLocations.codeLocationFromClass(this.getClass()), "**/stories/Hero.story", "");
+				CodeLocations.codeLocationFromClass(this.getClass()), "**/stories/Procucts.story", "");
 		return paths;
 	}
 }

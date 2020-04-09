@@ -1,0 +1,5 @@
+{
+  "deadline" : "int",
+  "totalWeight": "double",
+  "value" : "double"
+}

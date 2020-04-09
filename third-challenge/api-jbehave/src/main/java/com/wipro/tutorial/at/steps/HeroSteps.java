@@ -1,5 +1,6 @@
 package com.wipro.tutorial.at.steps;
 
+import com.google.gson.Gson;
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
 import com.wipro.tutorial.at.util.RestUtil;
@@ -14,51 +15,57 @@ import java.util.logging.Logger;
 
 @Component
 public class HeroSteps extends AbstractSteps {
-
     @Value("${app.base.url}")
     private String appUrl;
 
-    @Given("I am on a hero store with model '$template'")
-    public void givenAHero(@Named("template") String template) {
+
+    private Gson changeToString;
+
+    @Value("${app.base.auth}")
+    private String userAuth;
+
+    @Given("I am on a product store with model '$template'")
+    public void givenAProduct(@Named("template") String template) {
         DocumentContext json = jsonUtil.loadJson(template);
+        RestUtil.setUserAuth(userAuth);
         context.saveResource("payload", json);
     }
 
-    @Given("I am on a hero store")
-    public void givenAHero() {
-    }
-
-    @When("I request the list of heroes")
-    public void requestHeroes() {
-        String result = RestUtil.sendGet(appUrl);
+    @When("I request the product with the '$id'")
+    public void requestProduct(@Named("id") String id) {
+        String result = RestUtil.sendGet(appUrl + "api/product/"+id);
         DocumentContext documentContext = JsonPath.parse(result);
         context.saveResource("result", documentContext);
     }
 
-    @When("I set the hero's name to '$name'")
-    public void setHeroName(@Named("name") String name) {
+    @When("I patch the product with the '$id' with '$description' and '$weight' and '$value'")
+    public void patchProduct(@Named("id") int id,
+                             @Named("description") String description,
+                             @Named("weight") double weight,
+                             @Named("value") double value) {
         DocumentContext json = (DocumentContext)context.getResource("payload");
-        json.set("name", name);
-    }
-
-    @When("I set the hero's superpower to '$superpower'")
-    public void setHeroSuperpower(@Named("superpower") String superpower) {
-        DocumentContext json = (DocumentContext)context.getResource("payload");
-        json.set("superpower", superpower);
-    }
-
-    @When("I add the hero to store")
-    public void setHeroStore() {
-        DocumentContext json = (DocumentContext)context.getResource("payload");
+        json.set("id", id);
+        json.set("description", description);
+        json.set("weight", weight);
+        json.set("value", value);
         LOGGER.info("JSON: " + json.jsonString());
-        String result = RestUtil.sendPost(appUrl, json.jsonString());
-        context.saveResource("result", result);
+
+        String result = RestUtil.sendPatch(appUrl + "api/product/"+id,json.jsonString());
+
+
+        DocumentContext documentContext = JsonPath.parse(result);
+        context.saveResource("result", documentContext);
     }
 
     @Then("I should not see any error")
     public void thenNoErrors() {
-        String result = (String) context.getResource("result");
-        LOGGER.info("REST_RESULT: " + result);
+        DocumentContext result = (DocumentContext) context.getResource("result");
+        LOGGER.info("REST_RESULT: " + result.jsonString());
+    }
+    @Then("I should see a 404 error")
+    public void thenAreErrors() {
+        DocumentContext result = (DocumentContext) context.getResource("result");
+        LOGGER.info("REST_RESULT: " + result.jsonString());
     }
 
     @Then("I should receive a list of heroes")

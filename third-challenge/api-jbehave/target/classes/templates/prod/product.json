@@ -1,0 +1,6 @@
+{
+  "id": "int",
+  "description": "string",
+  "weight": "double",
+  "value": "double"
+}

@@ -18,24 +18,24 @@ public abstract class AbstractStoryConfiguration extends JUnitStories {
 
 	private final String DEFAULT_STORY_TIMEOUT_SECS = "7200";
 	protected ApplicationContext context;
-	
+
 	public AbstractStoryConfiguration() {
 		context = getAnnotatedApplicationContext();
-		
-		Embedder embedder = configuredEmbedder();									
+
+		Embedder embedder = configuredEmbedder();
 		embedder.embedderControls().doIgnoreFailureInStories(true)
-									.useStoryTimeouts(DEFAULT_STORY_TIMEOUT_SECS)
-									.doFailOnStoryTimeout(false)
-									.doGenerateViewAfterStories(true)
-									.doIgnoreFailureInView(false)
-									.doVerboseFailures(true);
+				.useStoryTimeouts(DEFAULT_STORY_TIMEOUT_SECS)
+				.doFailOnStoryTimeout(false)
+				.doGenerateViewAfterStories(true)
+				.doIgnoreFailureInView(false)
+				.doVerboseFailures(true);
 	}
-	
+
 	@Override
 	public Configuration configuration() {
 
 		StoryReporterBuilder reporterBuilder = new StoryReporterBuilder().withFormats(storyFormat())
-													.withFailureTraceCompression(true);
+				.withFailureTraceCompression(true);
 
 		Configuration configuration = new MostUsefulConfiguration().useStoryReporterBuilder(reporterBuilder)
 				.useStoryLoader(new LoadFromClasspath(this.getClass()))
@@ -49,11 +49,11 @@ public abstract class AbstractStoryConfiguration extends JUnitStories {
 	public InjectableStepsFactory stepsFactory() {
 		return new SpringStepsFactory(configuration(), context);
 	}
-	
+
 	protected Format[] storyFormat() {
 		Format[] formats = new Format[] { Format.IDE_CONSOLE, Format.STATS, WebDriverHtmlOutput.WEB_DRIVER_HTML };
 		return formats;
 	}
-	
+
 	public abstract ApplicationContext getAnnotatedApplicationContext();
 }
