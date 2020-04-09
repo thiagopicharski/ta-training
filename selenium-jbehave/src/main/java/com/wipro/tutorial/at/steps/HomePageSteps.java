@@ -4,6 +4,9 @@ import org.jbehave.core.annotations.Composite;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.When;
+import org.jbehave.core.annotations.Then;
+import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -15,9 +18,10 @@ public class HomePageSteps extends AbstractSteps {
 	@Autowired
 	private HomePage homePage;
 	
-	@Given("I am on google page")
-	public void IAmOnGooglePage() {
+	@Given("I am on netshoes page")
+	public void IAmOnNetshoesPage() {
 		homePage.navigateTo();
+		Assert.assertTrue(homePage.titlePage().contains("Netshoes"));
 	}
 	
 	@When("I search for '$search'")
@@ -29,14 +33,21 @@ public class HomePageSteps extends AbstractSteps {
 	public void IClickOnSearchButton() {
 		homePage.clickSearch();
 	}
-	
-	
-	@Given("I searched on google for '$search'")
-	@Composite(steps = {
-			"Given I am on google page",
-			"When I search for '$search'",
-			"When I click on search button"})
-	public void ISearchedOnGoogleFor(@Named("search") String search) {
 
-	}
+	@When("I select an item")
+	public void ISelectAnItem() { homePage.clickInTheFirstItem(); }
+
+	@When("I select a size")
+	public void ISelectASize() { homePage.clickInSize(); }
+
+	@When("I click in buy")
+	public void IClickInBuy(){ homePage.clickInBuy(); }
+
+	@Then("I want go to my bag")
+	public void GoToBag() { homePage.clickToGoToBag(); }
+
+	@Then("I should see the item on my bag")
+	public void checkTheBag(){
+		Assert.assertTrue(homePage.checkTheBag());
+	};
 }

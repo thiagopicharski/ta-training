@@ -1,4 +1,4 @@
-package org.example.sut;
+package com.training.bdd.classes;
 
 import org.springframework.stereotype.Component;
 
