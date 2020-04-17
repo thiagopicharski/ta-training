@@ -23,7 +23,7 @@ public class JsonUtil {
     private static Logger LOGGER = Logger.getLogger(JsonUtil.class);
     private static Configuration JSON_CONFIG = Configuration.defaultConfiguration();
 
-    @Value("templates/${environment}/")
+    @Value("templates/dev")
     private String templatePrefix;
 
     public DocumentContext loadTemplate(String template) {
@@ -40,7 +40,7 @@ public class JsonUtil {
     }
 
     public DocumentContext loadJson(String input) {
-        if(input.matches("^loadTemplate[(].*[)]$")) {
+        if (input.matches("^loadTemplate[(].*[)]$")) {
             String template = input.split("loadTemplate[(]|[)]$")[1];
             return loadTemplate(template);
         }

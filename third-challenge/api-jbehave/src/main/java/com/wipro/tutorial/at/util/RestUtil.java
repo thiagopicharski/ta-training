@@ -21,7 +21,7 @@ public class RestUtil {
     private static SimpleClientHttpRequestFactory REQ_FACTORY = new SimpleClientHttpRequestFactory();
 
     public static void configureProxy(Environment env) {
-        if(! Boolean.valueOf(env.getProperty("proxy.enabled"))) {
+        if (!Boolean.valueOf(env.getProperty("proxy.enabled"))) {
             return;
         }
 
@@ -30,7 +30,6 @@ public class RestUtil {
                 Integer.parseInt(env.getProperty("proxy.port"))));
         REQ_FACTORY.setProxy(proxy);
     }
-
 
     public static String sendRequest(HttpMethod method, String url, HttpEntity httpEntity) {
         RestTemplate template = new RestTemplate(REQ_FACTORY);
@@ -51,10 +50,26 @@ public class RestUtil {
 
     public static String sendPost(String url, String payload) {
         LOGGER.info("REQ[" + url + "]: " + payload);
-
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
         HttpEntity request = new HttpEntity(payload, headers);
         return sendRequest(HttpMethod.POST, url, request);
+    }
+
+    public static String sendPut(String url, String payload) {
+        LOGGER.info("REQ[" + url + "]: " + payload);
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        HttpEntity request = new HttpEntity(payload, headers);
+        return sendRequest(HttpMethod.PUT, url, request);
+
+    }
+
+    public static String sendDelete(String url) {
+        LOGGER.info("REQ[" + url + ")]: DELETE ");
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+
+        return sendRequest(HttpMethod.DELETE, url, null);
     }
 }
