@@ -1,0 +1,34 @@
+
+(com/wipro/ta/stories/dishes.story)
+Narrative:
+As a user,
+I want to the total Like-to-time coefficient to be maximum for the dishes
+So that I can have the maximum coefficient for the dishes
+
+
+!--As a user, I want to the total Like-to-time coefficient to be maximum for the dishes.
+!--
+!--I want to be able remove some dishes, in which case, a new coefficient is calculated using the left dishes.
+!--The solution must calculate the maximum sum of all possible Like-to-time coefficients.
+!--Input Specification: input: Array representing the linking value of each dish
+!--
+!--Output Specification: Return maximum like-to-time coefficient possible
+!--
+!--Acceptance Criteria:
+!--
+!--Check that solution returns the correct coeffient for a valid input of dishes
+!--Check the solution when a dish must be removed and when anyone is removed
+!--Examples:
+!--
+!--Not Removed: input: {-1,3,4} Output: 17
+!--
+!--Removed: input: {-1,-9,0,5,-7} #Dish -9 and -7 must be removed Output: 14
+
+!--
+
+
+Scenario: scenario description
+
+
+
+
