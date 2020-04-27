@@ -22,6 +22,8 @@ public class NetshoesPage {
     public List<WebElement> unavailableProductSizeOptions;
     public String productSizeOptionsXpath = "//section[@class='product-size-selector' and not(p)]/div/ul/li[@class=not(contains(@class,'unavailable'))]";
     public String unavailableProductSizeOptionsXpath = "//section[@class='product-size-selector' and not(p)]/div/ul/li[@class=(contains(@class,'unavailable'))]";
+    @FindBy(xpath = "//div[@class='tell-me-button-wrapper' and span and strong and not(contains(@style,'overflow: hidden'))]/strong[text()='Produto indisponível']")
+    public WebElement unavailableProductMessage;
     @FindBy(id = "buy-button-now")
     public WebElement buyNowButton;
     @FindBy(className = "summary__item-value")

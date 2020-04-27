@@ -3,10 +3,7 @@ package com.wipro.ta.steps;
 import com.wipro.ta.pages.NetshoesPage;
 import com.wipro.ta.utils.Utils;
 import org.apache.log4j.Logger;
-import org.jbehave.core.annotations.Given;
-import org.jbehave.core.annotations.Named;
-import org.jbehave.core.annotations.Then;
-import org.jbehave.core.annotations.When;
+import org.jbehave.core.annotations.*;
 import org.jbehave.web.selenium.WebDriverProvider;
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -92,7 +89,7 @@ public class NetshoesHomePageSteps extends AbstractSteps {
     }
 
     @Then("I should add a item to the cart")
-    @Then("I should try to add a item to the cart")
+    @Alias("I should try to add a item to the cart")
     public void iShouldAddAItemToTheCart() {
         utils.hardWaitForElement(By.id("buy-button-now"));
         //used sendKeys instead of click because it was unable to click on element
@@ -115,7 +112,7 @@ public class NetshoesHomePageSteps extends AbstractSteps {
 
     @Then("I should see a error message")
     public void iShouldSeeAErrorMessage() {
-
+        Assert.assertEquals("Error message was expected to be displayed, but it was not", "Produto indisponível", netshoesPage.unavailableProductMessage.getText());
     }
 
 }
