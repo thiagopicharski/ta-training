@@ -13,5 +13,5 @@ Then I should see the something's listing
 When I click on a random item
 Then I should select a random available item's size
 Then I should add a item to the cart
-When I fill the CEP field
+When I fill the CEP field with the value 80010180
 Then I should see the shipping value

@@ -2,8 +2,10 @@ package com.wipro.ta.utils;
 
 import org.jbehave.web.selenium.WebDriverProvider;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -49,6 +51,7 @@ public class Utils {
         });
 
     }
+
     public List<WebElement> waitForElements(By by, int timeout, int polling) {
         Wait<WebDriver> wait = new FluentWait<>(webDriverProvider.get())
                 .withTimeout(Duration.ofSeconds(timeout))
@@ -60,5 +63,10 @@ public class Utils {
             return webDriver.findElements(by);
         });
 
+    }
+
+    public void hardWaitForElement(By by) {
+        WebDriverWait wait = new WebDriverWait(webDriverProvider.get(), Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.elementToBeClickable(by));
     }
 }
